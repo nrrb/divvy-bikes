@@ -35,19 +35,19 @@ For each of the bike trip data points provided for the Chicago data set the uniq
 Questions
 =========
 
-# What bike has been on the most trips?
+## What bike has been on the most trips?
 
 Bike 383 has helped people make 568 trips.
 
-# What bike has travelled the farthest?
+## What bike has travelled the farthest?
 
 Bike 321 has travelled at least 1592238 meters or 1592 kilometers! That's some mileage for a city bike.
 
-# What bike has been to the largest number of unique stations?
+## What bike has been to the largest number of unique stations?
 
 Bikes 187 and 461 tie with 193 different stations. Considering there are only 300 stations in Chicago this is 64.3% coverage.
 
-# What bike has visited the largest number of unique stations with respect to how many trips it's made?
+## What bike has visited the largest number of unique stations with respect to how many trips it's made?
 
 If a bike were to take 10 trips and if it were to be dropped off at a completely new location at the end of each trip then it could reach a maximum of 11 unique stations. In general if a bike takes N trips then the maximum number of unique stations it could reach is N+1. This is somewhat disrupted by the fact that Divvy will rebalance bike stations transporting bikes by van from a full station to one with vacancies.
 
@@ -57,35 +57,39 @@ Let's exclude young bikes and only consider those that have been on 20 trips or 
 
 If we exclude bikes these cheating bikes and only consider those that haven't been rebalanced then we find bike 2592 that has been on 45 trips and been to 46 unique stations in that time.
 
-# What bike has the longest average trip distance?
+## What bike has the longest average trip distance?
 
 Bike 2918 is an unusual outlier; with only one trip to its name it traveled 6706 meters giving it the longest average trip distance.
 
-Excluding young bikes (less than 20 trips) bike 1089 has been on 215 trips with an average distance of 3424.2 meters per trip.
+Excluding young bikes (less than 20 trips), bike 1089 has been on 215 trips with an average distance of 3424.2 meters per trip.
 
-# What bike has the shortest average trip distance?
+## What bike has the shortest average trip distance?
 
-# What bike has the longest average trip duration?
+## What bike has the longest average trip duration?
 
-# What bike has the shortest average trip duration?
+Bike 2779 has only 4 trips in its pedigree but averages 7902.5 seconds per trip. This is because of one trip that lasted 30919 seconds; someone picked up this bike at 11:29pm on December 20, 2013 and returned it to a station 2 kilometers away at 8:04am the next day (December 21). My guess is that, instead of someone riding very very slowly, probably the rider went to sleep and bike 2779 waited faithfully outside.
 
-# What bike has the oldest average user?
+Excluding young bikes (less than 20 trips), bike 2452 has been on 55 trips with an average duration of 3134.7 seconds per trip.
 
-# What bike has the youngest average user?
+## What bike has the shortest average trip duration?
 
-# What bike has had the greatest age diversity of users?
+## What bike has the oldest average user?
 
-# What bike has generated the most revenue?
+## What bike has the youngest average user?
 
-# What bike has the longest streak of days in use?
+## What bike has had the greatest age diversity of users?
 
-# What bike has had the greatest proportion of male/female riders?
+## What bike has generated the most revenue?
 
-# What bike has been most balanced between subscribers and customers?
+## What bike has the longest streak of days in use?
 
-# What bike has been most balanced in male to female riders?
+## What bike has had the greatest proportion of male/female riders?
 
-# What bike has been to the most spatially diverse stations?
+## What bike has been most balanced between subscribers and customers?
+
+## What bike has been most balanced in male to female riders?
+
+## What bike has been to the most spatially diverse stations?
 
 
   [1]: https://divvybikes.com/datachallenge
