@@ -1,0 +1,467 @@
+bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
+944,,,Michigan Ave & Washington St,Michigan Ave & Washington St,Michigan Ave & Washington St,Customer,0,7/26/2013 20:20,1,7/26/2013 18:39,1,Michigan Ave & Washington St,"6,043",111452
+944,,,Lincoln Ave & Armitage Ave,Michigan Ave & Washington St,Lincoln Ave & Armitage Ave,Customer,4628,7/27/2013 0:18,1,7/26/2013 23:28,146,Michigan Ave & Washington St,"2,994",112248
+944,,,Lake Shore Dr & Ohio St,Sheffield Ave & Willow St,Lake Shore Dr & Ohio St,Customer,5185,7/27/2013 10:06,190,7/27/2013 9:41,337,Sheffield Ave & Willow St,"1,506",112815
+944,,,Museum Campus,Fairbanks Ct & Grand Ave,Museum Campus,Customer,4281,7/27/2013 13:30,262,7/27/2013 13:05,29,Fairbanks Ct & Grand Ave,"1,548",113969
+944,,,Lake Shore Dr & Monroe St,Museum Campus,Lake Shore Dr & Monroe St,Customer,2229,7/27/2013 14:02,29,7/27/2013 13:35,300,Museum Campus,"1,660",114203
+944,,,McClurg Ct & Illinois St,Lake Shore Dr & Monroe St,McClurg Ct & Illinois St,Customer,1857,7/27/2013 14:26,300,7/27/2013 14:05,51,Lake Shore Dr & Monroe St,"1,245",114459
+944,,,Michigan Ave & Pearson St,Franklin St & Jackson Blvd,Michigan Ave & Pearson St,Customer,3210,7/28/2013 13:22,19,7/28/2013 12:51,34,Franklin St & Jackson Blvd,"1,877",118356
+944,,,Lake Shore Dr & Ohio St,Michigan Ave & Pearson St,Lake Shore Dr & Ohio St,Customer,4583,7/28/2013 14:14,34,7/28/2013 13:27,337,Michigan Ave & Pearson St,"2,813",118597
+944,,,Lincoln Ave & Armitage Ave,Lake Shore Dr & Ohio St,Lincoln Ave & Armitage Ave,Customer,4828,7/28/2013 16:58,337,7/28/2013 15:41,146,Lake Shore Dr & Ohio St,"4,626",119606
+944,,,Greenview Ave & Diversey Pkwy,Lincoln Ave & Armitage Ave,Greenview Ave & Diversey Pkwy,Customer,3196,7/28/2013 18:10,146,7/28/2013 17:37,294,Lincoln Ave & Armitage Ave,"2,012",120496
+944,,,Lincoln Ave & Armitage Ave,Lincoln Ave & Armitage Ave,Lincoln Ave & Armitage Ave,Customer,0,7/29/2013 17:43,146,7/29/2013 17:18,146,Lincoln Ave & Armitage Ave,"1,513",125423
+944,,,Lake Shore Dr & Monroe St,Michigan Ave & Washington St,Lake Shore Dr & Monroe St,Customer,1455,7/30/2013 12:53,1,7/30/2013 11:51,300,Michigan Ave & Washington St,"3,769",128380
+944,,,McClurg Ct & Illinois St,Lake Shore Dr & Monroe St,McClurg Ct & Illinois St,Customer,1857,7/30/2013 15:56,300,7/30/2013 15:27,51,Lake Shore Dr & Monroe St,"1,714",129137
+944,,,Michigan Ave & Pearson St,McClurg Ct & Illinois St,Michigan Ave & Pearson St,Customer,1368,7/30/2013 18:28,51,7/30/2013 16:34,34,McClurg Ct & Illinois St,"6,813",129349
+944,,,Wabash Ave & Cermak Rd,Wabash Ave & Roosevelt Rd,Wabash Ave & Cermak Rd,Customer,1551,8/1/2013 15:01,31,8/1/2013 14:51,170,Wabash Ave & Roosevelt Rd,604,137194
+944,,,State St & Van Buren St,Wabash Ave & Cermak Rd,State St & Van Buren St,Customer,2795,8/1/2013 17:03,170,8/1/2013 16:54,3,Wabash Ave & Cermak Rd,571,138046
+944,,,Millennium Park,Clinton St & Madison St,Millennium Park,Customer,1543,8/2/2013 12:00,301,8/2/2013 11:49,8,Clinton St & Madison St,677,141492
+944,,,Millennium Park,Museum Campus,Millennium Park,Customer,2764,8/2/2013 14:06,29,8/2/2013 13:39,8,Museum Campus,"1,592",142127
+944,,,Dearborn St & Adams St,Millennium Park,Dearborn St & Adams St,Customer,872,8/2/2013 15:08,8,8/2/2013 14:58,20,Millennium Park,613,142544
+944,,,Lincoln Ave & Armitage Ave,Wilton Ave & Diversey Pkwy,Lincoln Ave & Armitage Ave,Customer,2725,8/3/2013 12:19,66,8/3/2013 11:56,146,Wilton Ave & Diversey Pkwy,"1,438",147007
+944,,,Lake Shore Dr & Ohio St,Lake Shore Dr & Monroe St,Lake Shore Dr & Ohio St,Customer,7788,8/3/2013 15:57,300,8/3/2013 15:30,337,Lake Shore Dr & Monroe St,"1,645",149404
+944,,,Michigan Ave & Lake St,Lake Shore Dr & Ohio St,Michigan Ave & Lake St,Customer,2078,8/3/2013 16:58,337,8/3/2013 16:15,43,Lake Shore Dr & Ohio St,"2,545",149924
+944,,,Fairbanks Ct & Grand Ave,Michigan Ave & Lake St,Fairbanks Ct & Grand Ave,Customer,1163,8/3/2013 21:57,43,8/3/2013 18:12,262,Michigan Ave & Lake St,"13,502",151150
+944,,,Fairbanks Ct & Grand Ave,Fairbanks Ct & Grand Ave,Fairbanks Ct & Grand Ave,Customer,0,8/4/2013 0:25,262,8/4/2013 0:15,262,Fairbanks Ct & Grand Ave,636,153520
+944,,,Clark St & North Ave,Fairbanks Ct & Grand Ave,Clark St & North Ave,Customer,3111,8/4/2013 1:49,262,8/4/2013 1:18,128,Fairbanks Ct & Grand Ave,"1,813",153615
+944,,,Mies van der Rohe Way & Chicago Ave,Clark St & North Ave,Mies van der Rohe Way & Chicago Ave,Customer,3022,8/4/2013 10:02,128,8/4/2013 9:53,338,Clark St & North Ave,569,154357
+944,,,Sedgwick St & North Ave,Mies van der Rohe Way & Chicago Ave,Sedgwick St & North Ave,Customer,2930,8/4/2013 13:07,338,8/4/2013 12:34,70,Mies van der Rohe Way & Chicago Ave,"1,992",155541
+944,,,Dayton St & North Ave,Sedgwick St & North Ave,Dayton St & North Ave,Customer,1271,8/4/2013 14:48,70,8/4/2013 13:34,58,Sedgwick St & North Ave,"4,423",156128
+944,,,Streeter Dr & Illinois St,Millennium Park,Streeter Dr & Illinois St,Customer,2194,8/5/2013 17:12,8,8/5/2013 16:26,22,Millennium Park,"2,729",164152
+944,,,Michigan Ave & Pearson St,Streeter Dr & Illinois St,Michigan Ave & Pearson St,Customer,2146,8/5/2013 18:24,22,8/5/2013 18:04,34,Streeter Dr & Illinois St,"1,192",164874
+944,,,Lake Shore Dr & Monroe St,Michigan Ave & Washington St,Lake Shore Dr & Monroe St,Customer,1455,8/7/2013 16:34,1,8/7/2013 16:14,300,Michigan Ave & Washington St,"1,230",175388
+944,,,Streeter Dr & Illinois St,Lake Shore Dr & Monroe St,Streeter Dr & Illinois St,Customer,1455,8/7/2013 20:24,300,8/7/2013 20:08,22,Lake Shore Dr & Monroe St,957,177015
+944,,,Michigan Ave & Congress Pkwy,Millennium Park,Michigan Ave & Congress Pkwy,Customer,809,8/8/2013 3:56,8,8/8/2013 3:52,40,Millennium Park,223,177761
+944,,,Michigan Ave & Pearson St,Wood St & North Ave,Michigan Ave & Pearson St,Customer,5262,8/8/2013 19:46,223,8/8/2013 18:25,34,Wood St & North Ave,"4,859",182551
+944,,,Lake Shore Dr & Ohio St,Michigan Ave & Pearson St,Lake Shore Dr & Ohio St,Customer,4583,8/8/2013 20:19,34,8/8/2013 20:03,337,Michigan Ave & Pearson St,970,183252
+944,,,Lake Shore Dr & Ohio St,Lake Shore Dr & Ohio St,Lake Shore Dr & Ohio St,Customer,0,8/9/2013 13:17,337,8/9/2013 11:43,337,Lake Shore Dr & Ohio St,"5,635",186036
+944,,,Lincoln Ave & Armitage Ave,Ashland Ave & Wrightwood Ave,Lincoln Ave & Armitage Ave,Customer,2994,8/10/2013 10:23,296,8/10/2013 10:07,146,Ashland Ave & Wrightwood Ave,965,192421
+944,,,Millennium Park,Lincoln Ave & Armitage Ave,Millennium Park,Customer,7041,8/10/2013 14:43,146,8/10/2013 13:33,8,Lincoln Ave & Armitage Ave,"4,224",194713
+944,,,Dearborn St & Adams St,Millennium Park,Dearborn St & Adams St,Customer,872,8/10/2013 14:53,8,8/10/2013 14:46,20,Millennium Park,435,195789
+944,,,Michigan Ave & Washington St,Dearborn St & Adams St,Michigan Ave & Washington St,Customer,1101,8/10/2013 15:24,20,8/10/2013 14:59,1,Dearborn St & Adams St,"1,465",195970
+944,,,Michigan Ave & Washington St,LaSalle St & Illinois St,Michigan Ave & Washington St,Customer,1396,8/10/2013 16:21,430,8/10/2013 16:10,1,LaSalle St & Illinois St,660,196936
+944,,,Columbus Dr & Randolph St,Michigan Ave & Washington St,Columbus Dr & Randolph St,Customer,635,8/10/2013 17:17,1,8/10/2013 16:58,263,Michigan Ave & Washington St,"1,152",197559
+944,,,Halsted St & 35th St,McClurg Ct & Illinois St,Halsted St & 35th St,Customer,9508,8/10/2013 18:16,51,8/10/2013 17:41,413,McClurg Ct & Illinois St,"2,118",198176
+944,,,Clark St & North Ave,Halsted St & 35th St,Clark St & North Ave,Customer,12970,8/10/2013 18:36,413,8/10/2013 18:19,128,Halsted St & 35th St,"1,054",198600
+944,,,Lake Shore Dr & Wellington Ave,Clark St & North Ave,Lake Shore Dr & Wellington Ave,Customer,3360,8/10/2013 19:07,128,8/10/2013 18:51,234,Clark St & North Ave,931,198940
+944,,,Sheffield Ave & Wellington Ave,Lake Shore Dr & Wellington Ave,Sheffield Ave & Wellington Ave,Customer,1565,8/10/2013 19:31,234,8/10/2013 19:21,67,Lake Shore Dr & Wellington Ave,608,199242
+944,,,Orleans St & Elm St,Sedgwick St & North Ave,Orleans St & Elm St,Customer,964,8/11/2013 1:40,70,8/11/2013 1:31,172,Sedgwick St & North Ave,500,200978
+944,,,Daley Center Plaza,Orleans St & Elm St,Daley Center Plaza,Customer,2755,8/11/2013 1:59,172,8/11/2013 1:41,23,Orleans St & Elm St,"1,084",200994
+944,,,Sheffield Ave & Kingsbury St,Wood St & North Ave,Sheffield Ave & Kingsbury St,Customer,2816,8/12/2013 13:28,223,8/12/2013 12:37,154,Wood St & North Ave,"3,080",210852
+944,,,Damen Ave & Division St,Sheffield Ave & Kingsbury St,Damen Ave & Division St,Customer,3523,8/13/2013 13:40,154,8/13/2013 13:26,136,Sheffield Ave & Kingsbury St,838,217163
+944,,,Lake Shore Dr & Ohio St,Jefferson St & Monroe St,Lake Shore Dr & Ohio St,Customer,7612,8/14/2013 16:04,38,8/14/2013 15:53,337,Jefferson St & Monroe St,633,224931
+944,,,LaSalle St & Illinois St,Lake Shore Dr & Monroe St,LaSalle St & Illinois St,Customer,2896,8/14/2013 19:16,300,8/14/2013 18:58,430,Lake Shore Dr & Monroe St,"1,092",226878
+944,,,California Ave & Milwaukee Ave,Pine Grove Ave & Addison St,California Ave & Milwaukee Ave,Customer,7814,8/15/2013 0:09,273,8/14/2013 23:40,84,Pine Grove Ave & Addison St,"1,748",228262
+944,,,Damen Ave & Division St,California Ave & Milwaukee Ave,Damen Ave & Division St,Customer,2956,8/15/2013 9:21,84,8/15/2013 9:09,136,California Ave & Milwaukee Ave,684,229385
+944,,,900 W Harrison,Clinton St & Madison St,900 W Harrison,Customer,1486,8/15/2013 11:05,301,8/15/2013 10:56,28,Clinton St & Madison St,495,229843
+944,,,Clark St & Randolph St,900 W Harrison,Clark St & Randolph St,Customer,2963,8/15/2013 14:46,28,8/15/2013 14:29,5,900 W Harrison,"1,016",231298
+944,,,Mies van der Rohe Way & Chicago Ave,Michigan Ave & Lake St,Mies van der Rohe Way & Chicago Ave,Customer,1398,8/15/2013 18:11,43,8/15/2013 17:55,338,Michigan Ave & Lake St,969,233003
+944,,,Damen Ave & Pierce Ave,Kingsbury St & Erie St,Damen Ave & Pierce Ave,Customer,4082,8/17/2013 9:25,265,8/17/2013 9:08,65,Kingsbury St & Erie St,"1,063",244171
+944,,,Noble St & Milwaukee Ave,Damen Ave & Pierce Ave,Noble St & Milwaukee Ave,Customer,1738,8/17/2013 10:47,65,8/17/2013 10:37,290,Damen Ave & Pierce Ave,591,244913
+944,,,Orleans St & Merchandise Mart Plaza,Noble St & Milwaukee Ave,Orleans St & Merchandise Mart Plaza,Customer,3276,8/17/2013 11:06,290,8/17/2013 10:49,13,Noble St & Milwaukee Ave,"1,015",245034
+944,,,Ashland Ave & Division St,Orleans St & Merchandise Mart Plaza,Ashland Ave & Division St,Customer,3479,8/17/2013 11:25,13,8/17/2013 11:10,61,Orleans St & Merchandise Mart Plaza,884,245305
+944,,,Damen Ave & Pierce Ave,Ashland Ave & Division St,Damen Ave & Pierce Ave,Customer,1571,8/17/2013 11:41,61,8/17/2013 11:34,65,Ashland Ave & Division St,435,245594
+944,,,Southport Ave & Belmont Ave,Clinton St & Lake St,Southport Ave & Belmont Ave,Customer,7143,8/17/2013 15:43,21,8/17/2013 15:16,229,Clinton St & Lake St,"1,622",248940
+944,,,Michigan Ave & Oak St,Theater on the Lake,Michigan Ave & Oak St,Customer,3023,8/17/2013 21:29,350,8/17/2013 21:13,42,Theater on the Lake,979,253118
+944,,,Michigan Ave & Oak St,Michigan Ave & Oak St,Michigan Ave & Oak St,Customer,0,8/17/2013 22:56,42,8/17/2013 22:09,42,Michigan Ave & Oak St,"2,786",253460
+944,,,Cannon Dr & Fullerton Ave,Michigan Ave & Oak St,Cannon Dr & Fullerton Ave,Customer,3392,8/18/2013 1:21,42,8/18/2013 1:03,124,Michigan Ave & Oak St,"1,068",254253
+944,,,Sheffield Ave & Fullerton Ave,Sheffield Ave & Fullerton Ave,Sheffield Ave & Fullerton Ave,Customer,0,8/18/2013 17:27,60,8/18/2013 14:41,60,Sheffield Ave & Fullerton Ave,"9,946",259089
+944,,,Damen Ave & Wellington Ave,Sheffield Ave & Fullerton Ave,Damen Ave & Wellington Ave,Customer,3002,8/18/2013 17:55,60,8/18/2013 17:37,268,Sheffield Ave & Fullerton Ave,"1,076",261782
+944,,,Ashland Ave & Armitage Ave,Damen Ave & Wellington Ave,Ashland Ave & Armitage Ave,Customer,2423,8/18/2013 19:45,268,8/18/2013 19:26,25,Damen Ave & Wellington Ave,"1,146",262999
+944,,,Green St & Randolph St,Sheffield Ave & Fullerton Ave,Green St & Randolph St,Customer,4894,8/21/2013 13:43,60,8/21/2013 13:21,53,Sheffield Ave & Fullerton Ave,"1,281",283414
+944,,,Racine Ave & Fullerton Ave,May St & Fulton St,Racine Ave & Fullerton Ave,Customer,5376,8/21/2013 17:19,197,8/21/2013 16:55,189,May St & Fulton St,"1,422",285158
+944,,,Racine Ave & Belmont Ave,Racine Ave & Fullerton Ave,Racine Ave & Belmont Ave,Customer,1583,8/21/2013 17:28,189,8/21/2013 17:21,230,Racine Ave & Fullerton Ave,431,285474
+944,,,Damen Ave & Pierce Ave,Racine Ave & Belmont Ave,Damen Ave & Pierce Ave,Customer,4891,8/21/2013 19:24,230,8/21/2013 19:04,65,Racine Ave & Belmont Ave,"1,180",286673
+944,,,Michigan Ave & Pearson St,State St & Erie St,Michigan Ave & Pearson St,Customer,857,8/22/2013 11:58,45,8/22/2013 11:35,34,State St & Erie St,"1,360",290211
+944,,,Lake Shore Dr & Ohio St,Michigan Ave & Pearson St,Lake Shore Dr & Ohio St,Customer,4583,8/22/2013 13:20,34,8/22/2013 13:12,337,Michigan Ave & Pearson St,480,290442
+944,,,Lake Shore Dr & Monroe St,Lake Shore Dr & Ohio St,Lake Shore Dr & Monroe St,Customer,1535,8/22/2013 13:30,337,8/22/2013 13:21,300,Lake Shore Dr & Ohio St,572,290461
+944,,,Museum Campus,Lake Shore Dr & Monroe St,Museum Campus,Customer,2262,8/22/2013 13:46,300,8/22/2013 13:34,29,Lake Shore Dr & Monroe St,671,290505
+944,,,Museum Campus,Museum Campus,Museum Campus,Customer,0,8/23/2013 18:11,29,8/23/2013 17:40,29,Museum Campus,"1,864",300839
+944,,,Museum Campus,Museum Campus,Museum Campus,Customer,0,8/23/2013 18:39,29,8/23/2013 18:15,29,Museum Campus,"1,484",301217
+944,,,Canal St & Adams St,Museum Campus,Canal St & Adams St,Customer,4197,8/23/2013 19:24,29,8/23/2013 18:59,11,Museum Campus,"1,526",301690
+944,,,Halsted St & Willow St,May St & Taylor St,Halsted St & Willow St,Customer,5601,8/24/2013 19:37,160,8/24/2013 19:00,181,May St & Taylor St,"2,236",313363
+944,,,Dayton St & North Ave,Western Ave & Winnebago Ave,Dayton St & North Ave,Customer,3998,8/25/2013 16:32,68,8/25/2013 16:11,58,Western Ave & Winnebago Ave,"1,254",322314
+944,,,Franklin St & Jackson Blvd,Dayton St & North Ave,Franklin St & Jackson Blvd,Customer,5209,8/25/2013 17:12,58,8/25/2013 16:54,19,Dayton St & North Ave,"1,089",322918
+944,,,Halsted St & Madison St,Lake Shore Dr & Monroe St,Halsted St & Madison St,Customer,3179,8/25/2013 19:57,300,8/25/2013 19:46,159,Lake Shore Dr & Monroe St,701,324826
+944,,,Millennium Park,Museum Campus,Millennium Park,Customer,2764,8/26/2013 13:35,29,8/26/2013 13:16,8,Museum Campus,"1,124",329240
+944,,,Museum Campus,Millennium Park,Museum Campus,Customer,2745,8/26/2013 14:56,8,8/26/2013 14:38,29,Millennium Park,"1,104",329859
+944,,,Millennium Park,Museum Campus,Millennium Park,Customer,2764,8/26/2013 16:09,29,8/26/2013 15:50,8,Museum Campus,"1,190",330389
+944,,,Lincoln Ave & Armitage Ave,Millennium Park,Lincoln Ave & Armitage Ave,Customer,4962,8/26/2013 18:51,8,8/26/2013 18:22,146,Millennium Park,"1,745",332161
+944,,,Streeter Dr & Illinois St,Lincoln Ave & Armitage Ave,Streeter Dr & Illinois St,Customer,4748,8/26/2013 20:26,146,8/26/2013 20:01,22,Lincoln Ave & Armitage Ave,"1,531",333070
+944,,,Streeter Dr & Illinois St,Streeter Dr & Illinois St,Streeter Dr & Illinois St,Customer,0,8/26/2013 21:28,22,8/26/2013 20:38,22,Streeter Dr & Illinois St,"2,996",333315
+944,,,Michigan Ave & Congress Pkwy,Streeter Dr & Illinois St,Michigan Ave & Congress Pkwy,Customer,3568,8/26/2013 22:07,22,8/26/2013 21:50,40,Streeter Dr & Illinois St,"1,042",333714
+944,,,State St & Van Buren St,Museum Campus,State St & Van Buren St,Customer,2731,8/27/2013 0:00,29,8/26/2013 23:43,3,Museum Campus,"1,009",334115
+944,,,Lake Shore Dr & Monroe St,Clark St & Randolph St,Lake Shore Dr & Monroe St,Customer,2237,8/27/2013 17:17,5,8/27/2013 16:50,300,Clark St & Randolph St,"1,630",338437
+944,,,Indiana Ave & Roosevelt Rd,Lake Shore Dr & Monroe St,Indiana Ave & Roosevelt Rd,Customer,2357,8/27/2013 17:37,300,8/27/2013 17:20,309,Lake Shore Dr & Monroe St,"1,068",338851
+944,,,State St & Van Buren St,Orleans St & Merchandise Mart Plaza,State St & Van Buren St,Customer,2200,8/27/2013 19:57,13,8/27/2013 19:44,3,Orleans St & Merchandise Mart Plaza,808,340180
+944,,,Jefferson St & Monroe St,State St & Van Buren St,Jefferson St & Monroe St,Customer,1671,8/27/2013 20:35,3,8/27/2013 20:27,38,State St & Van Buren St,469,340465
+944,,,Franklin St & Lake St,Desplaines St & Kinzie St,Franklin St & Lake St,Customer,1077,8/27/2013 22:54,39,8/27/2013 22:50,272,Desplaines St & Kinzie St,245,341101
+944,,,Clark St & Randolph St,Dearborn St & Adams St,Clark St & Randolph St,Customer,799,8/29/2013 8:20,20,8/29/2013 8:13,5,Dearborn St & Adams St,404,349685
+944,,,Franklin St & Lake St,Wells St & Ohio St,Franklin St & Lake St,Customer,1141,8/29/2013 22:26,264,8/29/2013 20:37,272,Wells St & Ohio St,"6,583",355855
+944,,,Canal St & Jackson Blvd,Franklin St & Lake St,Canal St & Jackson Blvd,Customer,1680,8/30/2013 13:54,272,8/30/2013 13:47,138,Franklin St & Lake St,402,360213
+944,,,Clark St & Montrose Ave,St Clair St & Erie St,Clark St & Montrose Ave,Customer,10061,8/31/2013 9:13,16,8/31/2013 8:32,316,St Clair St & Erie St,"2,470",364426
+944,,,Lake Shore Dr & Wellington Ave,Ashland Ave & Wellington Ave,Lake Shore Dr & Wellington Ave,Customer,2732,9/1/2013 14:47,269,9/1/2013 14:35,234,Ashland Ave & Wellington Ave,704,376646
+944,,,Lake Shore Dr & Ohio St,Lake Shore Dr & Wellington Ave,Lake Shore Dr & Ohio St,Customer,5627,9/1/2013 15:18,234,9/1/2013 14:55,337,Lake Shore Dr & Wellington Ave,"1,355",377044
+944,,,Lake Shore Dr & Monroe St,Lake Shore Dr & Ohio St,Lake Shore Dr & Monroe St,Customer,1535,9/1/2013 15:34,337,9/1/2013 15:22,300,Lake Shore Dr & Ohio St,706,377569
+944,,,Mies van der Rohe Way & Chicago Ave,Lake Shore Dr & Monroe St,Mies van der Rohe Way & Chicago Ave,Customer,2641,9/1/2013 15:57,300,9/1/2013 15:35,338,Lake Shore Dr & Monroe St,"1,318",377837
+944,,,Clark St & North Ave,Mies van der Rohe Way & Chicago Ave,Clark St & North Ave,Customer,3024,9/1/2013 17:03,338,9/1/2013 16:18,128,Mies van der Rohe Way & Chicago Ave,"2,738",378739
+944,,,Clark St & Lincoln Ave,Clark St & North Ave,Clark St & Lincoln Ave,Customer,489,9/1/2013 17:17,128,9/1/2013 17:07,179,Clark St & North Ave,590,379637
+944,,,Sheridan Rd & Irving Park Rd,Clark St & Lincoln Ave,Sheridan Rd & Irving Park Rd,Customer,4705,9/1/2013 18:08,179,9/1/2013 17:34,63,Clark St & Lincoln Ave,"2,053",380123
+944,,,Wilton Ave & Diversey Pkwy,Sheridan Rd & Irving Park Rd,Wilton Ave & Diversey Pkwy,Customer,2534,9/1/2013 19:56,63,9/1/2013 19:32,66,Sheridan Rd & Irving Park Rd,"1,414",381960
+944,,,Montrose Harbor,Clark St & Wellington Ave,Montrose Harbor,Customer,4762,9/2/2013 11:47,232,9/2/2013 11:17,388,Clark St & Wellington Ave,"1,807",386098
+944,,,Sheridan Rd & Montrose Ave,Montrose Harbor,Sheridan Rd & Montrose Ave,Customer,1469,9/2/2013 12:48,388,9/2/2013 12:22,130,Montrose Harbor,"1,530",387242
+944,,,Theater on the Lake,Sheridan Rd & Montrose Ave,Theater on the Lake,Customer,5241,9/2/2013 13:47,130,9/2/2013 13:20,350,Sheridan Rd & Montrose Ave,"1,629",388316
+944,,,Clark St & North Ave,Theater on the Lake,Clark St & North Ave,Customer,2612,9/2/2013 14:25,350,9/2/2013 13:55,128,Theater on the Lake,"1,798",389048
+944,,,Dearborn Pkwy & Delaware Pl,Clark St & North Ave,Dearborn Pkwy & Delaware Pl,Customer,1601,9/2/2013 14:59,128,9/2/2013 14:45,173,Clark St & North Ave,819,390122
+944,,,State St & Wacker Dr,Dearborn Pkwy & Delaware Pl,State St & Wacker Dr,Customer,1593,9/2/2013 15:26,173,9/2/2013 15:11,339,Dearborn Pkwy & Delaware Pl,919,390629
+944,,,Streeter Dr & Illinois St,State St & Wacker Dr,Streeter Dr & Illinois St,Customer,1835,9/2/2013 16:01,339,9/2/2013 15:38,22,State St & Wacker Dr,"1,413",391178
+944,,,Kingsbury St & Erie St,Larrabee St & Kingsbury St,Kingsbury St & Erie St,Customer,582,9/2/2013 17:44,12,9/2/2013 17:31,265,Larrabee St & Kingsbury St,821,393131
+944,,,Museum Campus,Fairbanks Ct & Grand Ave,Museum Campus,Customer,4281,9/3/2013 13:09,262,9/3/2013 12:37,29,Fairbanks Ct & Grand Ave,"1,935",398450
+944,,,Michigan Ave & 14th St,Morgan St & 18th St,Michigan Ave & 14th St,Customer,3653,9/3/2013 14:31,163,9/3/2013 14:16,310,Morgan St & 18th St,931,399217
+944,,,Morgan St & 18th St,Michigan Ave & 14th St,Morgan St & 18th St,Customer,3223,9/3/2013 16:11,310,9/3/2013 15:55,163,Michigan Ave & 14th St,949,400036
+944,,,Canal St & Harrison St,May St & Taylor St,Canal St & Harrison St,Customer,1788,9/4/2013 13:56,160,9/4/2013 13:42,326,May St & Taylor St,843,407103
+944,,,Clark St & Waveland Ave,Paulina St & Diversey Pkwy,Clark St & Waveland Ave,Customer,3002,9/4/2013 21:40,271,9/4/2013 21:24,275,Paulina St & Diversey Pkwy,935,411692
+944,,,Michigan Ave & Oak St,Clark St & Waveland Ave,Michigan Ave & Oak St,Customer,7143,9/5/2013 0:02,275,9/4/2013 22:42,42,Clark St & Waveland Ave,"4,802",412047
+944,,,Southport Ave & Wellington Ave,Sheffield Ave & Wellington Ave,Southport Ave & Wellington Ave,Customer,867,9/5/2013 13:25,67,9/5/2013 13:22,228,Sheffield Ave & Wellington Ave,198,415739
+944,,,Lincoln Ave & Armitage Ave,Southport Ave & Wellington Ave,Lincoln Ave & Armitage Ave,Customer,2944,9/5/2013 17:32,228,9/5/2013 17:15,146,Southport Ave & Wellington Ave,994,418096
+944,,,Southport Ave & Roscoe St,Damen Ave & Melrose Ave,Southport Ave & Roscoe St,Customer,1531,9/6/2013 11:25,143,9/6/2013 11:14,71,Damen Ave & Melrose Ave,643,423694
+944,,,Montrose Harbor,Southport Ave & Roscoe St,Montrose Harbor,Customer,4248,9/6/2013 13:18,71,9/6/2013 12:55,388,Southport Ave & Roscoe St,"1,387",424702
+944,,,Museum Campus,Streeter Dr & Illinois St,Museum Campus,Customer,4119,9/6/2013 15:05,22,9/6/2013 14:33,29,Streeter Dr & Illinois St,"1,900",425664
+944,,,Streeter Dr & Illinois St,Museum Campus,Streeter Dr & Illinois St,Customer,3684,9/6/2013 15:33,29,9/6/2013 15:06,22,Museum Campus,"1,591",426000
+944,,,Montrose Harbor,Streeter Dr & Illinois St,Montrose Harbor,Customer,9785,9/6/2013 16:02,22,9/6/2013 15:33,388,Streeter Dr & Illinois St,"1,692",426261
+944,,,Hampden Ct & Diversey Pkwy,Pine Grove Ave & Addison St,Hampden Ct & Diversey Pkwy,Customer,2967,9/6/2013 16:51,273,9/6/2013 16:41,123,Pine Grove Ave & Addison St,566,427146
+944,,,Damen Ave & Leland Ave,Montrose Harbor,Damen Ave & Leland Ave,Customer,3931,9/6/2013 19:36,388,9/6/2013 18:57,93,Montrose Harbor,"2,333",429133
+944,,,Ravenswood Ave & Montrose Ave,Damen Ave & Leland Ave,Ravenswood Ave & Montrose Ave,Customer,1030,9/6/2013 20:47,93,9/6/2013 20:24,92,Damen Ave & Leland Ave,"1,350",429897
+944,,,Theater on the Lake,Ravenswood Ave & Montrose Ave,Theater on the Lake,Customer,6829,9/7/2013 11:30,92,9/7/2013 11:05,350,Ravenswood Ave & Montrose Ave,"1,506",433227
+944,,,Lake Shore Dr & Monroe St,Theater on the Lake,Lake Shore Dr & Monroe St,Customer,6153,9/7/2013 11:58,350,9/7/2013 11:33,300,Theater on the Lake,"1,483",433596
+944,,,Lake Shore Dr & Monroe St,Lake Shore Dr & Monroe St,Lake Shore Dr & Monroe St,Customer,0,9/7/2013 12:23,300,9/7/2013 12:01,300,Lake Shore Dr & Monroe St,"1,350",434001
+944,,,Theater on the Lake,Lake Shore Dr & Monroe St,Theater on the Lake,Customer,6223,9/7/2013 12:44,300,9/7/2013 12:24,350,Lake Shore Dr & Monroe St,"1,195",434338
+944,,,Ravenswood Ave & Montrose Ave,Theater on the Lake,Ravenswood Ave & Montrose Ave,Customer,6414,9/7/2013 13:09,350,9/7/2013 12:45,92,Theater on the Lake,"1,407",434665
+944,,,Theater on the Lake,Streeter Dr & Illinois St,Theater on the Lake,Customer,4714,9/7/2013 16:56,22,9/7/2013 15:39,350,Streeter Dr & Illinois St,"4,636",437505
+944,,,Lake Shore Dr & Wellington Ave,Theater on the Lake,Lake Shore Dr & Wellington Ave,Customer,1659,9/7/2013 17:16,350,9/7/2013 17:08,234,Theater on the Lake,445,438800
+944,,,Sedgwick St & Huron St,Lake Shore Dr & Wellington Ave,Sedgwick St & Huron St,Customer,5450,9/8/2013 9:34,234,9/8/2013 9:10,52,Lake Shore Dr & Wellington Ave,"1,465",443131
+944,,,Canal St & Jackson Blvd,Sedgwick St & Huron St,Canal St & Jackson Blvd,Customer,2540,9/10/2013 17:39,52,9/10/2013 17:27,138,Sedgwick St & Huron St,777,463732
+944,,,Damen Ave & Chicago Ave,Aberdeen St & Madison St,Damen Ave & Chicago Ave,Customer,3699,9/10/2013 18:51,156,9/10/2013 18:30,132,Aberdeen St & Madison St,"1,243",464530
+944,,,Ashland Ave & Augusta Blvd,LaSalle St & Illinois St,Ashland Ave & Augusta Blvd,Customer,3746,9/10/2013 22:31,430,9/10/2013 22:20,248,LaSalle St & Illinois St,647,466018
+944,,,Aberdeen St & Madison St,Michigan Ave & Congress Pkwy,Aberdeen St & Madison St,Customer,3216,9/12/2013 21:04,40,9/12/2013 20:41,156,Michigan Ave & Congress Pkwy,"1,408",481568
+944,,,May St & Fulton St,Aberdeen St & Madison St,May St & Fulton St,Customer,1182,9/13/2013 6:54,156,9/13/2013 6:48,197,Aberdeen St & Madison St,327,482512
+944,,,Halsted St & Polk St,Ogden Ave & Race Ave,Halsted St & Polk St,Customer,3182,9/14/2013 13:26,194,9/14/2013 13:07,27,Ogden Ave & Race Ave,"1,150",494449
+944,,,State St & 19th St,Halsted St & Polk St,State St & 19th St,Customer,4000,9/14/2013 13:47,27,9/14/2013 13:27,408,Halsted St & Polk St,"1,220",494838
+944,,,Franklin St & Jackson Blvd,Wabash Ave & Roosevelt Rd,Franklin St & Jackson Blvd,Customer,1941,9/14/2013 16:10,31,9/14/2013 15:58,19,Wabash Ave & Roosevelt Rd,736,497674
+944,,,Halsted St & Dickens Ave,Michigan Ave & Lake St,Halsted St & Dickens Ave,Customer,5495,9/14/2013 18:00,43,9/14/2013 17:18,192,Michigan Ave & Lake St,"2,522",499029
+944,,,Clark St & Congress Pkwy,Halsted St & Dickens Ave,Clark St & Congress Pkwy,Customer,6256,9/14/2013 19:41,192,9/14/2013 18:47,9,Halsted St & Dickens Ave,"3,236",500245
+944,,,Noble St & Milwaukee Ave,Damen Ave & Augusta Blvd,Noble St & Milwaukee Ave,Customer,1334,9/16/2013 12:31,142,9/16/2013 12:24,290,Damen Ave & Augusta Blvd,428,507470
+944,,,Clark St & North Ave,Noble St & Milwaukee Ave,Clark St & North Ave,Customer,4217,9/16/2013 14:50,290,9/16/2013 14:36,128,Noble St & Milwaukee Ave,828,508313
+944,,,Wells St & Ohio St,Clark St & North Ave,Wells St & Ohio St,Customer,2422,9/16/2013 15:18,128,9/16/2013 15:01,264,Clark St & North Ave,"1,013",508454
+944,,,Damen Ave & Division St,Ashland Ave & Division St,Damen Ave & Division St,Customer,760,9/19/2013 22:24,61,9/19/2013 22:19,136,Ashland Ave & Division St,277,534048
+944,,,Claremont Ave & Hirsch St,Damen Ave & Division St,Claremont Ave & Hirsch St,Customer,1422,9/19/2013 22:40,136,9/19/2013 22:33,245,Damen Ave & Division St,381,534119
+944,,,California Ave & Milwaukee Ave,California Ave & Milwaukee Ave,California Ave & Milwaukee Ave,Customer,0,9/21/2013 20:12,84,9/21/2013 19:22,84,California Ave & Milwaukee Ave,"2,990",553301
+944,,,Leavitt St & North Ave,California Ave & Milwaukee Ave,Leavitt St & North Ave,Customer,1912,9/21/2013 22:04,84,9/21/2013 21:44,244,California Ave & Milwaukee Ave,"1,185",554179
+944,,,Michigan Ave & Pearson St,Clark St & North Ave,Michigan Ave & Pearson St,Customer,2235,9/22/2013 17:13,128,9/22/2013 16:48,34,Clark St & North Ave,"1,479",561729
+944,,,State St & Van Buren St,Michigan Ave & Pearson St,State St & Van Buren St,Customer,2870,9/22/2013 17:31,34,9/22/2013 17:16,3,Michigan Ave & Pearson St,861,562157
+944,,,Loomis St & Taylor St,State St & Van Buren St,Loomis St & Taylor St,Customer,3590,9/22/2013 17:49,3,9/22/2013 17:32,139,State St & Van Buren St,"1,018",562360
+944,,,Michigan Ave & Congress Pkwy,Michigan Ave & Congress Pkwy,Michigan Ave & Congress Pkwy,Customer,0,9/23/2013 11:24,40,9/23/2013 11:20,40,Michigan Ave & Congress Pkwy,233,566992
+944,,,Michigan Ave & Congress Pkwy,Michigan Ave & Congress Pkwy,Michigan Ave & Congress Pkwy,Customer,0,9/23/2013 11:28,40,9/23/2013 11:25,40,Michigan Ave & Congress Pkwy,159,567019
+944,,,Indiana Ave & 26th St,Michigan Ave & Congress Pkwy,Indiana Ave & 26th St,Customer,3761,9/23/2013 11:42,40,9/23/2013 11:30,212,Michigan Ave & Congress Pkwy,729,567059
+944,,,State St & 33rd St,Indiana Ave & 26th St,State St & 33rd St,Customer,1518,9/23/2013 12:35,212,9/23/2013 12:24,216,Indiana Ave & 26th St,641,567480
+944,,,Museum Campus,Michigan Ave & Congress Pkwy,Museum Campus,Customer,2307,9/27/2013 9:41,40,9/27/2013 9:28,29,Michigan Ave & Congress Pkwy,770,603063
+944,,,Michigan Ave & Lake St,Lake Shore Dr & Monroe St,Michigan Ave & Lake St,Customer,1696,9/27/2013 12:13,300,9/27/2013 11:40,43,Lake Shore Dr & Monroe St,"1,932",604162
+944,,,Green St & Randolph St,Indiana Ave & Roosevelt Rd,Green St & Randolph St,Customer,4003,9/28/2013 10:52,309,9/28/2013 10:14,53,Indiana Ave & Roosevelt Rd,"2,228",613728
+944,,,Ashland Ave & Augusta Blvd,Green St & Randolph St,Ashland Ave & Augusta Blvd,Customer,2768,9/28/2013 12:05,53,9/28/2013 11:46,248,Green St & Randolph St,"1,134",615111
+944,,,Kedzie Ave & Milwaukee Ave,California Ave & North Ave,Kedzie Ave & Milwaukee Ave,Customer,2521,9/28/2013 20:29,258,9/28/2013 20:19,85,California Ave & North Ave,610,624502
+944,,,Greenview Ave & Fullerton Ave,Ashland Ave & Armitage Ave,Greenview Ave & Fullerton Ave,Customer,1626,10/2/2013 17:14,25,10/2/2013 17:08,295,Ashland Ave & Armitage Ave,366,662843
+944,,,Clark St & Lincoln Ave,Lincoln Ave & Diversey Pkwy,Clark St & Lincoln Ave,Customer,2804,10/5/2013 10:12,226,10/5/2013 9:57,179,Lincoln Ave & Diversey Pkwy,929,685639
+944,,,Indiana Ave & Roosevelt Rd,Sheffield Ave & Willow St,Indiana Ave & Roosevelt Rd,Customer,9330,10/5/2013 13:10,190,10/5/2013 12:13,309,Sheffield Ave & Willow St,"3,416",687246
+944,,,Millennium Park,Indiana Ave & Roosevelt Rd,Millennium Park,Customer,1553,10/5/2013 14:54,309,10/5/2013 14:26,8,Indiana Ave & Roosevelt Rd,"1,683",689377
+944,,,Michigan Ave & Oak St,Millennium Park,Michigan Ave & Oak St,Customer,4341,10/5/2013 15:50,8,10/5/2013 15:02,42,Millennium Park,"2,895",689964
+944,,,Cityfront Plaza & N Water St,Michigan Ave & Oak St,Cityfront Plaza & N Water St,Customer,2770,10/5/2013 20:24,42,10/5/2013 19:55,427,Michigan Ave & Oak St,"1,735",691783
+944,,,Columbus Dr & Randolph St,Cityfront Plaza & N Water St,Columbus Dr & Randolph St,Customer,643,10/5/2013 20:48,427,10/5/2013 20:26,263,Cityfront Plaza & N Water St,"1,355",691864
+944,,,Lake Shore Dr & Monroe St,Columbus Dr & Randolph St,Lake Shore Dr & Monroe St,Customer,1786,10/5/2013 21:24,263,10/5/2013 21:02,300,Columbus Dr & Randolph St,"1,377",691967
+944,,,Streeter Dr & Illinois St,Lake Shore Dr & Monroe St,Streeter Dr & Illinois St,Customer,1455,10/5/2013 21:43,300,10/5/2013 21:34,22,Lake Shore Dr & Monroe St,551,692044
+944,,,Streeter Dr & Illinois St,Streeter Dr & Illinois St,Streeter Dr & Illinois St,Customer,0,10/5/2013 22:04,22,10/5/2013 21:47,22,Streeter Dr & Illinois St,990,692084
+944,,,Michigan Ave & Oak St,Streeter Dr & Illinois St,Michigan Ave & Oak St,Customer,2094,10/5/2013 22:41,22,10/5/2013 22:07,42,Streeter Dr & Illinois St,"2,043",692151
+944,,,Orleans St & Elm St,Sedgwick St & Webster Ave,Orleans St & Elm St,Customer,2508,10/6/2013 19:47,191,10/6/2013 19:32,172,Sedgwick St & Webster Ave,882,699649
+944,,,Orleans St & Merchandise Mart Plaza,Orleans St & Elm St,Orleans St & Merchandise Mart Plaza,Customer,2470,10/6/2013 22:46,172,10/6/2013 22:39,13,Orleans St & Elm St,428,700153
+944,,,Morgan St & Polk St,Morgan St & Polk St,Morgan St & Polk St,Customer,0,10/8/2013 23:42,168,10/8/2013 23:21,168,Morgan St & Polk St,"1,273",719370
+944,,,McCormick Place,Morgan St & Polk St,McCormick Place,Customer,5022,10/9/2013 14:54,168,10/9/2013 14:32,106,Morgan St & Polk St,"1,364",724707
+944,,,Dearborn St & Adams St,McCormick Place,Dearborn St & Adams St,Customer,3938,10/9/2013 15:38,106,10/9/2013 15:06,20,McCormick Place,"1,940",725054
+944,,,Sheffield Ave & Fullerton Ave,Michigan Ave & Washington St,Sheffield Ave & Fullerton Ave,Customer,6308,10/10/2013 12:16,1,10/10/2013 11:08,60,Michigan Ave & Washington St,"4,089",733203
+944,,,Larrabee St & Webster Ave,Sheffield Ave & Fullerton Ave,Larrabee St & Webster Ave,Customer,1157,10/10/2013 12:39,60,10/10/2013 12:32,193,Sheffield Ave & Fullerton Ave,451,734054
+944,,,Sedgwick St & Webster Ave,Larrabee St & Webster Ave,Sedgwick St & Webster Ave,Customer,465,10/10/2013 14:13,193,10/10/2013 14:09,191,Larrabee St & Webster Ave,240,735014
+944,,,Michigan Ave & Washington St,Sedgwick St & Webster Ave,Michigan Ave & Washington St,Customer,4957,10/10/2013 17:26,191,10/10/2013 16:44,1,Sedgwick St & Webster Ave,"2,541",736901
+944,,,Museum Campus,Michigan Ave & Washington St,Museum Campus,Customer,3088,10/10/2013 18:02,1,10/10/2013 17:45,29,Michigan Ave & Washington St,"1,021",738226
+944,,,Lake Shore Dr & Monroe St,Museum Campus,Lake Shore Dr & Monroe St,Customer,2229,10/10/2013 18:22,29,10/10/2013 18:08,300,Museum Campus,823,738751
+944,,,Millennium Park,Lake Shore Dr & Monroe St,Millennium Park,Customer,1108,10/10/2013 18:39,300,10/10/2013 18:23,8,Lake Shore Dr & Monroe St,997,739001
+944,,,Museum Campus,State St & Kinzie St,Museum Campus,Customer,4667,10/11/2013 14:12,50,10/11/2013 13:19,29,State St & Kinzie St,"3,137",746582
+944,,,Millennium Park,Museum Campus,Millennium Park,Customer,2764,10/11/2013 16:15,29,10/11/2013 14:21,8,Museum Campus,"6,874",747516
+944,,,Mies van der Rohe Way & Chicago Ave,Millennium Park,Mies van der Rohe Way & Chicago Ave,Customer,1957,10/11/2013 17:40,8,10/11/2013 17:02,338,Millennium Park,"2,270",750319
+944,,,Wabash Ave & 8th St,Wabash Ave & 8th St,Wabash Ave & 8th St,Customer,0,10/12/2013 12:24,54,10/12/2013 10:41,54,Wabash Ave & 8th St,"6,142",756409
+944,,,Stetson Ave & South Water St,Wabash Ave & 8th St,Stetson Ave & South Water St,Customer,4700,10/12/2013 12:49,54,10/12/2013 12:30,48,Wabash Ave & 8th St,"1,088",758304
+944,,,Lake Shore Dr & Ohio St,Stetson Ave & South Water St,Lake Shore Dr & Ohio St,Customer,6298,10/12/2013 13:44,48,10/12/2013 13:07,337,Stetson Ave & South Water St,"2,198",758941
+944,,,Clark St & Lincoln Ave,Lake Shore Dr & Ohio St,Clark St & Lincoln Ave,Customer,4325,10/12/2013 14:24,337,10/12/2013 14:03,179,Lake Shore Dr & Ohio St,"1,240",759848
+944,,,Lincoln Ave & Armitage Ave,Clark St & Lincoln Ave,Lincoln Ave & Armitage Ave,Customer,503,10/12/2013 15:03,179,10/12/2013 14:55,146,Clark St & Lincoln Ave,500,760819
+944,,,Streeter Dr & Illinois St,Lincoln Ave & Armitage Ave,Streeter Dr & Illinois St,Customer,4748,10/12/2013 15:39,146,10/12/2013 15:05,22,Lincoln Ave & Armitage Ave,"2,058",761000
+944,,,Museum Campus,Lake Shore Dr & Monroe St,Museum Campus,Customer,2262,10/13/2013 15:48,300,10/13/2013 15:24,29,Lake Shore Dr & Monroe St,"1,455",773364
+944,,,Clark St & Elm St,Museum Campus,Clark St & Elm St,Customer,6780,10/13/2013 16:56,29,10/13/2013 16:05,349,Museum Campus,"3,106",774067
+944,,,State St & 16th St,State St & 16th St,State St & 16th St,Customer,0,10/19/2013 12:40,148,10/19/2013 12:15,148,State St & 16th St,"1,522",819502
+944,,,Mies van der Rohe Way & Chicago Ave,Michigan Ave & Washington St,Mies van der Rohe Way & Chicago Ave,Customer,2017,10/22/2013 10:45,1,10/22/2013 10:34,338,Michigan Ave & Washington St,650,840384
+944,,,Theater on the Lake,Clarendon Ave & Junior Ter,Theater on the Lake,Customer,4629,10/26/2013 14:17,389,10/26/2013 13:46,350,Clarendon Ave & Junior Ter,"1,857",866302
+944,,,McClurg Ct & Illinois St,Theater on the Lake,McClurg Ct & Illinois St,Customer,4815,10/26/2013 14:44,350,10/26/2013 14:18,51,Theater on the Lake,"1,550",866623
+944,,,Clinton St & Tilden St,Wells St & Ohio St,Clinton St & Tilden St,Customer,2439,10/27/2013 19:49,264,10/27/2013 19:23,37,Wells St & Ohio St,"1,559",874548
+944,,,St Clair St & Erie St,LaSalle St & Jackson Blvd,St Clair St & Erie St,Customer,2593,10/28/2013 12:56,32,10/28/2013 12:40,16,LaSalle St & Jackson Blvd,943,877880
+944,,,Franklin St & Chicago Ave,Lakeview Ave & Fullerton Pkwy,Franklin St & Chicago Ave,Customer,3615,11/2/2013 10:55,147,11/2/2013 10:43,17,Lakeview Ave & Fullerton Pkwy,687,905452
+944,,,Lincoln Ave & Diversey Pkwy,Dearborn Pkwy & Delaware Pl,Lincoln Ave & Diversey Pkwy,Customer,4838,11/3/2013 15:01,173,11/3/2013 14:26,226,Dearborn Pkwy & Delaware Pl,"2,098",912674
+944,,,Sheffield Ave & Kingsbury St,Ashland Ave & Wrightwood Ave,Sheffield Ave & Kingsbury St,Customer,2928,11/7/2013 10:13,296,11/7/2013 10:00,154,Ashland Ave & Wrightwood Ave,778,935630
+944,,,Ogden Ave & Chicago Ave,Damen Ave & Division St,Ogden Ave & Chicago Ave,Customer,2190,11/9/2013 16:57,136,11/9/2013 16:41,44,Damen Ave & Division St,978,951965
+944,,,Desplaines St & Kinzie St,Ogden Ave & Chicago Ave,Desplaines St & Kinzie St,Customer,1229,11/9/2013 17:10,44,11/9/2013 17:03,39,Ogden Ave & Chicago Ave,412,952230
+944,,,Lake Shore Dr & Ohio St,Dearborn St & Monroe St,Lake Shore Dr & Ohio St,Customer,6422,11/10/2013 11:21,49,11/10/2013 11:04,337,Dearborn St & Monroe St,"1,018",954970
+944,,,Theater on the Lake,Stetson Ave & South Water St,Theater on the Lake,Customer,6660,11/10/2013 14:29,48,11/10/2013 13:53,350,Stetson Ave & South Water St,"2,208",956381
+944,,,Streeter Dr & Illinois St,Theater on the Lake,Streeter Dr & Illinois St,Customer,4969,11/10/2013 15:11,350,11/10/2013 14:37,22,Theater on the Lake,"2,097",956729
+944,,,Lake Shore Dr & Monroe St,Streeter Dr & Illinois St,Lake Shore Dr & Monroe St,Customer,1830,11/10/2013 15:32,22,11/10/2013 15:20,300,Streeter Dr & Illinois St,712,957089
+944,,,Michigan Ave & Washington St,Lake Shore Dr & Monroe St,Michigan Ave & Washington St,Customer,1609,11/10/2013 16:08,300,11/10/2013 15:36,1,Lake Shore Dr & Monroe St,"1,937",957304
+944,,,Michigan Ave & Pearson St,Michigan Ave & Washington St,Michigan Ave & Pearson St,Customer,1996,11/10/2013 17:07,1,11/10/2013 16:26,34,Michigan Ave & Washington St,"2,450",957837
+944,,,State St & Randolph St,Michigan Ave & Pearson St,State St & Randolph St,Customer,2090,11/10/2013 21:28,34,11/10/2013 21:11,2,Michigan Ave & Pearson St,"1,028",958964
+944,,,Sheffield Ave & Webster Ave,Morgan Ave & 14th Pl,Sheffield Ave & Webster Ave,Customer,7166,11/16/2013 13:19,169,11/16/2013 12:41,188,Morgan Ave & 14th Pl,"2,271",986310
+944,,,Clark St & Elm St,Michigan Ave & Washington St,Clark St & Elm St,Customer,2658,11/16/2013 15:02,1,11/16/2013 14:42,349,Michigan Ave & Washington St,"1,168",987002
+944,,,Ashland Ave & Wrightwood Ave,Clark St & Elm St,Ashland Ave & Wrightwood Ave,Customer,5267,11/16/2013 17:08,349,11/16/2013 16:36,296,Clark St & Elm St,"1,888",987651
+944,,,Lincoln Ave & Fullerton Ave,Southport Ave & Wellington Ave,Lincoln Ave & Fullerton Ave,Customer,1673,11/18/2013 19:52,228,11/18/2013 19:35,131,Southport Ave & Wellington Ave,"1,005",995380
+944,,,Kingsbury St & Erie St,Canal St & Monroe St,Kingsbury St & Erie St,Customer,2015,11/22/2013 17:11,56,11/22/2013 17:04,265,Canal St & Monroe St,404,1014572
+944,,,Franklin St & Lake St,St Clair St & Erie St,Franklin St & Lake St,Customer,2295,11/24/2013 18:37,16,11/24/2013 18:27,272,St Clair St & Erie St,572,1019522
+944,,,St Clair St & Erie St,Franklin St & Lake St,St Clair St & Erie St,Customer,2154,11/24/2013 19:15,272,11/24/2013 19:07,16,Franklin St & Lake St,505,1019598
+944,,,Damen Ave & Cortland Ave,Noble St & Milwaukee Ave,Damen Ave & Cortland Ave,Customer,2275,12/2/2013 17:52,290,12/2/2013 17:38,133,Noble St & Milwaukee Ave,824,1041687
+944,1979,Male,Michigan Ave & Washington St,May St & Randolph St,Michigan Ave & Washington St,Subscriber,3934,7/26/2013 17:54,155,7/26/2013 17:42,1,May St & Randolph St,715,111210
+944,1975,Male,Michigan Ave & Washington St,Canal St & Jackson Blvd,Michigan Ave & Washington St,Subscriber,2084,7/30/2013 8:32,138,7/30/2013 8:18,1,Canal St & Jackson Blvd,821,127638
+944,1970,Male,Larrabee St & North Ave,Dearborn St & Adams St,Larrabee St & North Ave,Subscriber,4253,8/2/2013 17:15,20,8/2/2013 16:54,174,Dearborn St & Adams St,"1,262",143295
+944,1972,Male,Franklin St & Jackson Blvd,Larrabee St & North Ave,Franklin St & Jackson Blvd,Subscriber,5227,8/2/2013 18:24,174,8/2/2013 18:11,19,Larrabee St & North Ave,740,143862
+944,1966,Male,Wilton Ave & Diversey Pkwy,Franklin St & Jackson Blvd,Wilton Ave & Diversey Pkwy,Subscriber,7776,8/3/2013 0:20,19,8/3/2013 0:07,66,Franklin St & Jackson Blvd,778,145394
+944,1980,Male,Lake Shore Dr & Monroe St,Lincoln Ave & Armitage Ave,Lake Shore Dr & Monroe St,Subscriber,5933,8/3/2013 15:28,146,8/3/2013 15:07,300,Lincoln Ave & Armitage Ave,"1,204",149148
+944,1974,Male,Orleans St & Merchandise Mart Plaza,Lincoln Ave & Armitage Ave,Orleans St & Merchandise Mart Plaza,Subscriber,3844,8/5/2013 8:08,146,8/5/2013 7:55,13,Lincoln Ave & Armitage Ave,755,161520
+944,1955,Male,Millennium Park,Orleans St & Merchandise Mart Plaza,Millennium Park,Subscriber,2122,8/5/2013 12:28,13,8/5/2013 12:10,8,Orleans St & Merchandise Mart Plaza,"1,067",162712
+944,1978,Male,Orleans St & Merchandise Mart Plaza,Canal St & Jackson Blvd,Orleans St & Merchandise Mart Plaza,Subscriber,1593,8/7/2013 9:14,138,8/7/2013 9:05,13,Canal St & Jackson Blvd,515,173275
+944,1955,Male,Lake Shore Dr & Monroe St,Lake Shore Dr & Monroe St,Lake Shore Dr & Monroe St,Subscriber,0,8/7/2013 19:05,300,8/7/2013 18:52,300,Lake Shore Dr & Monroe St,733,176585
+944,1982,Male,Canal St & Jackson Blvd,Michigan Ave & Congress Pkwy,Canal St & Jackson Blvd,Subscriber,2029,8/8/2013 8:10,40,8/8/2013 8:04,138,Michigan Ave & Congress Pkwy,381,178230
+944,1957,Male,Dearborn St & Adams St,Canal St & Jackson Blvd,Dearborn St & Adams St,Subscriber,1061,8/8/2013 8:25,138,8/8/2013 8:19,20,Canal St & Jackson Blvd,351,178325
+944,1957,Male,State St & Randolph St,Dearborn St & Adams St,State St & Randolph St,Subscriber,834,8/8/2013 12:21,20,8/8/2013 12:04,2,Dearborn St & Adams St,965,179521
+944,1977,Male,Aberdeen St & Madison St,Clinton St & Washington Blvd,Aberdeen St & Madison St,Subscriber,1559,8/8/2013 13:04,10,8/8/2013 12:58,156,Clinton St & Washington Blvd,368,179825
+944,1991,Male,Sheffield Ave & Kingsbury St,Racine Ave & Fullerton Ave,Sheffield Ave & Kingsbury St,Subscriber,1969,8/9/2013 19:41,189,8/9/2013 19:34,154,Racine Ave & Fullerton Ave,433,190282
+944,1984,Male,Clinton St & Madison St,Daley Center Plaza,Clinton St & Madison St,Subscriber,1249,8/11/2013 9:32,23,8/11/2013 9:23,301,Daley Center Plaza,513,201664
+944,1976,Male,Aberdeen St & Madison St,Clinton St & Madison St,Aberdeen St & Madison St,Subscriber,1644,8/11/2013 14:35,301,8/11/2013 14:30,156,Clinton St & Madison St,313,204888
+944,1979,Male,Pine Grove Ave & Addison St,LaSalle St & Illinois St,Pine Grove Ave & Addison St,Subscriber,7056,8/14/2013 19:41,430,8/14/2013 19:36,273,LaSalle St & Illinois St,292,227183
+944,1982,Male,Clinton St & Madison St,Damen Ave & Division St,Clinton St & Madison St,Subscriber,4390,8/15/2013 10:21,136,8/15/2013 10:03,301,Damen Ave & Division St,"1,082",229644
+944,1973,Male,Michigan Ave & Lake St,Clark St & Randolph St,Michigan Ave & Lake St,Subscriber,869,8/15/2013 17:38,5,8/15/2013 17:34,43,Clark St & Randolph St,242,232771
+944,1974,Male,Clinton St & Lake St,Damen Ave & Pierce Ave,Clinton St & Lake St,Subscriber,4329,8/17/2013 14:44,65,8/17/2013 14:25,21,Damen Ave & Pierce Ave,"1,126",248187
+944,1988,Male,Wabash Ave & Grand Ave,Ashland Ave & Armitage Ave,Wabash Ave & Grand Ave,Subscriber,5548,8/19/2013 15:21,25,8/19/2013 14:44,4,Ashland Ave & Armitage Ave,"2,204",267809
+944,1957,Male,Dearborn St & Adams St,Wabash Ave & Grand Ave,Dearborn St & Adams St,Subscriber,1868,8/19/2013 17:14,4,8/19/2013 17:00,20,Wabash Ave & Grand Ave,850,269118
+944,1978,Male,Sheffield Ave & Fullerton Ave,Cityfront Plaza & N Water St,Sheffield Ave & Fullerton Ave,Subscriber,7169,8/19/2013 19:15,427,8/19/2013 18:53,60,Cityfront Plaza & N Water St,"1,330",270621
+944,1958,Male,May St & Fulton St,Green St & Randolph St,May St & Fulton St,Subscriber,906,8/21/2013 16:19,53,8/21/2013 16:15,197,Green St & Randolph St,282,284740
+944,1975,Male,State St & Erie St,Clinton St & Washington Blvd,State St & Erie St,Subscriber,2286,8/22/2013 7:30,10,8/22/2013 7:19,45,Clinton St & Washington Blvd,636,288630
+944,1983,Male,Wells St & Polk St,Canal St & Adams St,Wells St & Polk St,Subscriber,1473,8/24/2013 16:06,11,8/24/2013 16:00,344,Canal St & Adams St,350,310439
+944,1981,Male,Halsted St & Polk St,Wells St & Polk St,Halsted St & Polk St,Subscriber,1672,8/24/2013 16:39,344,8/24/2013 16:35,27,Wells St & Polk St,289,311067
+944,1988,Male,Damen Ave & Cortland Ave,Halsted St & Willow St,Damen Ave & Cortland Ave,Subscriber,2536,8/25/2013 13:55,181,8/25/2013 13:31,133,Halsted St & Willow St,"1,432",319887
+944,1973,Male,Western Ave & Winnebago Ave,Damen Ave & Cortland Ave,Western Ave & Winnebago Ave,Subscriber,1007,8/25/2013 14:07,133,8/25/2013 13:58,68,Damen Ave & Cortland Ave,586,320473
+944,1988,Male,Clinton St & Madison St,Franklin St & Lake St,Clinton St & Madison St,Subscriber,1209,8/26/2013 0:15,272,8/26/2013 0:09,301,Franklin St & Lake St,335,326176
+944,1970,Male,LaSalle St & Illinois St,Peoria St & Jackson Blvd,LaSalle St & Illinois St,Subscriber,2913,8/26/2013 8:42,158,8/26/2013 8:29,430,Peoria St & Jackson Blvd,827,327255
+944,1985,Male,Clinton St & Madison St,State St & Van Buren St,Clinton St & Madison St,Subscriber,1748,8/27/2013 8:13,3,8/27/2013 8:04,301,State St & Van Buren St,559,334934
+944,1954,Male,Franklin St & Jackson Blvd,Canal St & Jackson Blvd,Franklin St & Jackson Blvd,Subscriber,873,8/27/2013 8:40,138,8/27/2013 8:36,19,Canal St & Jackson Blvd,253,335231
+944,1984,Male,Wabash Ave & Grand Ave,Franklin St & Jackson Blvd,Wabash Ave & Grand Ave,Subscriber,2348,8/27/2013 9:15,19,8/27/2013 9:01,4,Franklin St & Jackson Blvd,833,335421
+944,1955,Male,Orleans St & Merchandise Mart Plaza,Indiana Ave & Roosevelt Rd,Orleans St & Merchandise Mart Plaza,Subscriber,3343,8/27/2013 19:22,309,8/27/2013 19:13,13,Indiana Ave & Roosevelt Rd,562,339939
+944,1982,Male,Desplaines St & Kinzie St,Jefferson St & Monroe St,Desplaines St & Kinzie St,Subscriber,1045,8/27/2013 20:40,38,8/27/2013 20:35,39,Jefferson St & Monroe St,248,340499
+944,1979,Male,Dearborn St & Adams St,Franklin St & Lake St,Dearborn St & Adams St,Subscriber,1238,8/28/2013 6:52,272,8/28/2013 6:47,20,Franklin St & Lake St,338,341606
+944,1967,Male,Wabash Ave & Grand Ave,Clinton St & Washington Blvd,Wabash Ave & Grand Ave,Subscriber,2390,8/28/2013 8:34,10,8/28/2013 8:22,4,Clinton St & Washington Blvd,679,342269
+944,1982,Male,Franklin St & Jackson Blvd,Wabash Ave & Grand Ave,Franklin St & Jackson Blvd,Subscriber,2699,8/28/2013 9:43,4,8/28/2013 9:30,19,Wabash Ave & Grand Ave,789,342781
+944,1978,Male,Daley Center Plaza,Franklin St & Jackson Blvd,Daley Center Plaza,Subscriber,1296,8/28/2013 10:08,19,8/28/2013 10:03,23,Franklin St & Jackson Blvd,286,342979
+944,1965,Male,Dearborn St & Adams St,Clark St & Congress Pkwy,Dearborn St & Adams St,Subscriber,861,8/29/2013 7:50,9,8/29/2013 7:47,20,Clark St & Congress Pkwy,181,349459
+944,1973,Male,Wells St & Ohio St,Clark St & Randolph St,Wells St & Ohio St,Subscriber,1471,8/29/2013 16:10,5,8/29/2013 16:02,264,Clark St & Randolph St,452,352921
+944,1979,Male,Michigan Ave & Pearson St,Kingsbury St & Erie St,Michigan Ave & Pearson St,Subscriber,1913,9/3/2013 9:45,265,9/3/2013 9:37,34,Kingsbury St & Erie St,502,397227
+944,1989,Male,May St & Taylor St,Morgan St & Polk St,May St & Taylor St,Subscriber,1058,9/3/2013 16:58,168,9/3/2013 16:55,160,Morgan St & Polk St,218,400673
+944,1993,Male,Canal St & Madison St,Canal St & Harrison St,Canal St & Madison St,Subscriber,879,9/4/2013 17:42,326,9/4/2013 17:38,341,Canal St & Harrison St,237,409609
+944,1982,Male,Paulina St & Diversey Pkwy,Canal St & Madison St,Paulina St & Diversey Pkwy,Subscriber,7631,9/4/2013 18:21,341,9/4/2013 17:57,271,Canal St & Madison St,"1,440",409887
+944,1977,Male,Sheffield Ave & Wellington Ave,Pine Grove Ave & Addison St,Sheffield Ave & Wellington Ave,Subscriber,1936,9/5/2013 13:00,273,9/5/2013 12:49,67,Pine Grove Ave & Addison St,633,415482
+944,1986,Male,Lincoln Ave & Roscoe St,Lincoln Ave & Armitage Ave,Lincoln Ave & Roscoe St,Subscriber,4000,9/5/2013 19:30,146,9/5/2013 19:14,78,Lincoln Ave & Armitage Ave,940,419573
+944,1966,Male,Pine Grove Ave & Addison St,Montrose Harbor,Pine Grove Ave & Addison St,Subscriber,2630,9/6/2013 16:37,388,9/6/2013 16:17,273,Montrose Harbor,"1,243",426765
+944,1984,Male,Montrose Harbor,Hampden Ct & Diversey Pkwy,Montrose Harbor,Subscriber,5219,9/6/2013 17:49,123,9/6/2013 17:28,388,Hampden Ct & Diversey Pkwy,"1,280",427976
+944,1983,Male,Montrose Harbor,Ravenswood Ave & Montrose Ave,Montrose Harbor,Subscriber,3060,9/7/2013 14:07,92,9/7/2013 13:57,388,Ravenswood Ave & Montrose Ave,636,435842
+944,1982,Male,Streeter Dr & Illinois St,Montrose Harbor,Streeter Dr & Illinois St,Subscriber,10044,9/7/2013 15:01,388,9/7/2013 14:22,22,Montrose Harbor,"2,334",436237
+944,1986,Male,Larrabee St & Kingsbury St,Sedgwick St & Huron St,Larrabee St & Kingsbury St,Subscriber,713,9/9/2013 7:18,52,9/9/2013 7:15,12,Sedgwick St & Huron St,184,451016
+944,1963,Male,St Clair St & Erie St,Kingsbury St & Erie St,St Clair St & Erie St,Subscriber,1616,9/9/2013 9:24,265,9/9/2013 9:15,16,Kingsbury St & Erie St,530,452208
+944,1990,Male,Morgan St & Polk St,St Clair St & Erie St,Morgan St & Polk St,Subscriber,4878,9/9/2013 16:58,16,9/9/2013 16:33,168,St Clair St & Erie St,"1,495",455522
+944,1986,Male,Aberdeen St & Madison St,Morgan St & Polk St,Aberdeen St & Madison St,Subscriber,1621,9/9/2013 17:07,168,9/9/2013 17:01,156,Morgan St & Polk St,380,455855
+944,1982,Male,900 W Harrison,Aberdeen St & Madison St,900 W Harrison,Subscriber,1202,9/9/2013 17:41,156,9/9/2013 17:34,28,Aberdeen St & Madison St,386,456384
+944,1986,Male,Peoria St & Jackson Blvd,900 W Harrison,Peoria St & Jackson Blvd,Subscriber,365,9/9/2013 17:49,28,9/9/2013 17:47,158,900 W Harrison,139,456534
+944,1962,Male,Aberdeen St & Madison St,Jefferson St & Monroe St,Aberdeen St & Madison St,Subscriber,1134,9/10/2013 8:49,38,9/10/2013 8:43,156,Jefferson St & Monroe St,362,460040
+944,1974,Male,Clark St & Randolph St,Aberdeen St & Madison St,Clark St & Randolph St,Subscriber,2838,9/10/2013 9:05,156,9/10/2013 8:56,5,Aberdeen St & Madison St,576,460177
+944,1987,Male,Clinton St & Washington Blvd,Clark St & Randolph St,Clinton St & Washington Blvd,Subscriber,892,9/10/2013 9:13,5,9/10/2013 9:07,10,Clark St & Randolph St,343,460263
+944,1968,Male,Daley Center Plaza,Clinton St & Washington Blvd,Daley Center Plaza,Subscriber,1196,9/10/2013 9:29,10,9/10/2013 9:21,23,Clinton St & Washington Blvd,425,460333
+944,1969,Male,Clinton St & Washington Blvd,Daley Center Plaza,Clinton St & Washington Blvd,Subscriber,1034,9/10/2013 11:56,23,9/10/2013 11:50,10,Daley Center Plaza,361,461279
+944,1986,Male,Clinton St & Roosevelt Rd,Clinton St & Washington Blvd,Clinton St & Roosevelt Rd,Subscriber,1837,9/10/2013 12:24,10,9/10/2013 12:18,327,Clinton St & Washington Blvd,381,461403
+944,1978,Male,Clinton St & Lake St,Clinton St & Roosevelt Rd,Clinton St & Lake St,Subscriber,2573,9/10/2013 12:50,327,9/10/2013 12:39,21,Clinton St & Roosevelt Rd,644,461512
+944,1964,Male,Orleans St & Merchandise Mart Plaza,Clinton St & Lake St,Orleans St & Merchandise Mart Plaza,Subscriber,1410,9/10/2013 15:11,21,9/10/2013 15:05,13,Clinton St & Lake St,369,462451
+944,1955,Male,Daley Center Plaza,Clark St & Congress Pkwy,Daley Center Plaza,Subscriber,1444,9/10/2013 16:29,9,9/10/2013 16:21,23,Clark St & Congress Pkwy,497,463004
+944,1955,Male,Sedgwick St & Huron St,Daley Center Plaza,Sedgwick St & Huron St,Subscriber,2062,9/10/2013 17:17,23,9/10/2013 17:04,52,Daley Center Plaza,769,463436
+944,1979,Male,Aberdeen St & Madison St,Canal St & Jackson Blvd,Aberdeen St & Madison St,Subscriber,1944,9/10/2013 18:07,138,9/10/2013 18:00,156,Canal St & Jackson Blvd,419,464205
+944,1972,Male,Cityfront Plaza & N Water St,Clinton St & Washington Blvd,Cityfront Plaza & N Water St,Subscriber,2932,9/11/2013 7:33,10,9/11/2013 7:23,427,Clinton St & Washington Blvd,583,466872
+944,1985,Male,Jefferson St & Monroe St,Cityfront Plaza & N Water St,Jefferson St & Monroe St,Subscriber,3771,9/11/2013 18:28,427,9/11/2013 18:16,38,Cityfront Plaza & N Water St,733,471952
+944,1983,Male,Clinton St & Lake St,Jefferson St & Monroe St,Clinton St & Lake St,Subscriber,940,9/11/2013 18:59,38,9/11/2013 18:55,21,Jefferson St & Monroe St,194,472369
+944,1986,Male,Wilton Ave & Diversey Pkwy,Clinton St & Lake St,Wilton Ave & Diversey Pkwy,Subscriber,6879,9/11/2013 20:07,21,9/11/2013 19:30,66,Clinton St & Lake St,"2,220",472701
+944,1947,Male,Hampden Ct & Diversey Pkwy,Wilton Ave & Diversey Pkwy,Hampden Ct & Diversey Pkwy,Subscriber,1659,9/12/2013 14:23,66,9/12/2013 14:20,123,Wilton Ave & Diversey Pkwy,196,477614
+944,1947,Male,Wilton Ave & Diversey Pkwy,Hampden Ct & Diversey Pkwy,Wilton Ave & Diversey Pkwy,Subscriber,1659,9/12/2013 15:18,123,9/12/2013 15:13,66,Hampden Ct & Diversey Pkwy,293,478018
+944,1970,Male,Canal St & Jackson Blvd,Wilton Ave & Diversey Pkwy,Canal St & Jackson Blvd,Subscriber,7800,9/12/2013 16:38,66,9/12/2013 16:14,138,Wilton Ave & Diversey Pkwy,"1,415",478555
+944,1980,Male,Green St & Milwaukee Ave,May St & Fulton St,Green St & Milwaukee Ave,Subscriber,1162,9/13/2013 18:10,197,9/13/2013 18:04,33,May St & Fulton St,353,488502
+944,1975,Male,Ogden Ave & Race Ave,Green St & Milwaukee Ave,Ogden Ave & Race Ave,Subscriber,1799,9/13/2013 18:18,33,9/13/2013 18:13,194,Green St & Milwaukee Ave,305,488622
+944,1980,Male,Museum Campus,Clark St & Congress Pkwy,Museum Campus,Subscriber,2858,9/16/2013 6:59,9,9/16/2013 6:45,29,Clark St & Congress Pkwy,892,505120
+944,1968,Male,Franklin St & Jackson Blvd,Canal St & Madison St,Franklin St & Jackson Blvd,Subscriber,1536,9/16/2013 7:27,341,9/16/2013 7:21,19,Canal St & Madison St,388,505345
+944,1977,Male,Orleans St & Merchandise Mart Plaza,Franklin St & Jackson Blvd,Orleans St & Merchandise Mart Plaza,Subscriber,1244,9/16/2013 7:48,19,9/16/2013 7:42,13,Franklin St & Jackson Blvd,360,505512
+944,1986,Male,Michigan Ave & Washington St,Wells St & Ohio St,Michigan Ave & Washington St,Subscriber,1722,9/16/2013 16:12,264,9/16/2013 15:49,1,Wells St & Ohio St,"1,339",508875
+944,1977,Male,Wood St & North Ave,Western Ave & Winnebago Ave,Wood St & North Ave,Subscriber,1613,9/19/2013 17:31,68,9/19/2013 17:15,223,Western Ave & Winnebago Ave,976,531387
+944,1985,Male,Ashland Ave & Division St,Wood St & North Ave,Ashland Ave & Division St,Subscriber,982,9/19/2013 22:12,223,9/19/2013 22:05,61,Wood St & North Ave,398,533992
+944,1963,Male,Michigan Ave & Congress Pkwy,Indiana Ave & Roosevelt Rd,Michigan Ave & Congress Pkwy,Subscriber,1015,9/23/2013 10:47,309,9/23/2013 10:41,40,Indiana Ave & Roosevelt Rd,404,566743
+944,1989,Male,Martin Luther King Dr & 29th St,State St & 33rd St,Martin Luther King Dr & 29th St,Subscriber,1565,9/23/2013 20:01,216,9/23/2013 19:54,214,State St & 33rd St,429,572071
+944,1986,Male,Canal St & Adams St,Halsted St & Polk St,Canal St & Adams St,Subscriber,1618,9/25/2013 8:31,27,9/25/2013 8:21,11,Halsted St & Polk St,617,583179
+944,1976,Male,Mies van der Rohe Way & Chicago Ave,Canal St & Adams St,Mies van der Rohe Way & Chicago Ave,Subscriber,3913,9/25/2013 9:12,11,9/25/2013 8:57,338,Canal St & Adams St,934,583620
+944,1976,Male,Clark St & Randolph St,Mies van der Rohe Way & Chicago Ave,Clark St & Randolph St,Subscriber,2187,9/25/2013 10:47,338,9/25/2013 10:37,5,Mies van der Rohe Way & Chicago Ave,645,584389
+944,1963,Male,Sangamon St & Washington Blvd,Clark St & Randolph St,Sangamon St & Washington Blvd,Subscriber,1914,9/25/2013 11:57,5,9/25/2013 11:49,409,Clark St & Randolph St,475,584915
+944,1964,Male,Clinton St & Madison St,Dearborn St & Monroe St,Clinton St & Madison St,Subscriber,1094,9/25/2013 18:06,49,9/25/2013 17:59,301,Dearborn St & Monroe St,382,588954
+944,1964,Male,Wabash Ave & Cermak Rd,Clinton St & Madison St,Wabash Ave & Cermak Rd,Subscriber,4412,9/25/2013 18:54,301,9/25/2013 18:36,170,Clinton St & Madison St,"1,100",589485
+944,1978,Male,Clark St & Elm St,Michigan Ave & Lake St,Clark St & Elm St,Subscriber,2542,9/27/2013 16:25,43,9/27/2013 16:10,349,Michigan Ave & Lake St,903,607274
+944,1977,Male,California Ave & Division St,Ashland Ave & Augusta Blvd,California Ave & Division St,Subscriber,2982,9/28/2013 15:47,248,9/28/2013 15:37,256,Ashland Ave & Augusta Blvd,588,619991
+944,1977,Male,Ashland Ave & Augusta Blvd,California Ave & Division St,Ashland Ave & Augusta Blvd,Subscriber,3079,9/28/2013 16:29,256,9/28/2013 16:19,248,California Ave & Division St,626,620876
+944,1979,Male,California Ave & North Ave,Ashland Ave & Augusta Blvd,California Ave & North Ave,Subscriber,3649,9/28/2013 19:08,248,9/28/2013 18:54,258,Ashland Ave & Augusta Blvd,843,623651
+944,1977,Male,Michigan Ave & Pearson St,Damen Ave & Cortland Ave,Michigan Ave & Pearson St,Subscriber,5782,9/29/2013 16:42,133,9/29/2013 16:19,34,Damen Ave & Cortland Ave,"1,418",632876
+944,1969,Male,Halsted St & Willow St,Michigan Ave & Pearson St,Halsted St & Willow St,Subscriber,4013,10/1/2013 19:03,34,10/1/2013 18:42,181,Michigan Ave & Pearson St,"1,272",654182
+944,1969,Male,Bissell St & Armitage Ave,Halsted St & Willow St,Bissell St & Armitage Ave,Subscriber,782,10/1/2013 20:01,181,10/1/2013 19:55,59,Halsted St & Willow St,364,654882
+944,1989,Male,Ashland Ave & Armitage Ave,Bissell St & Armitage Ave,Ashland Ave & Armitage Ave,Subscriber,1957,10/2/2013 6:23,59,10/2/2013 6:17,25,Bissell St & Armitage Ave,359,656344
+944,1980,Male,Larrabee St & Menomonee St,Greenview Ave & Fullerton Ave,Larrabee St & Menomonee St,Subscriber,3117,10/2/2013 18:36,295,10/2/2013 18:25,282,Greenview Ave & Fullerton Ave,687,664357
+944,1980,Male,Clifton Ave & Armitage Ave,Larrabee St & Menomonee St,Clifton Ave & Armitage Ave,Subscriber,1545,10/3/2013 7:13,282,10/3/2013 7:07,185,Larrabee St & Menomonee St,372,667033
+944,1976,Male,Larrabee St & Kingsbury St,Canal St & Monroe St,Larrabee St & Kingsbury St,Subscriber,2533,10/4/2013 8:23,56,10/4/2013 8:12,12,Canal St & Monroe St,651,674966
+944,1987,Male,Bissell St & Armitage Ave,Larrabee St & Kingsbury St,Bissell St & Armitage Ave,Subscriber,2605,10/4/2013 16:03,12,10/4/2013 15:50,59,Larrabee St & Kingsbury St,809,679543
+944,1979,Male,Canal St & Jackson Blvd,McClurg Ct & Illinois St,Canal St & Jackson Blvd,Subscriber,3652,10/7/2013 16:54,51,10/7/2013 16:39,138,McClurg Ct & Illinois St,869,705760
+944,1968,Male,Clark St & Randolph St,Sedgwick St & Webster Ave,Clark St & Randolph St,Subscriber,4386,10/8/2013 8:33,191,10/8/2013 8:16,5,Sedgwick St & Webster Ave,"1,043",710684
+944,1988,Male,Franklin St & Jackson Blvd,Wabash Ave & 8th St,Franklin St & Jackson Blvd,Subscriber,1723,10/10/2013 8:39,54,10/10/2013 8:34,19,Wabash Ave & 8th St,312,731866
+944,1980,Male,Michigan Ave & Washington St,Franklin St & Jackson Blvd,Michigan Ave & Washington St,Subscriber,1734,10/10/2013 8:56,19,10/10/2013 8:47,1,Franklin St & Jackson Blvd,542,732065
+944,1985,Male,Theater on the Lake,Millennium Park,Theater on the Lake,Subscriber,6961,10/10/2013 19:07,8,10/10/2013 18:48,350,Millennium Park,"1,118",739390
+944,1985,Male,Southport Ave & Wellington Ave,Theater on the Lake,Southport Ave & Wellington Ave,Subscriber,3856,10/10/2013 19:21,350,10/10/2013 19:07,228,Theater on the Lake,843,739638
+944,1985,Male,Theater on the Lake,Southport Ave & Wellington Ave,Theater on the Lake,Subscriber,3904,10/11/2013 7:43,228,10/11/2013 7:28,350,Southport Ave & Wellington Ave,852,742345
+944,1985,Male,Millennium Park,Theater on the Lake,Millennium Park,Subscriber,7261,10/11/2013 8:05,350,10/11/2013 7:43,8,Theater on the Lake,"1,367",742485
+944,1953,Male,State St & Kinzie St,Millennium Park,State St & Kinzie St,Subscriber,1222,10/11/2013 8:43,8,10/11/2013 8:32,50,Millennium Park,660,743194
+944,1986,Male,Lake Shore Dr & Monroe St,Michigan Ave & 14th St,Lake Shore Dr & Monroe St,Subscriber,2810,10/13/2013 12:44,310,10/13/2013 12:23,300,Michigan Ave & 14th St,"1,252",770368
+944,1974,Male,LaSalle St & Jackson Blvd,Clark St & Elm St,LaSalle St & Jackson Blvd,Subscriber,2943,10/14/2013 6:24,349,10/14/2013 6:13,32,Clark St & Elm St,702,777757
+944,1968,Male,Clark St & Winnemac Ave,Wolcott Ave & Lawrence Ave,Clark St & Winnemac Ave,Subscriber,1555,10/16/2013 17:46,26,10/16/2013 17:39,392,Wolcott Ave & Lawrence Ave,424,801897
+944,1979,Male,Peoria St & Jackson Blvd,Blackstone Ave & Hyde Park Blvd,Peoria St & Jackson Blvd,Subscriber,13488,10/17/2013 17:50,398,10/17/2013 17:39,158,Blackstone Ave & Hyde Park Blvd,624,807428
+944,1975,Male,State St & 16th St,Clinton St & Madison St,State St & 16th St,Subscriber,3533,10/18/2013 17:29,301,10/18/2013 17:14,148,Clinton St & Madison St,904,815239
+944,1966,Male,Normal Ave & Archer Ave,State St & 16th St,Normal Ave & Archer Ave,Subscriber,1806,10/18/2013 18:50,148,10/18/2013 18:35,308,State St & 16th St,918,816135
+944,1966,Male,State St & 16th St,Normal Ave & Archer Ave,State St & 16th St,Subscriber,2090,10/19/2013 10:42,308,10/19/2013 10:34,148,Normal Ave & Archer Ave,455,818502
+944,1978,Male,May St & Fulton St,Clinton St & Madison St,May St & Fulton St,Subscriber,2056,10/19/2013 16:21,301,10/19/2013 16:13,197,Clinton St & Madison St,424,822321
+944,1974,Male,Morgan St & Lake St,May St & Fulton St,Morgan St & Lake St,Subscriber,570,10/21/2013 15:17,197,10/21/2013 15:16,72,May St & Fulton St,93,834840
+944,1990,Male,Franklin St & Quincy St,Peoria St & Jackson Blvd,Franklin St & Quincy St,Subscriber,1311,10/22/2013 8:01,158,10/22/2013 7:55,7,Peoria St & Jackson Blvd,349,839062
+944,1972,Male,Michigan Ave & Washington St,Franklin St & Quincy St,Michigan Ave & Washington St,Subscriber,1661,10/22/2013 8:54,7,10/22/2013 8:45,1,Franklin St & Quincy St,539,839663
+944,1974,Male,Canal St & Adams St,Orleans St & Merchandise Mart Plaza,Canal St & Adams St,Subscriber,1873,10/24/2013 17:15,13,10/24/2013 17:05,11,Orleans St & Merchandise Mart Plaza,568,854846
+944,1986,Male,Wells St & Ohio St,McClurg Ct & Illinois St,Wells St & Ohio St,Subscriber,1544,10/27/2013 17:19,51,10/27/2013 17:12,264,McClurg Ct & Illinois St,449,873782
+944,1960,Male,LaSalle St & Jackson Blvd,Canal St & Madison St,LaSalle St & Jackson Blvd,Subscriber,1324,10/28/2013 12:02,341,10/28/2013 11:50,32,Canal St & Madison St,723,877579
+944,1971,Male,Clinton St & Washington Blvd,St Clair St & Erie St,Clinton St & Washington Blvd,Subscriber,2737,10/28/2013 14:57,16,10/28/2013 14:44,10,St Clair St & Erie St,807,878514
+944,1990,Male,Michigan Ave & 18th St,Halsted St & Polk St,Michigan Ave & 18th St,Subscriber,3674,10/28/2013 18:19,27,10/28/2013 18:15,150,Halsted St & Polk St,249,880589
+944,1971,Male,Fairbanks Ct & Grand Ave,Michigan Ave & 18th St,Fairbanks Ct & Grand Ave,Subscriber,5540,10/28/2013 18:48,150,10/28/2013 18:33,262,Michigan Ave & 18th St,901,880741
+944,1980,Male,Clinton St & Tilden St,Fairbanks Ct & Grand Ave,Clinton St & Tilden St,Subscriber,3468,10/29/2013 15:48,262,10/29/2013 15:34,37,Fairbanks Ct & Grand Ave,829,885599
+944,1972,Male,State St & Randolph St,Clinton St & Tilden St,State St & Randolph St,Subscriber,2423,10/29/2013 16:08,37,10/29/2013 15:56,2,Clinton St & Tilden St,688,885744
+944,1964,Male,Sedgwick St & North Ave,State St & Randolph St,Sedgwick St & North Ave,Subscriber,3711,10/29/2013 16:35,2,10/29/2013 16:21,70,State St & Randolph St,826,885948
+944,1985,Male,McClurg Ct & Illinois St,Dearborn St & Adams St,McClurg Ct & Illinois St,Subscriber,2328,10/29/2013 18:56,20,10/29/2013 18:46,51,Dearborn St & Adams St,611,887808
+944,1988,Male,Dearborn Pkwy & Delaware Pl,Franklin St & Chicago Ave,Dearborn Pkwy & Delaware Pl,Subscriber,1005,11/2/2013 11:26,17,11/2/2013 11:20,173,Franklin St & Chicago Ave,344,905733
+944,1983,Male,State St & Erie St,Dearborn Pkwy & Delaware Pl,State St & Erie St,Subscriber,1062,11/2/2013 11:58,173,11/2/2013 11:54,45,Dearborn Pkwy & Delaware Pl,188,905976
+944,1987,Male,Sheffield Ave & Fullerton Ave,Lincoln Ave & Diversey Pkwy,Sheffield Ave & Fullerton Ave,Subscriber,985,11/6/2013 8:29,226,11/6/2013 8:24,60,Lincoln Ave & Diversey Pkwy,265,929799
+944,1985,Male,Fairbanks Ct & Grand Ave,Desplaines St & Kinzie St,Fairbanks Ct & Grand Ave,Subscriber,2353,11/9/2013 19:58,39,11/9/2013 19:45,262,Desplaines St & Kinzie St,797,953190
+944,1982,Male,Dearborn St & Monroe St,Wells St & Walton St,Dearborn St & Monroe St,Subscriber,2444,11/10/2013 10:51,46,11/10/2013 10:39,49,Wells St & Walton St,663,954816
+944,1980,Male,Halsted St & Madison St,State St & Randolph St,Halsted St & Madison St,Subscriber,1956,11/11/2013 20:20,2,11/11/2013 20:08,159,State St & Randolph St,692,962755
+944,1979,Male,Franklin St & Lake St,Halsted St & Madison St,Franklin St & Lake St,Subscriber,1503,11/12/2013 5:36,159,11/12/2013 5:29,272,Halsted St & Madison St,408,963139
+944,1979,Male,LaSalle St & Jackson Blvd,Franklin St & Lake St,LaSalle St & Jackson Blvd,Subscriber,1125,11/12/2013 6:50,272,11/12/2013 6:46,32,Franklin St & Lake St,274,963245
+944,1972,Male,Kingsbury St & Erie St,Clinton St & Washington Blvd,Kingsbury St & Erie St,Subscriber,1847,11/12/2013 10:45,10,11/12/2013 10:38,265,Clinton St & Washington Blvd,405,964634
+944,1980,Male,Desplaines St & Kinzie St,Franklin St & Arcade Pl,Desplaines St & Kinzie St,Subscriber,1511,11/12/2013 18:45,57,11/12/2013 18:39,39,Franklin St & Arcade Pl,378,967206
+944,1985,Male,Jefferson St & Monroe St,Desplaines St & Kinzie St,Jefferson St & Monroe St,Subscriber,1041,11/13/2013 4:47,39,11/13/2013 4:38,38,Desplaines St & Kinzie St,489,968109
+944,1988,Male,Franklin St & Jackson Blvd,Jefferson St & Monroe St,Franklin St & Jackson Blvd,Subscriber,1377,11/13/2013 7:58,38,11/13/2013 7:51,19,Jefferson St & Monroe St,415,968630
+944,1968,Male,Clinton St & Washington Blvd,Franklin St & Jackson Blvd,Clinton St & Washington Blvd,Subscriber,1357,11/13/2013 8:14,19,11/13/2013 8:08,10,Franklin St & Jackson Blvd,356,968772
+944,1972,Male,Lake Shore Dr & Ohio St,Clinton St & Washington Blvd,Lake Shore Dr & Ohio St,Subscriber,7203,11/13/2013 8:29,10,11/13/2013 8:17,337,Clinton St & Washington Blvd,699,968845
+944,1972,Male,Clinton St & Washington Blvd,Lake Shore Dr & Ohio St,Clinton St & Washington Blvd,Subscriber,3185,11/13/2013 17:06,337,11/13/2013 16:53,10,Lake Shore Dr & Ohio St,778,971450
+944,1984,Male,Dearborn Pkwy & Delaware Pl,Daley Center Plaza,Dearborn Pkwy & Delaware Pl,Subscriber,1675,11/13/2013 17:57,23,11/13/2013 17:51,173,Daley Center Plaza,396,971987
+944,1964,Male,Millennium Park,Dearborn Pkwy & Delaware Pl,Millennium Park,Subscriber,2548,11/14/2013 10:26,173,11/14/2013 10:07,8,Dearborn Pkwy & Delaware Pl,"1,105",974750
+944,1982,Male,Michigan Ave & Lake St,Michigan Ave & Jackson Blvd,Michigan Ave & Lake St,Subscriber,914,11/14/2013 21:08,340,11/14/2013 21:04,43,Michigan Ave & Jackson Blvd,209,978333
+944,1976,Male,Franklin St & Chicago Ave,Canal St & Adams St,Franklin St & Chicago Ave,Subscriber,2766,11/15/2013 9:03,11,11/15/2013 8:51,17,Canal St & Adams St,686,979952
+944,1976,Male,Canal St & Jackson Blvd,Franklin St & Chicago Ave,Canal St & Jackson Blvd,Subscriber,2655,11/15/2013 16:29,17,11/15/2013 16:18,138,Franklin St & Chicago Ave,662,982520
+944,1962,Male,Michigan Ave & Madison St,State St & Wacker Dr,Michigan Ave & Madison St,Subscriber,999,11/15/2013 17:17,339,11/15/2013 17:13,36,State St & Wacker Dr,244,983087
+944,1961,Male,Canal St & Madison St,Michigan Ave & Madison St,Canal St & Madison St,Subscriber,1231,11/15/2013 17:36,36,11/15/2013 17:29,341,Michigan Ave & Madison St,420,983261
+944,1984,Male,Morgan Ave & 14th Pl,Canal St & Madison St,Morgan Ave & 14th Pl,Subscriber,3190,11/15/2013 20:28,341,11/15/2013 20:17,169,Canal St & Madison St,651,984281
+944,1982,Male,Sheffield Ave & Kingsbury St,Wilton Ave & Diversey Pkwy,Sheffield Ave & Kingsbury St,Subscriber,2665,11/18/2013 12:52,66,11/18/2013 12:39,154,Wilton Ave & Diversey Pkwy,733,992884
+944,1979,Male,Bissell St & Armitage Ave,Sheffield Ave & Kingsbury St,Bissell St & Armitage Ave,Subscriber,1103,11/18/2013 14:27,154,11/18/2013 14:23,59,Sheffield Ave & Kingsbury St,243,993296
+944,1981,Male,State St & 16th St,Franklin St & Quincy St,State St & 16th St,Subscriber,2698,11/19/2013 19:19,7,11/19/2013 19:10,148,Franklin St & Quincy St,546,1000714
+944,1959,Male,St Clair St & Erie St,Kingsbury St & Erie St,St Clair St & Erie St,Subscriber,1616,11/23/2013 9:26,265,11/23/2013 9:18,16,Kingsbury St & Erie St,457,1016473
+944,1961,Male,State St & Randolph St,St Clair St & Erie St,State St & Randolph St,Subscriber,1497,11/23/2013 10:00,16,11/23/2013 9:52,2,St Clair St & Erie St,424,1016561
+944,1961,Male,St Clair St & Erie St,State St & Randolph St,St Clair St & Erie St,Subscriber,1510,11/23/2013 10:16,2,11/23/2013 10:08,16,State St & Randolph St,464,1016610
+944,1986,Male,Canal St & Madison St,Wells St & Walton St,Canal St & Madison St,Subscriber,2900,11/25/2013 8:56,46,11/25/2013 8:43,341,Wells St & Walton St,821,1020763
+944,1978,Male,Damen Ave & Cortland Ave,Canal St & Madison St,Damen Ave & Cortland Ave,Subscriber,5329,11/25/2013 10:26,341,11/25/2013 10:06,133,Canal St & Madison St,"1,188",1021136
+944,1985,Male,Damen Ave & Sunnyside Ave,Damen Ave & Cortland Ave,Damen Ave & Sunnyside Ave,Subscriber,5303,12/3/2013 15:45,133,12/3/2013 15:28,315,Damen Ave & Cortland Ave,"1,059",1045654
+944,1985,Male,Western Ave & Leland Ave,Damen Ave & Sunnyside Ave,Western Ave & Leland Ave,Subscriber,1016,12/3/2013 15:53,315,12/3/2013 15:46,112,Damen Ave & Sunnyside Ave,381,1045739
+944,1985,Male,Western Ave & Leland Ave,Western Ave & Leland Ave,Western Ave & Leland Ave,Subscriber,0,12/3/2013 16:00,112,12/3/2013 15:53,112,Western Ave & Leland Ave,423,1045773
+944,1985,Male,Western Ave & Leland Ave,Western Ave & Leland Ave,Western Ave & Leland Ave,Subscriber,0,12/3/2013 16:49,112,12/3/2013 16:01,112,Western Ave & Leland Ave,"2,904",1045814
+944,1985,Male,Damen Ave & Sunnyside Ave,Western Ave & Leland Ave,Damen Ave & Sunnyside Ave,Subscriber,1016,12/3/2013 16:58,112,12/3/2013 16:54,315,Western Ave & Leland Ave,245,1046092
+944,1985,Male,Ashland Ave & Grace St,Damen Ave & Sunnyside Ave,Ashland Ave & Grace St,Subscriber,2113,12/3/2013 17:06,315,12/3/2013 16:59,319,Damen Ave & Sunnyside Ave,445,1046123
+944,1985,Male,Sheffield Ave & Addison St,Ashland Ave & Grace St,Sheffield Ave & Addison St,Subscriber,1623,12/3/2013 17:20,319,12/3/2013 17:14,62,Ashland Ave & Grace St,381,1046303
+944,1985,Male,Hampden Ct & Diversey Pkwy,Sheffield Ave & Addison St,Hampden Ct & Diversey Pkwy,Subscriber,2535,12/3/2013 17:37,62,12/3/2013 17:24,123,Sheffield Ave & Addison St,803,1046413
+944,1985,Male,Clark St & Schiller St,Hampden Ct & Diversey Pkwy,Clark St & Schiller St,Subscriber,3086,12/3/2013 18:00,123,12/3/2013 17:49,200,Hampden Ct & Diversey Pkwy,654,1046643
+944,1985,Male,Clark St & Elm St,Clark St & Schiller St,Clark St & Elm St,Subscriber,530,12/3/2013 18:03,200,12/3/2013 18:00,349,Clark St & Schiller St,191,1046722
+944,1985,Male,May St & Fulton St,Desplaines St & Kinzie St,May St & Fulton St,Subscriber,1179,12/4/2013 5:57,39,12/4/2013 5:50,197,Desplaines St & Kinzie St,403,1048059
+944,1970,Male,Wabash Ave & Roosevelt Rd,Congress Pkwy & Ogden Ave,Wabash Ave & Roosevelt Rd,Subscriber,4865,12/11/2013 17:35,0,12/11/2013 11:43,31,Congress Pkwy & Ogden Ave,"21,148",1069932
+944,1970,Male,Wood St & Taylor St,Wabash Ave & Roosevelt Rd,Wood St & Taylor St,Subscriber,4093,12/12/2013 8:48,31,12/12/2013 8:32,285,Wabash Ave & Roosevelt Rd,964,1071755
+944,1970,Male,Wabash Ave & Roosevelt Rd,Wood St & Taylor St,Wabash Ave & Roosevelt Rd,Subscriber,4037,12/12/2013 20:44,285,12/12/2013 20:29,31,Wood St & Taylor St,882,1073498
+944,1976,Male,Blue Island Ave & 18th St,Halsted St & 18th St,Blue Island Ave & 18th St,Subscriber,1339,12/13/2013 13:47,99,12/13/2013 13:40,135,Halsted St & 18th St,444,1074997
+944,1980,Male,Paulina St & 18th St,Blue Island Ave & 18th St,Paulina St & 18th St,Subscriber,773,12/16/2013 16:20,135,12/16/2013 16:16,88,Blue Island Ave & 18th St,218,1080356
+944,1938,Male,Morgan St & 18th St,Paulina St & 18th St,Morgan St & 18th St,Subscriber,1474,12/19/2013 19:44,88,12/19/2013 19:37,163,Paulina St & 18th St,473,1090495
+944,1938,Male,Racine Ave & 18th St,Morgan St & 18th St,Racine Ave & 18th St,Subscriber,468,12/19/2013 20:21,163,12/19/2013 20:18,164,Morgan St & 18th St,160,1090605
+944,1938,Male,Paulina St & 18th St,Racine Ave & 18th St,Paulina St & 18th St,Subscriber,1055,12/19/2013 20:29,164,12/19/2013 20:23,88,Racine Ave & 18th St,312,1090615
+944,1981,Male,Blue Island Ave & 18th St,Paulina St & 18th St,Blue Island Ave & 18th St,Subscriber,666,12/26/2013 20:10,88,12/26/2013 20:06,135,Paulina St & 18th St,223,1100365
+944,1981,Male,Paulina St & 18th St,Blue Island Ave & 18th St,Paulina St & 18th St,Subscriber,773,12/26/2013 20:30,135,12/26/2013 20:28,88,Blue Island Ave & 18th St,152,1100388
+944,1977,Male,Morgan St & 18th St,Paulina St & 18th St,Morgan St & 18th St,Subscriber,1474,12/27/2013 17:10,88,12/27/2013 17:04,163,Paulina St & 18th St,361,1102111
+944,1985,Female,Lincoln Ave & Armitage Ave,LaSalle St & Washington St,Lincoln Ave & Armitage Ave,Subscriber,4690,7/29/2013 17:16,6,7/29/2013 16:50,146,LaSalle St & Washington St,"1,575",125209
+944,1985,Female,Lincoln Ave & Armitage Ave,Daley Center Plaza,Lincoln Ave & Armitage Ave,Subscriber,4212,7/31/2013 17:19,23,7/31/2013 16:56,146,Daley Center Plaza,"1,349",133267
+944,1985,Female,Clark St & North Ave,Lincoln Ave & Armitage Ave,Clark St & North Ave,Subscriber,992,7/31/2013 18:21,146,7/31/2013 18:14,128,Lincoln Ave & Armitage Ave,413,133780
+944,1985,Female,Museum Campus,Clinton St & Madison St,Museum Campus,Subscriber,4243,8/2/2013 13:13,301,8/2/2013 13:02,29,Clinton St & Madison St,701,141894
+944,1970,Female,Sheffield Ave & Willow St,Damen Ave & Pierce Ave,Sheffield Ave & Willow St,Subscriber,3007,8/4/2013 17:17,65,8/4/2013 16:56,190,Damen Ave & Pierce Ave,"1,234",158553
+944,1987,Female,Jefferson St & Monroe St,Ogden Ave & Race Ave,Jefferson St & Monroe St,Subscriber,2597,8/14/2013 9:46,194,8/14/2013 9:35,38,Ogden Ave & Race Ave,673,222790
+944,1986,Female,Lake Shore Dr & Monroe St,Lake Shore Dr & Ohio St,Lake Shore Dr & Monroe St,Subscriber,1535,8/14/2013 18:39,337,8/14/2013 18:26,300,Lake Shore Dr & Ohio St,749,226654
+944,1984,Female,Kingsbury St & Erie St,Mies van der Rohe Way & Chicago Ave,Kingsbury St & Erie St,Subscriber,1972,8/15/2013 18:42,338,8/15/2013 18:29,265,Mies van der Rohe Way & Chicago Ave,779,233384
+944,1983,Female,Theater on the Lake,Theater on the Lake,Theater on the Lake,Subscriber,0,8/17/2013 21:02,350,8/17/2013 20:55,350,Theater on the Lake,383,252980
+944,1979,Female,Green St & Randolph St,Halsted St & Madison St,Green St & Randolph St,Subscriber,316,8/25/2013 21:08,159,8/25/2013 21:06,53,Halsted St & Madison St,130,325447
+944,1979,Female,Franklin St & Lake St,Green St & Randolph St,Franklin St & Lake St,Subscriber,1284,8/25/2013 22:19,53,8/25/2013 22:13,272,Green St & Randolph St,406,325819
+944,1955,Female,Peoria St & Jackson Blvd,Clinton St & Madison St,Peoria St & Jackson Blvd,Subscriber,1370,8/26/2013 7:37,301,8/26/2013 7:30,158,Clinton St & Madison St,410,326749
+944,1977,Female,Lake Shore Dr & Ohio St,LaSalle St & Illinois St,Lake Shore Dr & Ohio St,Subscriber,5975,8/26/2013 11:13,430,8/26/2013 11:03,337,LaSalle St & Illinois St,599,328221
+944,1964,Female,Canal St & Jackson Blvd,Clinton St & Madison St,Canal St & Jackson Blvd,Subscriber,488,8/27/2013 8:32,301,8/27/2013 8:27,138,Clinton St & Madison St,272,335134
+944,1959,Female,Clark St & Randolph St,Wabash Ave & Grand Ave,Clark St & Randolph St,Subscriber,1220,8/27/2013 9:38,4,8/27/2013 9:28,5,Wabash Ave & Grand Ave,576,335582
+944,1953,Female,State St & Harrison St,Daley Center Plaza,State St & Harrison St,Subscriber,1493,8/28/2013 17:56,23,8/28/2013 17:45,30,Daley Center Plaza,633,346586
+944,1989,Female,St Clair St & Erie St,Canal St & Jackson Blvd,St Clair St & Erie St,Subscriber,3254,8/30/2013 17:37,138,8/30/2013 17:20,16,Canal St & Jackson Blvd,"1,022",362399
+944,1959,Female,Kingsbury St & Erie St,Wells St & Erie St,Kingsbury St & Erie St,Subscriber,655,9/2/2013 18:31,64,9/2/2013 18:27,265,Wells St & Erie St,233,393881
+944,1961,Female,St Clair St & Erie St,State St & Kinzie St,St Clair St & Erie St,Subscriber,966,9/9/2013 13:15,50,9/9/2013 13:04,16,State St & Kinzie St,669,453843
+944,1964,Female,Clark St & Congress Pkwy,Orleans St & Merchandise Mart Plaza,Clark St & Congress Pkwy,Subscriber,2321,9/10/2013 15:30,13,9/10/2013 15:20,9,Orleans St & Merchandise Mart Plaza,576,462556
+944,1989,Female,Wabash Ave & Roosevelt Rd,State St & 19th St,Wabash Ave & Roosevelt Rd,Subscriber,1668,9/14/2013 14:14,408,9/14/2013 14:03,31,State St & 19th St,643,495563
+944,1977,Female,Michigan Ave & Lake St,Franklin St & Jackson Blvd,Michigan Ave & Lake St,Subscriber,1822,9/14/2013 17:09,19,9/14/2013 16:54,43,Franklin St & Jackson Blvd,868,498612
+944,1961,Female,Canal St & Madison St,Museum Campus,Canal St & Madison St,Subscriber,4188,9/16/2013 7:19,29,9/16/2013 7:04,341,Museum Campus,914,505225
+944,1984,Female,California Ave & Milwaukee Ave,Claremont Ave & Hirsch St,California Ave & Milwaukee Ave,Subscriber,2770,9/21/2013 19:20,245,9/21/2013 19:09,84,Claremont Ave & Hirsch St,624,553175
+944,1977,Female,Canal St & Madison St,Sangamon St & Washington Blvd,Canal St & Madison St,Subscriber,1408,9/25/2013 17:17,409,9/25/2013 17:11,341,Sangamon St & Washington Blvd,339,587942
+944,1987,Female,Michigan Ave & 14th St,Michigan Ave & 18th St,Michigan Ave & 14th St,Subscriber,922,9/26/2013 10:47,150,9/26/2013 10:42,310,Michigan Ave & 18th St,314,593811
+944,1980,Female,Wabash Ave & Roosevelt Rd,Michigan Ave & 14th St,Wabash Ave & Roosevelt Rd,Subscriber,514,9/27/2013 8:46,310,9/27/2013 8:42,31,Michigan Ave & 14th St,246,602602
+944,1979,Female,Michigan Ave & Congress Pkwy,Wabash Ave & Roosevelt Rd,Michigan Ave & Congress Pkwy,Subscriber,1149,9/27/2013 9:06,31,9/27/2013 8:58,40,Wabash Ave & Roosevelt Rd,479,602793
+944,1979,Female,Damen Ave & Cortland Ave,Kedzie Ave & Milwaukee Ave,Damen Ave & Cortland Ave,Subscriber,3196,9/29/2013 16:16,85,9/29/2013 16:02,133,Kedzie Ave & Milwaukee Ave,850,632584
+944,1985,Female,Southport Ave & Waveland Ave,Cityfront Plaza & N Water St,Southport Ave & Waveland Ave,Subscriber,10307,10/6/2013 9:26,427,10/6/2013 9:18,235,Cityfront Plaza & N Water St,529,693047
+944,1989,Female,Larrabee St & Webster Ave,Southport Ave & Waveland Ave,Larrabee St & Webster Ave,Subscriber,3651,10/6/2013 13:10,235,10/6/2013 12:51,193,Southport Ave & Waveland Ave,"1,182",695155
+944,1969,Female,Sedgwick St & Webster Ave,Larrabee St & Webster Ave,Sedgwick St & Webster Ave,Subscriber,465,10/6/2013 18:41,193,10/6/2013 18:36,191,Larrabee St & Webster Ave,305,699359
+944,1978,Female,Wabash Ave & 8th St,Dearborn St & Adams St,Wabash Ave & 8th St,Subscriber,1142,10/9/2013 16:05,20,10/9/2013 15:50,54,Dearborn St & Adams St,882,725481
+944,1979,Female,Michigan Ave & 14th St,Calumet Ave & 18th St,Michigan Ave & 14th St,Subscriber,1060,10/12/2013 19:25,102,10/12/2013 19:19,310,Calumet Ave & 18th St,332,764341
+944,1994,Female,Clinton St & Madison St,State St & 16th St,Clinton St & Madison St,Subscriber,3556,10/19/2013 13:09,148,10/19/2013 12:54,301,State St & 16th St,940,820005
+944,1987,Female,Peoria St & Jackson Blvd,Morgan St & Lake St,Peoria St & Jackson Blvd,Subscriber,1080,10/21/2013 17:10,72,10/21/2013 17:06,158,Morgan St & Lake St,256,835852
+944,1989,Female,Clarendon Ave & Junior Ter,Sheridan Rd & Irving Park Rd,Clarendon Ave & Junior Ter,Subscriber,1147,10/25/2013 17:51,63,10/25/2013 17:45,389,Sheridan Rd & Irving Park Rd,375,862171
+944,1971,Female,Halsted St & Polk St,Franklin St & Lake St,Halsted St & Polk St,Subscriber,2806,10/28/2013 18:08,272,10/28/2013 17:48,27,Franklin St & Lake St,"1,179",880242
+944,1964,Female,Mies van der Rohe Way & Chicago Ave,McClurg Ct & Illinois St,Mies van der Rohe Way & Chicago Ave,Subscriber,1050,10/30/2013 17:38,51,10/30/2013 17:34,338,McClurg Ct & Illinois St,274,894160
+944,1978,Female,Clark St & Chicago Ave,Mies van der Rohe Way & Chicago Ave,Clark St & Chicago Ave,Subscriber,764,11/1/2013 12:52,338,11/1/2013 12:33,303,Mies van der Rohe Way & Chicago Ave,"1,124",900720
+944,1986,Female,Clark St & Lincoln Ave,Clark St & Chicago Ave,Clark St & Lincoln Ave,Subscriber,2381,11/1/2013 15:18,303,11/1/2013 15:06,179,Clark St & Chicago Ave,680,901791
+944,1991,Female,Sedgwick St & North Ave,Clark St & Lincoln Ave,Sedgwick St & North Ave,Subscriber,888,11/1/2013 22:23,179,11/1/2013 22:17,70,Clark St & Lincoln Ave,376,904297
+944,1981,Female,Ashland Ave & Wrightwood Ave,Sheffield Ave & Fullerton Ave,Ashland Ave & Wrightwood Ave,Subscriber,1600,11/6/2013 17:06,60,11/6/2013 16:57,296,Sheffield Ave & Fullerton Ave,515,931708
+944,1985,Female,Canal St & Madison St,St Clair St & Erie St,Canal St & Madison St,Subscriber,2792,11/7/2013 16:49,16,11/7/2013 16:36,341,St Clair St & Erie St,789,937938
+944,1975,Female,Damen Ave & Division St,Loomis St & Jackson Blvd,Damen Ave & Division St,Subscriber,4072,11/8/2013 18:11,206,11/8/2013 17:50,136,Loomis St & Jackson Blvd,"1,213",945421
+944,1981,Female,Daley Center Plaza,Clinton St & Washington Blvd,Daley Center Plaza,Subscriber,1196,11/13/2013 17:19,10,11/13/2013 17:12,23,Clinton St & Washington Blvd,440,971619
+944,1983,Female,Desplaines St & Kinzie St,Clark St & Elm St,Desplaines St & Kinzie St,Subscriber,2697,12/3/2013 22:14,349,12/3/2013 22:00,39,Clark St & Elm St,840,1047779
+944,1994,Female,Halsted St & 18th St,Wabash Ave & Roosevelt Rd,Halsted St & 18th St,Subscriber,2751,12/13/2013 13:40,31,12/13/2013 13:26,99,Wabash Ave & Roosevelt Rd,834,1074959
