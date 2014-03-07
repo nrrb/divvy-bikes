@@ -20,7 +20,7 @@ There are 759788 trips rows in the data file provided by Divvy. Each trip includ
 1. **trip_id** - Unique ID number per trip, ranging from 3940 to 1109397
 2. **starttime** - Date and time that the trip started, in the format mm/dd/yyyy hh:mm. For example, "6/27/2013 12:11".
 3. **stoptime** - Date and time that the trip ended, in the format mm/dd/yyyy hh:mm. For example, "6/27/2013 12:16".
-4. **bikeid** - Unique ID for each bike in the Divvy bike fleet. There are 2887 unique IDs, ranging from 1 to 3003. 
+4. **bikeid** - Unique ID for each bike in the Divvy bike fleet. There are 2888 unique IDs, ranging from 1 to 3003. 
 5. **tripduration** - How long the trip was, in seconds. This field is numeric, but **NOTE** that there is a comma as a thousands separator. For example, trip_id 27 has a tripduration of "10,105". 
 6. **from_station_id** - Unique ID for each Divvy bike station, where the trip started. There are 300 total Divvy stations, and every one of these appears as a **from_station_id**. They range from 1 to 440. **NOTE**: the "Congress Pkwy & Ogden Ave" station appears with the ID "#N/A".
 7. **from_station_name** - The unique name of the Divvy bike station where the trip started. There are 300 total Divvy station names and each one appears at least once in this field. Example: "Southport Ave & Wrightwood Ave"
