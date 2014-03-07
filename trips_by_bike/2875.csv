@@ -1,3 +1,3 @@
-bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
-2875,1988,Streeter Dr & Illinois St,41.936253,-87.653566,67,Sheffield Ave & Wellington Ave,Male,8134,Sheffield Ave & Wellington Ave,12/28/2013 14:31,12/28/2013 15:00,41.891071,-87.6122,22,Streeter Dr & Illinois St,1104061,"1,726",Subscriber
-2875,1988,Clark St & Chicago Ave,41.891071,-87.6122,22,Streeter Dr & Illinois St,Female,2289,Streeter Dr & Illinois St,12/28/2013 15:03,12/28/2013 15:39,41.896544,-87.630931,303,Clark St & Chicago Ave,1104224,"2,117",Subscriber
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,overage,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2875,1988,Streeter Dr & Illinois St,41.936253,-87.653566,67,Sheffield Ave & Wellington Ave,Male,8134,0,Sheffield Ave & Wellington Ave,12/28/2013 14:31,12/28/2013 15:00,41.891071,-87.6122,22,Streeter Dr & Illinois St,1104061,1726,Subscriber
+2875,1988,Clark St & Chicago Ave,41.891071,-87.6122,22,Streeter Dr & Illinois St,Female,2289,1.5,Streeter Dr & Illinois St,12/28/2013 15:03,12/28/2013 15:39,41.896544,-87.630931,303,Clark St & Chicago Ave,1104224,2117,Subscriber

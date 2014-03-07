@@ -1,3 +1,3 @@
-bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
-2707,1973,Aberdeen St & Madison St,41.881131,-87.635185,57,Franklin St & Arcade Pl,Male,1970,Franklin St & Arcade Pl,10/15/2013 19:53,10/15/2013 20:16,41.881487,-87.654752,156,Aberdeen St & Madison St,795095,"1,373",Subscriber
-2707,1973,Fort Dearborn Dr & 31st St,41.881487,-87.654752,156,Aberdeen St & Madison St,Male,8467,Aberdeen St & Madison St,10/16/2013 6:08,10/16/2013 6:40,41.838556,-87.608218,220,Fort Dearborn Dr & 31st St,796201,"1,898",Subscriber
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,overage,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2707,1973,Aberdeen St & Madison St,41.881131,-87.635185,57,Franklin St & Arcade Pl,Male,1970,0,Franklin St & Arcade Pl,10/15/2013 19:53,10/15/2013 20:16,41.881487,-87.654752,156,Aberdeen St & Madison St,795095,1373,Subscriber
+2707,1973,Fort Dearborn Dr & 31st St,41.881487,-87.654752,156,Aberdeen St & Madison St,Male,8467,1.5,Aberdeen St & Madison St,10/16/2013 6:08,10/16/2013 6:40,41.838556,-87.608218,220,Fort Dearborn Dr & 31st St,796201,1898,Subscriber
