@@ -32,6 +32,10 @@ There are 759788 trips rows in the data file provided by Divvy. Each trip includ
 
 For each of the bike trip data points provided for the Chicago data set the unique bike ID is provided. Using this ID we can aggregate statistics by bike and showcase the notable bikes.
 
+## Adding Station-to-Station Estimated Distances
+
+Steve Vance munged the data, combining it with station-to-station distances to approximate (or put a lower bound on) the length of the trip, and [provides it for download as CSV and SQL](https://github.com/stevevance/divvy-munging). This is were I got `Divvy_Trips_And_Distances_2013.csv.zip` from. Thank you, Steve, for merging and providing this data!
+
 Questions
 =========
 
