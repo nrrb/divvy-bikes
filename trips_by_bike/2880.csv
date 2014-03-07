@@ -1,8 +1,8 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2880,,,Clark St & Wrightwood Ave,Broadway & Sheridan Rd,Clark St & Wrightwood Ave,Customer,2901,12/19/2013 15:45,323,12/19/2013 15:32,209,Broadway & Sheridan Rd,794,1089320
-2880,1972,Male,Stave St & Armitage Ave,May St & Fulton St,Stave St & Armitage Ave,Subscriber,5239,12/17/2013 16:31,197,12/17/2013 16:10,266,May St & Fulton St,"1,273",1082691
-2880,1984,Male,Kedzie Ave & Palmer Ct,Stave St & Armitage Ave,Kedzie Ave & Palmer Ct,Subscriber,1509,12/17/2013 22:27,266,12/17/2013 22:19,292,Stave St & Armitage Ave,464,1083803
-2880,1984,Male,Broadway & Sheridan Rd,Kedzie Ave & Palmer Ct,Broadway & Sheridan Rd,Subscriber,9478,12/18/2013 19:42,292,12/18/2013 19:07,323,Kedzie Ave & Palmer Ct,"2,118",1086718
-2880,1984,Male,Wilton Ave & Diversey Pkwy,Clark St & Wrightwood Ave,Wilton Ave & Diversey Pkwy,Subscriber,1169,12/20/2013 8:23,209,12/20/2013 8:18,66,Clark St & Wrightwood Ave,285,1091271
-2880,1965,Male,Southport Ave & Clybourn Ave,Southport Ave & Wrightwood Ave,Southport Ave & Clybourn Ave,Subscriber,892,12/27/2013 11:45,298,12/27/2013 11:41,186,Southport Ave & Wrightwood Ave,248,1101172
-2880,1975,Male,Sheffield Ave & Kingsbury St,Southport Ave & Clybourn Ave,Sheffield Ave & Kingsbury St,Subscriber,1634,12/30/2013 14:36,186,12/30/2013 14:29,154,Southport Ave & Clybourn Ave,424,1107211
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2880,1972,Stave St & Armitage Ave,41.886773,-87.656001,197,May St & Fulton St,Male,5239,May St & Fulton St,12/17/2013 16:10,12/17/2013 16:31,41.917741,-87.691392,266,Stave St & Armitage Ave,1082691,"1,273",Subscriber
+2880,1984,Kedzie Ave & Palmer Ct,41.917741,-87.691392,266,Stave St & Armitage Ave,Male,1509,Stave St & Armitage Ave,12/17/2013 22:19,12/17/2013 22:27,41.921525,-87.707322,292,Kedzie Ave & Palmer Ct,1083803,464,Subscriber
+2880,1984,Broadway & Sheridan Rd,41.921525,-87.707322,292,Kedzie Ave & Palmer Ct,Male,9478,Kedzie Ave & Palmer Ct,12/18/2013 19:07,12/18/2013 19:42,41.952833,-87.649993,323,Broadway & Sheridan Rd,1086718,"2,118",Subscriber
+2880,,Clark St & Wrightwood Ave,41.952833,-87.649993,323,Broadway & Sheridan Rd,,2901,Broadway & Sheridan Rd,12/19/2013 15:32,12/19/2013 15:45,41.929546,-87.643118,209,Clark St & Wrightwood Ave,1089320,794,Customer
+2880,1984,Wilton Ave & Diversey Pkwy,41.929546,-87.643118,209,Clark St & Wrightwood Ave,Male,1169,Clark St & Wrightwood Ave,12/20/2013 8:18,12/20/2013 8:23,41.93250008,-87.65268082,66,Wilton Ave & Diversey Pkwy,1091271,285,Subscriber
+2880,1965,Southport Ave & Clybourn Ave,41.92888,-87.66317,298,Southport Ave & Wrightwood Ave,Male,892,Southport Ave & Wrightwood Ave,12/27/2013 11:41,12/27/2013 11:45,41.921004,-87.663257,186,Southport Ave & Clybourn Ave,1101172,248,Subscriber
+2880,1975,Sheffield Ave & Kingsbury St,41.921004,-87.663257,186,Southport Ave & Clybourn Ave,Male,1634,Southport Ave & Clybourn Ave,12/30/2013 14:29,12/30/2013 14:36,41.90959193,-87.65349723,154,Sheffield Ave & Kingsbury St,1107211,424,Subscriber

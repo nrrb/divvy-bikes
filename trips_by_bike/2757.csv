@@ -1,10 +1,10 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2757,1978,Male,Franklin St & Arcade Pl,Clark St & Elm St,Franklin St & Arcade Pl,Subscriber,2825,12/19/2013 9:43,349,12/19/2013 9:30,57,Clark St & Elm St,761,1088026
-2757,1987,Male,Wells St & Polk St,LaSalle St & Jackson Blvd,Wells St & Polk St,Subscriber,1268,12/19/2013 19:18,32,12/19/2013 19:13,344,LaSalle St & Jackson Blvd,277,1090429
-2757,1987,Male,Franklin St & Quincy St,Wells St & Polk St,Franklin St & Quincy St,Subscriber,966,12/20/2013 8:42,344,12/20/2013 8:38,7,Wells St & Polk St,236,1091365
-2757,1962,Male,Orleans St & Merchandise Mart Plaza,Franklin St & Quincy St,Orleans St & Merchandise Mart Plaza,Subscriber,1170,12/20/2013 12:05,7,12/20/2013 11:59,13,Franklin St & Quincy St,396,1091816
-2757,1986,Male,Daley Center Plaza,Orleans St & Merchandise Mart Plaza,Daley Center Plaza,Subscriber,1312,12/20/2013 12:20,13,12/20/2013 12:15,23,Orleans St & Merchandise Mart Plaza,337,1091889
-2757,1968,Male,Canal St & Adams St,Daley Center Plaza,Canal St & Adams St,Subscriber,1396,12/20/2013 12:35,23,12/20/2013 12:26,11,Daley Center Plaza,527,1091917
-2757,1977,Female,Clark St & Elm St,St Clair St & Erie St,Clark St & Elm St,Subscriber,1662,12/18/2013 18:05,16,12/18/2013 17:56,349,St Clair St & Erie St,520,1086440
-2757,1981,Female,Dearborn Pkwy & Delaware Pl,Franklin St & Jackson Blvd,Dearborn Pkwy & Delaware Pl,Subscriber,2853,12/19/2013 16:48,19,12/19/2013 16:30,173,Franklin St & Jackson Blvd,"1,109",1089517
-2757,1965,Female,Clinton St & Washington Blvd,Dearborn Pkwy & Delaware Pl,Clinton St & Washington Blvd,Subscriber,2874,12/19/2013 17:10,173,12/19/2013 16:53,10,Dearborn Pkwy & Delaware Pl,981,1089653
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2757,1977,Clark St & Elm St,41.894448,-87.622663,16,St Clair St & Erie St,Female,1662,St Clair St & Erie St,12/18/2013 17:56,12/18/2013 18:05,41.903233,-87.631253,349,Clark St & Elm St,1086440,520,Subscriber
+2757,1978,Franklin St & Arcade Pl,41.903233,-87.631253,349,Clark St & Elm St,Male,2825,Clark St & Elm St,12/19/2013 9:30,12/19/2013 9:43,41.881131,-87.635185,57,Franklin St & Arcade Pl,1088026,761,Subscriber
+2757,1981,Dearborn Pkwy & Delaware Pl,41.8777079559,-87.6353211408,19,Franklin St & Jackson Blvd,Female,2853,Franklin St & Jackson Blvd,12/19/2013 16:30,12/19/2013 16:48,41.899007,-87.629928,173,Dearborn Pkwy & Delaware Pl,1089517,"1,109",Subscriber
+2757,1965,Clinton St & Washington Blvd,41.899007,-87.629928,173,Dearborn Pkwy & Delaware Pl,Female,2874,Dearborn Pkwy & Delaware Pl,12/19/2013 16:53,12/19/2013 17:10,41.88338,-87.64117,10,Clinton St & Washington Blvd,1089653,981,Subscriber
+2757,1987,Wells St & Polk St,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,Male,1268,LaSalle St & Jackson Blvd,12/19/2013 19:13,12/19/2013 19:18,41.872373,-87.633523,344,Wells St & Polk St,1090429,277,Subscriber
+2757,1987,Franklin St & Quincy St,41.872373,-87.633523,344,Wells St & Polk St,Male,966,Wells St & Polk St,12/20/2013 8:38,12/20/2013 8:42,41.878724,-87.634793,7,Franklin St & Quincy St,1091365,236,Subscriber
+2757,1962,Orleans St & Merchandise Mart Plaza,41.878724,-87.634793,7,Franklin St & Quincy St,Male,1170,Franklin St & Quincy St,12/20/2013 11:59,12/20/2013 12:05,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,1091816,396,Subscriber
+2757,1986,Daley Center Plaza,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,Male,1312,Orleans St & Merchandise Mart Plaza,12/20/2013 12:15,12/20/2013 12:20,41.884337,-87.630183,23,Daley Center Plaza,1091889,337,Subscriber
+2757,1968,Canal St & Adams St,41.884337,-87.630183,23,Daley Center Plaza,Male,1396,Daley Center Plaza,12/20/2013 12:26,12/20/2013 12:35,41.87923,-87.640015,11,Canal St & Adams St,1091917,527,Subscriber

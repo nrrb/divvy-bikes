@@ -1,12 +1,12 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2916,1983,Male,Ashland Ave & Division St,Damen Ave & Division St,Ashland Ave & Division St,Subscriber,760,12/18/2013 8:29,136,12/18/2013 8:25,61,Damen Ave & Division St,196,1084312
-2916,1982,Male,Damen Ave & Division St,Ashland Ave & Division St,Damen Ave & Division St,Subscriber,760,12/18/2013 12:08,61,12/18/2013 12:05,136,Ashland Ave & Division St,198,1085051
-2916,1983,Male,Ashland Ave & Division St,Damen Ave & Division St,Ashland Ave & Division St,Subscriber,760,12/19/2013 7:09,136,12/19/2013 7:06,61,Damen Ave & Division St,196,1087255
-2916,1987,Male,Larrabee St & Kingsbury St,Ashland Ave & Division St,Larrabee St & Kingsbury St,Subscriber,2570,12/19/2013 8:33,61,12/19/2013 8:23,12,Ashland Ave & Division St,565,1087639
-2916,1990,Male,Canal St & Adams St,Larrabee St & Kingsbury St,Canal St & Adams St,Subscriber,2609,12/19/2013 9:13,12,12/19/2013 9:00,11,Larrabee St & Kingsbury St,781,1087889
-2916,1966,Male,Halsted St & Madison St,Canal St & Adams St,Halsted St & Madison St,Subscriber,923,12/19/2013 11:37,11,12/19/2013 11:33,159,Canal St & Adams St,234,1088451
-2916,1953,Male,Canal St & Adams St,Halsted St & Madison St,Canal St & Adams St,Subscriber,922,12/19/2013 13:26,159,12/19/2013 13:20,11,Halsted St & Madison St,375,1088826
-2916,1979,Male,Wabash Ave & Roosevelt Rd,Franklin St & Arcade Pl,Wabash Ave & Roosevelt Rd,Subscriber,2330,12/19/2013 18:09,57,12/19/2013 17:57,31,Franklin St & Arcade Pl,680,1090100
-2916,1975,Male,State St & 16th St,Wabash Ave & Roosevelt Rd,State St & 16th St,Subscriber,949,12/20/2013 8:35,31,12/20/2013 8:31,148,Wabash Ave & Roosevelt Rd,203,1091332
-2916,1989,Male,LaSalle St & Illinois St,Desplaines St & Kinzie St,LaSalle St & Illinois St,Subscriber,1240,12/31/2013 13:08,39,12/31/2013 13:02,430,Desplaines St & Kinzie St,369,1108603
-2916,1955,Male,Clinton St & Washington Blvd,LaSalle St & Illinois St,Clinton St & Washington Blvd,Subscriber,1746,12/31/2013 15:10,430,12/31/2013 15:03,10,LaSalle St & Illinois St,405,1108849
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2916,1983,Ashland Ave & Division St,41.90331,-87.67695,136,Damen Ave & Division St,Male,760,Damen Ave & Division St,12/18/2013 8:25,12/18/2013 8:29,41.903456,-87.66777,61,Ashland Ave & Division St,1084312,196,Subscriber
+2916,1982,Damen Ave & Division St,41.903456,-87.66777,61,Ashland Ave & Division St,Male,760,Ashland Ave & Division St,12/18/2013 12:05,12/18/2013 12:08,41.90331,-87.67695,136,Damen Ave & Division St,1085051,198,Subscriber
+2916,1983,Ashland Ave & Division St,41.90331,-87.67695,136,Damen Ave & Division St,Male,760,Damen Ave & Division St,12/19/2013 7:06,12/19/2013 7:09,41.903456,-87.66777,61,Ashland Ave & Division St,1087255,196,Subscriber
+2916,1987,Larrabee St & Kingsbury St,41.903456,-87.66777,61,Ashland Ave & Division St,Male,2570,Ashland Ave & Division St,12/19/2013 8:23,12/19/2013 8:33,41.897764,-87.642884,12,Larrabee St & Kingsbury St,1087639,565,Subscriber
+2916,1990,Canal St & Adams St,41.897764,-87.642884,12,Larrabee St & Kingsbury St,Male,2609,Larrabee St & Kingsbury St,12/19/2013 9:00,12/19/2013 9:13,41.87923,-87.640015,11,Canal St & Adams St,1087889,781,Subscriber
+2916,1966,Halsted St & Madison St,41.87923,-87.640015,11,Canal St & Adams St,Male,923,Canal St & Adams St,12/19/2013 11:33,12/19/2013 11:37,41.88175,-87.6478,159,Halsted St & Madison St,1088451,234,Subscriber
+2916,1953,Canal St & Adams St,41.88175,-87.6478,159,Halsted St & Madison St,Male,922,Halsted St & Madison St,12/19/2013 13:20,12/19/2013 13:26,41.87923,-87.640015,11,Canal St & Adams St,1088826,375,Subscriber
+2916,1979,Wabash Ave & Roosevelt Rd,41.881131,-87.635185,57,Franklin St & Arcade Pl,Male,2330,Franklin St & Arcade Pl,12/19/2013 17:57,12/19/2013 18:09,41.8671729952,-87.6259550069,31,Wabash Ave & Roosevelt Rd,1090100,680,Subscriber
+2916,1975,State St & 16th St,41.8671729952,-87.6259550069,31,Wabash Ave & Roosevelt Rd,Male,949,Wabash Ave & Roosevelt Rd,12/20/2013 8:31,12/20/2013 8:35,41.8601213774,-87.6277291853,148,State St & 16th St,1091332,203,Subscriber
+2916,1989,LaSalle St & Illinois St,41.888716036,-87.6444478533,39,Desplaines St & Kinzie St,Male,1240,Desplaines St & Kinzie St,12/31/2013 13:02,12/31/2013 13:08,41.890749,-87.63206,430,LaSalle St & Illinois St,1108603,369,Subscriber
+2916,1955,Clinton St & Washington Blvd,41.890749,-87.63206,430,LaSalle St & Illinois St,Male,1746,LaSalle St & Illinois St,12/31/2013 15:03,12/31/2013 15:10,41.88338,-87.64117,10,Clinton St & Washington Blvd,1108849,405,Subscriber

@@ -1,22 +1,22 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2867,,,Racine Ave & 18th St,Franklin St & Jackson Blvd,Racine Ave & 18th St,Customer,4332,12/27/2013 17:50,19,12/27/2013 17:38,164,Franklin St & Jackson Blvd,757,1102258
-2867,,,Aberdeen St & Madison St,Racine Ave & 18th St,Aberdeen St & Madison St,Customer,2796,12/28/2013 11:33,164,12/28/2013 11:20,156,Racine Ave & 18th St,776,1103358
-2867,1990,Male,Franklin St & Lake St,Wood St & Division St,Franklin St & Lake St,Subscriber,4063,12/17/2013 13:46,246,12/17/2013 13:23,272,Wood St & Division St,"1,367",1082267
-2867,1953,Male,Millennium Park,Franklin St & Lake St,Millennium Park,Subscriber,1509,12/17/2013 16:36,272,12/17/2013 16:28,8,Franklin St & Lake St,501,1082753
-2867,1965,Male,Clinton St & Washington Blvd,Millennium Park,Clinton St & Washington Blvd,Subscriber,1902,12/17/2013 17:18,8,12/17/2013 17:11,10,Millennium Park,412,1082968
-2867,1986,Male,State St & Randolph St,Clinton St & Washington Blvd,State St & Randolph St,Subscriber,1297,12/17/2013 19:28,10,12/17/2013 19:23,2,Clinton St & Washington Blvd,271,1083495
-2867,1986,Male,Clinton St & Madison St,Franklin St & Quincy St,Clinton St & Madison St,Subscriber,932,12/19/2013 18:18,7,12/19/2013 18:14,301,Franklin St & Quincy St,251,1090193
-2867,1977,Male,Ada St & Washington Blvd,Clinton St & Madison St,Ada St & Washington Blvd,Subscriber,2470,12/19/2013 19:27,301,12/19/2013 19:16,353,Clinton St & Madison St,671,1090436
-2867,1979,Male,Clinton St & Washington Blvd,Ada St & Washington Blvd,Clinton St & Washington Blvd,Subscriber,1676,12/20/2013 7:22,353,12/20/2013 7:15,10,Ada St & Washington Blvd,379,1091031
-2867,1961,Male,Dearborn St & Monroe St,Clinton St & Washington Blvd,Dearborn St & Monroe St,Subscriber,1360,12/20/2013 7:29,10,12/20/2013 7:24,49,Clinton St & Washington Blvd,283,1091051
-2867,1965,Male,Museum Campus,Dearborn St & Monroe St,Museum Campus,Subscriber,3221,12/20/2013 8:21,49,12/20/2013 8:10,29,Dearborn St & Monroe St,677,1091255
-2867,1955,Male,Canal St & Jackson Blvd,Museum Campus,Canal St & Jackson Blvd,Subscriber,4482,12/23/2013 17:26,29,12/23/2013 17:10,138,Museum Campus,991,1097448
-2867,1970,Male,Clinton St & Roosevelt Rd,Canal St & Jackson Blvd,Clinton St & Roosevelt Rd,Subscriber,1374,12/24/2013 17:54,138,12/24/2013 17:47,327,Canal St & Jackson Blvd,436,1098644
-2867,1970,Male,Michigan Ave & 18th St,Clinton St & Roosevelt Rd,Michigan Ave & 18th St,Subscriber,2488,12/24/2013 18:18,327,12/24/2013 18:07,150,Clinton St & Roosevelt Rd,659,1098673
-2867,1970,Male,Franklin St & Jackson Blvd,Michigan Ave & 18th St,Franklin St & Jackson Blvd,Subscriber,3143,12/26/2013 8:19,150,12/26/2013 8:06,19,Michigan Ave & 18th St,775,1099267
-2867,1970,Male,Michigan Ave & Jackson Blvd,Franklin St & Jackson Blvd,Michigan Ave & Jackson Blvd,Subscriber,1005,12/27/2013 15:24,19,12/27/2013 15:18,340,Franklin St & Jackson Blvd,371,1101735
-2867,1982,Male,Franklin St & Jackson Blvd,Michigan Ave & Jackson Blvd,Franklin St & Jackson Blvd,Subscriber,1200,12/27/2013 17:32,340,12/27/2013 17:27,19,Michigan Ave & Jackson Blvd,293,1102230
-2867,1980,Male,Racine Ave & 18th St,Blue Island Ave & 18th St,Racine Ave & 18th St,Subscriber,569,12/28/2013 3:40,135,12/28/2013 3:38,164,Blue Island Ave & 18th St,137,1102933
-2867,1973,Male,Franklin St & Arcade Pl,Aberdeen St & Madison St,Franklin St & Arcade Pl,Subscriber,1786,12/31/2013 8:27,156,12/31/2013 8:19,57,Aberdeen St & Madison St,481,1108233
-2867,1969,Male,Clinton St & Madison St,Franklin St & Arcade Pl,Clinton St & Madison St,Subscriber,626,12/31/2013 11:22,57,12/31/2013 11:19,301,Franklin St & Arcade Pl,180,1108439
-2867,1960,Female,State St & Harrison St,State St & Randolph St,State St & Harrison St,Subscriber,1199,12/18/2013 17:48,2,12/18/2013 17:42,30,State St & Randolph St,374,1086360
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2867,1990,Franklin St & Lake St,41.90332,-87.67273,246,Wood St & Division St,Male,4063,Wood St & Division St,12/17/2013 13:23,12/17/2013 13:46,41.885837,-87.6355,272,Franklin St & Lake St,1082267,"1,367",Subscriber
+2867,1953,Millennium Park,41.885837,-87.6355,272,Franklin St & Lake St,Male,1509,Franklin St & Lake St,12/17/2013 16:28,12/17/2013 16:36,41.8810317,-87.62408432,8,Millennium Park,1082753,501,Subscriber
+2867,1965,Clinton St & Washington Blvd,41.8810317,-87.62408432,8,Millennium Park,Male,1902,Millennium Park,12/17/2013 17:11,12/17/2013 17:18,41.88338,-87.64117,10,Clinton St & Washington Blvd,1082968,412,Subscriber
+2867,1986,State St & Randolph St,41.88338,-87.64117,10,Clinton St & Washington Blvd,Male,1297,Clinton St & Washington Blvd,12/17/2013 19:23,12/17/2013 19:28,41.8847302006,-87.6277335692,2,State St & Randolph St,1083495,271,Subscriber
+2867,1960,State St & Harrison St,41.8847302006,-87.6277335692,2,State St & Randolph St,Female,1199,State St & Randolph St,12/18/2013 17:42,12/18/2013 17:48,41.8739580629,-87.6277394859,30,State St & Harrison St,1086360,374,Subscriber
+2867,1986,Clinton St & Madison St,41.878724,-87.634793,7,Franklin St & Quincy St,Male,932,Franklin St & Quincy St,12/19/2013 18:14,12/19/2013 18:18,41.8815824,-87.64127743,301,Clinton St & Madison St,1090193,251,Subscriber
+2867,1977,Ada St & Washington Blvd,41.8815824,-87.64127743,301,Clinton St & Madison St,Male,2470,Clinton St & Madison St,12/19/2013 19:16,12/19/2013 19:27,41.88283,-87.661206,353,Ada St & Washington Blvd,1090436,671,Subscriber
+2867,1979,Clinton St & Washington Blvd,41.88283,-87.661206,353,Ada St & Washington Blvd,Male,1676,Ada St & Washington Blvd,12/20/2013 7:15,12/20/2013 7:22,41.88338,-87.64117,10,Clinton St & Washington Blvd,1091031,379,Subscriber
+2867,1961,Dearborn St & Monroe St,41.88338,-87.64117,10,Clinton St & Washington Blvd,Male,1360,Clinton St & Washington Blvd,12/20/2013 7:24,12/20/2013 7:29,41.881319815,-87.6295209193,49,Dearborn St & Monroe St,1091051,283,Subscriber
+2867,1965,Museum Campus,41.881319815,-87.6295209193,49,Dearborn St & Monroe St,Male,3221,Dearborn St & Monroe St,12/20/2013 8:10,12/20/2013 8:21,41.865212,-87.617759,29,Museum Campus,1091255,677,Subscriber
+2867,1955,Canal St & Jackson Blvd,41.865212,-87.617759,29,Museum Campus,Male,4482,Museum Campus,12/23/2013 17:10,12/23/2013 17:26,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,1097448,991,Subscriber
+2867,1970,Clinton St & Roosevelt Rd,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,Male,1374,Canal St & Jackson Blvd,12/24/2013 17:47,12/24/2013 17:54,41.8671177825,-87.6410879593,327,Clinton St & Roosevelt Rd,1098644,436,Subscriber
+2867,1970,Michigan Ave & 18th St,41.8671177825,-87.6410879593,327,Clinton St & Roosevelt Rd,Male,2488,Clinton St & Roosevelt Rd,12/24/2013 18:07,12/24/2013 18:18,41.857937,-87.623633,150,Michigan Ave & 18th St,1098673,659,Subscriber
+2867,1970,Franklin St & Jackson Blvd,41.857937,-87.623633,150,Michigan Ave & 18th St,Male,3143,Michigan Ave & 18th St,12/26/2013 8:06,12/26/2013 8:19,41.8777079559,-87.6353211408,19,Franklin St & Jackson Blvd,1099267,775,Subscriber
+2867,1970,Michigan Ave & Jackson Blvd,41.8777079559,-87.6353211408,19,Franklin St & Jackson Blvd,Male,1005,Franklin St & Jackson Blvd,12/27/2013 15:18,12/27/2013 15:24,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,1101735,371,Subscriber
+2867,1982,Franklin St & Jackson Blvd,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,Male,1200,Michigan Ave & Jackson Blvd,12/27/2013 17:27,12/27/2013 17:32,41.8777079559,-87.6353211408,19,Franklin St & Jackson Blvd,1102230,293,Subscriber
+2867,,Racine Ave & 18th St,41.8777079559,-87.6353211408,19,Franklin St & Jackson Blvd,,4332,Franklin St & Jackson Blvd,12/27/2013 17:38,12/27/2013 17:50,41.8581806068,-87.6564866473,164,Racine Ave & 18th St,1102258,757,Customer
+2867,1980,Racine Ave & 18th St,41.857556,-87.661535,135,Blue Island Ave & 18th St,Male,569,Blue Island Ave & 18th St,12/28/2013 3:38,12/28/2013 3:40,41.8581806068,-87.6564866473,164,Racine Ave & 18th St,1102933,137,Subscriber
+2867,,Aberdeen St & Madison St,41.8581806068,-87.6564866473,164,Racine Ave & 18th St,,2796,Racine Ave & 18th St,12/28/2013 11:20,12/28/2013 11:33,41.881487,-87.654752,156,Aberdeen St & Madison St,1103358,776,Customer
+2867,1973,Franklin St & Arcade Pl,41.881487,-87.654752,156,Aberdeen St & Madison St,Male,1786,Aberdeen St & Madison St,12/31/2013 8:19,12/31/2013 8:27,41.881131,-87.635185,57,Franklin St & Arcade Pl,1108233,481,Subscriber
+2867,1969,Clinton St & Madison St,41.881131,-87.635185,57,Franklin St & Arcade Pl,Male,626,Franklin St & Arcade Pl,12/31/2013 11:19,12/31/2013 11:22,41.8815824,-87.64127743,301,Clinton St & Madison St,1108439,180,Subscriber

@@ -1,6 +1,6 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2924,,,Ashland Ave & Lake St,Ashland Ave & Grand Ave,Ashland Ave & Lake St,Customer,1045,12/28/2013 13:25,434,12/28/2013 13:00,73,Ashland Ave & Grand Ave,"1,507",1103656
-2924,1971,Male,Ashland Ave & Lake St,Wolcott Ave & Polk St,Ashland Ave & Lake St,Subscriber,2108,12/18/2013 16:22,284,12/18/2013 16:12,73,Wolcott Ave & Polk St,595,1085859
-2924,1973,Male,Damen Ave & Chicago Ave,Ashland Ave & Lake St,Damen Ave & Chicago Ave,Subscriber,1962,12/18/2013 18:04,73,12/18/2013 17:55,132,Ashland Ave & Lake St,528,1086433
-2924,1986,Male,Ogden Ave & Race Ave,California Ave & Milwaukee Ave,Ogden Ave & Race Ave,Subscriber,5300,12/19/2013 7:08,84,12/19/2013 6:46,194,California Ave & Milwaukee Ave,"1,275",1087203
-2924,1956,Male,Ashland Ave & Grand Ave,Ashland Ave & Lake St,Ashland Ave & Grand Ave,Subscriber,1045,12/31/2013 16:49,73,12/31/2013 16:44,434,Ashland Ave & Lake St,316,1108986
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2924,1971,Ashland Ave & Lake St,41.871262,-87.673688,284,Wolcott Ave & Polk St,Male,2108,Wolcott Ave & Polk St,12/18/2013 16:12,12/18/2013 16:22,41.88541,-87.66732,73,Ashland Ave & Lake St,1085859,595,Subscriber
+2924,1973,Damen Ave & Chicago Ave,41.88541,-87.66732,73,Ashland Ave & Lake St,Male,1962,Ashland Ave & Lake St,12/18/2013 17:55,12/18/2013 18:04,41.895769,-87.67722,132,Damen Ave & Chicago Ave,1086433,528,Subscriber
+2924,1986,Ogden Ave & Race Ave,41.922695,-87.697153,84,California Ave & Milwaukee Ave,Male,5300,California Ave & Milwaukee Ave,12/19/2013 6:46,12/19/2013 7:08,41.891795,-87.658751,194,Ogden Ave & Race Ave,1087203,"1,275",Subscriber
+2924,,Ashland Ave & Lake St,41.891072,-87.666611,434,Ashland Ave & Grand Ave,,1045,Ashland Ave & Grand Ave,12/28/2013 13:00,12/28/2013 13:25,41.88541,-87.66732,73,Ashland Ave & Lake St,1103656,"1,507",Customer
+2924,1956,Ashland Ave & Grand Ave,41.88541,-87.66732,73,Ashland Ave & Lake St,Male,1045,Ashland Ave & Lake St,12/31/2013 16:44,12/31/2013 16:49,41.891072,-87.666611,434,Ashland Ave & Grand Ave,1108986,316,Subscriber

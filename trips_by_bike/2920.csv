@@ -1,12 +1,12 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2920,,,Hermitage Ave & Polk St,Hermitage Ave & Polk St,Hermitage Ave & Polk St,Customer,0,12/28/2013 12:43,80,12/28/2013 12:12,80,Hermitage Ave & Polk St,"1,844",1103496
-2920,,,Franklin St & Quincy St,Millennium Park,Franklin St & Quincy St,Customer,1363,12/28/2013 17:06,8,12/28/2013 16:54,7,Millennium Park,741,1104736
-2920,1976,Male,Canal St & Madison St,LaSalle St & Washington St,Canal St & Madison St,Subscriber,699,12/19/2013 18:21,6,12/19/2013 18:18,341,LaSalle St & Washington St,201,1090218
-2920,1962,Male,Millennium Park,Canal St & Madison St,Millennium Park,Subscriber,1712,12/20/2013 7:43,341,12/20/2013 7:17,8,Canal St & Madison St,"1,534",1091036
-2920,1962,Male,State St & Wacker Dr,Millennium Park,State St & Wacker Dr,Subscriber,1056,12/20/2013 15:44,8,12/20/2013 15:41,339,Millennium Park,229,1092377
-2920,1987,Male,Hermitage Ave & Polk St,Leavitt St & Hirsch St,Hermitage Ave & Polk St,Subscriber,4933,12/27/2013 8:22,255,12/27/2013 8:05,80,Leavitt St & Hirsch St,"1,015",1100754
-2920,1973,Male,Millennium Park,Hermitage Ave & Polk St,Millennium Park,Subscriber,4798,12/28/2013 15:51,80,12/28/2013 15:29,8,Hermitage Ave & Polk St,"1,327",1104353
-2920,1993,Male,Halsted St & Polk St,Jefferson St & Monroe St,Halsted St & Polk St,Subscriber,2113,12/31/2013 12:37,38,12/31/2013 12:31,27,Jefferson St & Monroe St,372,1108527
-2920,1993,Male,Jefferson St & Monroe St,Halsted St & Polk St,Jefferson St & Monroe St,Subscriber,1466,12/31/2013 12:54,27,12/31/2013 12:48,38,Halsted St & Polk St,373,1108576
-2920,1988,Female,LaSalle St & Illinois St,Jefferson St & Monroe St,LaSalle St & Illinois St,Subscriber,2044,12/31/2013 15:01,38,12/31/2013 14:54,430,Jefferson St & Monroe St,458,1108836
-2920,1988,Female,Jefferson St & Monroe St,LaSalle St & Illinois St,Jefferson St & Monroe St,Subscriber,2441,12/31/2013 16:27,430,12/31/2013 16:16,38,LaSalle St & Illinois St,619,1108945
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2920,1976,Canal St & Madison St,41.882664,-87.63253,6,LaSalle St & Washington St,Male,699,LaSalle St & Washington St,12/19/2013 18:18,12/19/2013 18:21,41.882091,-87.639833,341,Canal St & Madison St,1090218,201,Subscriber
+2920,1962,Millennium Park,41.882091,-87.639833,341,Canal St & Madison St,Male,1712,Canal St & Madison St,12/20/2013 7:17,12/20/2013 7:43,41.8810317,-87.62408432,8,Millennium Park,1091036,"1,534",Subscriber
+2920,1962,State St & Wacker Dr,41.8810317,-87.62408432,8,Millennium Park,Male,1056,Millennium Park,12/20/2013 15:41,12/20/2013 15:44,41.887155,-87.62775,339,State St & Wacker Dr,1092377,229,Subscriber
+2920,1987,Hermitage Ave & Polk St,41.906717,-87.682779,255,Leavitt St & Hirsch St,Male,4933,Leavitt St & Hirsch St,12/27/2013 8:05,12/27/2013 8:22,41.871514,-87.669886,80,Hermitage Ave & Polk St,1100754,"1,015",Subscriber
+2920,,Hermitage Ave & Polk St,41.871514,-87.669886,80,Hermitage Ave & Polk St,,0,Hermitage Ave & Polk St,12/28/2013 12:12,12/28/2013 12:43,41.871514,-87.669886,80,Hermitage Ave & Polk St,1103496,"1,844",Customer
+2920,1973,Millennium Park,41.871514,-87.669886,80,Hermitage Ave & Polk St,Male,4798,Hermitage Ave & Polk St,12/28/2013 15:29,12/28/2013 15:51,41.8810317,-87.62408432,8,Millennium Park,1104353,"1,327",Subscriber
+2920,,Franklin St & Quincy St,41.8810317,-87.62408432,8,Millennium Park,,1363,Millennium Park,12/28/2013 16:54,12/28/2013 17:06,41.878724,-87.634793,7,Franklin St & Quincy St,1104736,741,Customer
+2920,1993,Halsted St & Polk St,41.880422,-87.642746,38,Jefferson St & Monroe St,Male,2113,Jefferson St & Monroe St,12/31/2013 12:31,12/31/2013 12:37,41.87184,-87.64664,27,Halsted St & Polk St,1108527,372,Subscriber
+2920,1993,Jefferson St & Monroe St,41.87184,-87.64664,27,Halsted St & Polk St,Male,1466,Halsted St & Polk St,12/31/2013 12:48,12/31/2013 12:54,41.880422,-87.642746,38,Jefferson St & Monroe St,1108576,373,Subscriber
+2920,1988,LaSalle St & Illinois St,41.880422,-87.642746,38,Jefferson St & Monroe St,Female,2044,Jefferson St & Monroe St,12/31/2013 14:54,12/31/2013 15:01,41.890749,-87.63206,430,LaSalle St & Illinois St,1108836,458,Subscriber
+2920,1988,Jefferson St & Monroe St,41.890749,-87.63206,430,LaSalle St & Illinois St,Female,2441,LaSalle St & Illinois St,12/31/2013 16:16,12/31/2013 16:27,41.880422,-87.642746,38,Jefferson St & Monroe St,1108945,619,Subscriber

@@ -1,11 +1,11 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2876,,,Fort Dearborn Dr & 31st St,Museum Campus,Fort Dearborn Dr & 31st St,Customer,3620,12/28/2013 17:56,29,12/28/2013 17:37,220,Museum Campus,"1,157",1104889
-2876,1978,Male,Hermitage Ave & Polk St,Franklin St & Jackson Blvd,Hermitage Ave & Polk St,Subscriber,3797,12/17/2013 17:48,19,12/17/2013 17:32,80,Franklin St & Jackson Blvd,926,1083079
-2876,1987,Male,Damen Ave & Division St,Hermitage Ave & Polk St,Damen Ave & Division St,Subscriber,4085,12/18/2013 17:27,80,12/18/2013 17:11,136,Hermitage Ave & Polk St,949,1086139
-2876,1987,Male,Leavitt St & Hirsch St,Damen Ave & Division St,Leavitt St & Hirsch St,Subscriber,891,12/18/2013 17:43,136,12/18/2013 17:40,255,Damen Ave & Division St,194,1086324
-2876,1987,Male,Blue Island Ave & 18th St,Leavitt St & Hirsch St,Blue Island Ave & 18th St,Subscriber,7441,12/19/2013 21:21,255,12/19/2013 20:56,135,Leavitt St & Hirsch St,"1,537",1090662
-2876,1987,Male,Damen Ave & Cortland Ave,Blue Island Ave & 18th St,Damen Ave & Cortland Ave,Subscriber,7866,12/19/2013 23:20,135,12/19/2013 22:50,133,Blue Island Ave & 18th St,"1,767",1090797
-2876,1987,Male,Leavitt St & Hirsch St,Damen Ave & Cortland Ave,Leavitt St & Hirsch St,Subscriber,1476,12/20/2013 0:37,133,12/20/2013 0:29,255,Damen Ave & Cortland Ave,497,1090847
-2876,1987,Male,Congress Pkwy & Ogden Ave,Leavitt St & Hirsch St,Congress Pkwy & Ogden Ave,Subscriber,4265,12/20/2013 8:39,255,12/20/2013 8:25,0,Leavitt St & Hirsch St,789,1091304
-2876,1966,Male,Clinton St & Washington Blvd,Congress Pkwy & Ogden Ave,Clinton St & Washington Blvd,Subscriber,3545,12/20/2013 16:52,0,12/20/2013 16:37,10,Congress Pkwy & Ogden Ave,863,1092615
-2876,1983,Female,State St & Randolph St,Clinton St & Madison St,State St & Randolph St,Subscriber,1749,12/23/2013 11:57,301,12/23/2013 11:44,2,Clinton St & Madison St,769,1096624
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2876,1978,Hermitage Ave & Polk St,41.8777079559,-87.6353211408,19,Franklin St & Jackson Blvd,Male,3797,Franklin St & Jackson Blvd,12/17/2013 17:32,12/17/2013 17:48,41.871514,-87.669886,80,Hermitage Ave & Polk St,1083079,926,Subscriber
+2876,1987,Damen Ave & Division St,41.871514,-87.669886,80,Hermitage Ave & Polk St,Male,4085,Hermitage Ave & Polk St,12/18/2013 17:11,12/18/2013 17:27,41.90331,-87.67695,136,Damen Ave & Division St,1086139,949,Subscriber
+2876,1987,Leavitt St & Hirsch St,41.90331,-87.67695,136,Damen Ave & Division St,Male,891,Damen Ave & Division St,12/18/2013 17:40,12/18/2013 17:43,41.906717,-87.682779,255,Leavitt St & Hirsch St,1086324,194,Subscriber
+2876,1987,Blue Island Ave & 18th St,41.906717,-87.682779,255,Leavitt St & Hirsch St,Male,7441,Leavitt St & Hirsch St,12/19/2013 20:56,12/19/2013 21:21,41.857556,-87.661535,135,Blue Island Ave & 18th St,1090662,"1,537",Subscriber
+2876,1987,Damen Ave & Cortland Ave,41.857556,-87.661535,135,Blue Island Ave & 18th St,Male,7866,Blue Island Ave & 18th St,12/19/2013 22:50,12/19/2013 23:20,41.916027,-87.677411,133,Damen Ave & Cortland Ave,1090797,"1,767",Subscriber
+2876,1987,Leavitt St & Hirsch St,41.916027,-87.677411,133,Damen Ave & Cortland Ave,Male,1476,Damen Ave & Cortland Ave,12/20/2013 0:29,12/20/2013 0:37,41.906717,-87.682779,255,Leavitt St & Hirsch St,1090847,497,Subscriber
+2876,1987,Congress Pkwy & Ogden Ave,41.906717,-87.682779,255,Leavitt St & Hirsch St,Male,4265,Leavitt St & Hirsch St,12/20/2013 8:25,12/20/2013 8:39,41.87501,-87.67328,0,Congress Pkwy & Ogden Ave,1091304,789,Subscriber
+2876,1966,Clinton St & Washington Blvd,41.87501,-87.67328,0,Congress Pkwy & Ogden Ave,Male,3545,Congress Pkwy & Ogden Ave,12/20/2013 16:37,12/20/2013 16:52,41.88338,-87.64117,10,Clinton St & Washington Blvd,1092615,863,Subscriber
+2876,1983,State St & Randolph St,41.8815824,-87.64127743,301,Clinton St & Madison St,Female,1749,Clinton St & Madison St,12/23/2013 11:44,12/23/2013 11:57,41.8847302006,-87.6277335692,2,State St & Randolph St,1096624,769,Subscriber
+2876,,Fort Dearborn Dr & 31st St,41.865212,-87.617759,29,Museum Campus,,3620,Museum Campus,12/28/2013 17:37,12/28/2013 17:56,41.838556,-87.608218,220,Fort Dearborn Dr & 31st St,1104889,"1,157",Customer

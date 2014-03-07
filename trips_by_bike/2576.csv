@@ -1,16 +1,16 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2576,,,Halsted St & Blackhawk St,Sedgwick St & Huron St,Halsted St & Blackhawk St,Customer,2102,10/17/2013 9:38,52,10/17/2013 9:26,176,Sedgwick St & Huron St,735,805063
-2576,,,Franklin St & Chicago Ave,Halsted St & Blackhawk St,Franklin St & Chicago Ave,Customer,2514,10/18/2013 8:59,176,10/18/2013 8:49,17,Halsted St & Blackhawk St,573,811104
-2576,,,Michigan Ave & Lake St,Clinton St & Washington Blvd,Michigan Ave & Lake St,Customer,1742,10/18/2013 13:02,10,10/18/2013 12:48,43,Clinton St & Washington Blvd,838,812666
-2576,1985,Male,Canal St & Madison St,Wells St & Erie St,Canal St & Madison St,Subscriber,2222,10/15/2013 17:08,64,10/15/2013 16:57,341,Wells St & Erie St,639,793000
-2576,1953,Male,Michigan Ave & Congress Pkwy,Franklin St & Chicago Ave,Michigan Ave & Congress Pkwy,Subscriber,3228,10/18/2013 9:18,17,10/18/2013 9:00,40,Franklin St & Chicago Ave,"1,085",811216
-2576,1955,Male,LaSalle St & Washington St,Michigan Ave & Congress Pkwy,LaSalle St & Washington St,Subscriber,1461,10/18/2013 11:16,40,10/18/2013 11:06,6,Michigan Ave & Congress Pkwy,642,812039
-2576,1969,Male,McCormick Place,Michigan Ave & Lake St,McCormick Place,Subscriber,4414,10/18/2013 13:50,43,10/18/2013 13:23,106,Michigan Ave & Lake St,"1,585",812912
-2576,1969,Male,Wentworth Ave & Archer Ave,McCormick Place,Wentworth Ave & Archer Ave,Subscriber,1393,10/18/2013 15:31,106,10/18/2013 15:21,75,McCormick Place,557,813812
-2576,1969,Male,Michigan Ave & Jackson Blvd,Wentworth Ave & Archer Ave,Michigan Ave & Jackson Blvd,Subscriber,3509,10/18/2013 15:52,75,10/18/2013 15:36,340,Wentworth Ave & Archer Ave,"1,001",813938
-2576,1969,Male,Michigan Ave & Lake St,Michigan Ave & Jackson Blvd,Michigan Ave & Lake St,Subscriber,914,10/18/2013 15:58,340,10/18/2013 15:53,43,Michigan Ave & Jackson Blvd,343,814089
-2576,1989,Male,Canal St & Jackson Blvd,Michigan Ave & 18th St,Canal St & Jackson Blvd,Subscriber,3992,10/21/2013 8:37,150,10/21/2013 8:19,138,Michigan Ave & 18th St,"1,070",832096
-2576,1984,Male,Clark St & Randolph St,Canal St & Jackson Blvd,Clark St & Randolph St,Subscriber,1786,10/21/2013 9:03,138,10/21/2013 8:54,5,Canal St & Jackson Blvd,511,832526
-2576,1981,Female,Clinton St & Washington Blvd,LaSalle St & Washington St,Clinton St & Washington Blvd,Subscriber,1055,10/18/2013 12:40,6,10/18/2013 12:33,10,LaSalle St & Washington St,402,812585
-2576,1985,Female,Indiana Ave & Roosevelt Rd,Michigan Ave & Lake St,Indiana Ave & Roosevelt Rd,Subscriber,2309,10/19/2013 13:17,43,10/19/2013 13:06,309,Michigan Ave & Lake St,685,820154
-2576,1976,Female,Michigan Ave & 18th St,Indiana Ave & Roosevelt Rd,Michigan Ave & 18th St,Subscriber,1437,10/19/2013 14:45,309,10/19/2013 14:39,150,Indiana Ave & Roosevelt Rd,396,821250
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2576,1985,Canal St & Madison St,41.893832,-87.634195,64,Wells St & Erie St,Male,2222,Wells St & Erie St,10/15/2013 16:57,10/15/2013 17:08,41.882091,-87.639833,341,Canal St & Madison St,793000,639,Subscriber
+2576,,Halsted St & Blackhawk St,41.894666,-87.638437,52,Sedgwick St & Huron St,,2102,Sedgwick St & Huron St,10/17/2013 9:26,10/17/2013 9:38,41.90854,-87.648568,176,Halsted St & Blackhawk St,805063,735,Customer
+2576,,Franklin St & Chicago Ave,41.90854,-87.648568,176,Halsted St & Blackhawk St,,2514,Halsted St & Blackhawk St,10/18/2013 8:49,10/18/2013 8:59,41.89680204,-87.63563839,17,Franklin St & Chicago Ave,811104,573,Customer
+2576,1953,Michigan Ave & Congress Pkwy,41.89680204,-87.63563839,17,Franklin St & Chicago Ave,Male,3228,Franklin St & Chicago Ave,10/18/2013 9:00,10/18/2013 9:18,41.876065599,-87.6244333636,40,Michigan Ave & Congress Pkwy,811216,"1,085",Subscriber
+2576,1955,LaSalle St & Washington St,41.876065599,-87.6244333636,40,Michigan Ave & Congress Pkwy,Male,1461,Michigan Ave & Congress Pkwy,10/18/2013 11:06,10/18/2013 11:16,41.882664,-87.63253,6,LaSalle St & Washington St,812039,642,Subscriber
+2576,1981,Clinton St & Washington Blvd,41.882664,-87.63253,6,LaSalle St & Washington St,Female,1055,LaSalle St & Washington St,10/18/2013 12:33,10/18/2013 12:40,41.88338,-87.64117,10,Clinton St & Washington Blvd,812585,402,Subscriber
+2576,,Michigan Ave & Lake St,41.88338,-87.64117,10,Clinton St & Washington Blvd,,1742,Clinton St & Washington Blvd,10/18/2013 12:48,10/18/2013 13:02,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,812666,838,Customer
+2576,1969,McCormick Place,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,Male,4414,Michigan Ave & Lake St,10/18/2013 13:23,10/18/2013 13:50,41.8513751729,-87.6188346489,106,McCormick Place,812912,"1,585",Subscriber
+2576,1969,Wentworth Ave & Archer Ave,41.8513751729,-87.6188346489,106,McCormick Place,Male,1393,McCormick Place,10/18/2013 15:21,10/18/2013 15:31,41.854564,-87.631937,75,Wentworth Ave & Archer Ave,813812,557,Subscriber
+2576,1969,Michigan Ave & Jackson Blvd,41.854564,-87.631937,75,Wentworth Ave & Archer Ave,Male,3509,Wentworth Ave & Archer Ave,10/18/2013 15:36,10/18/2013 15:52,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,813938,"1,001",Subscriber
+2576,1969,Michigan Ave & Lake St,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,Male,914,Michigan Ave & Jackson Blvd,10/18/2013 15:53,10/18/2013 15:58,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,814089,343,Subscriber
+2576,1985,Indiana Ave & Roosevelt Rd,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,Female,2309,Michigan Ave & Lake St,10/19/2013 13:06,10/19/2013 13:17,41.867888,-87.623041,309,Indiana Ave & Roosevelt Rd,820154,685,Subscriber
+2576,1976,Michigan Ave & 18th St,41.867888,-87.623041,309,Indiana Ave & Roosevelt Rd,Female,1437,Indiana Ave & Roosevelt Rd,10/19/2013 14:39,10/19/2013 14:45,41.857937,-87.623633,150,Michigan Ave & 18th St,821250,396,Subscriber
+2576,1989,Canal St & Jackson Blvd,41.857937,-87.623633,150,Michigan Ave & 18th St,Male,3992,Michigan Ave & 18th St,10/21/2013 8:19,10/21/2013 8:37,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,832096,"1,070",Subscriber
+2576,1984,Clark St & Randolph St,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,Male,1786,Canal St & Jackson Blvd,10/21/2013 8:54,10/21/2013 9:03,41.884576228,-87.63188991,5,Clark St & Randolph St,832526,511,Subscriber

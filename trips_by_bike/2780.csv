@@ -1,15 +1,15 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2780,,,Michigan Ave & Pearson St,Clark St & North Ave,Michigan Ave & Pearson St,Customer,2235,10/25/2013 12:19,128,10/25/2013 12:06,34,Clark St & North Ave,761,859262
-2780,,,Loomis St & Taylor St,Halsted St & Polk St,Loomis St & Taylor St,Customer,1585,10/25/2013 22:37,27,10/25/2013 22:30,139,Halsted St & Polk St,435,863655
-2780,,,Morgan St & Polk St,Morgan Ave & 14th Pl,Morgan St & Polk St,Customer,1764,11/1/2013 8:06,169,11/1/2013 7:59,168,Morgan Ave & 14th Pl,399,898822
-2780,1979,Male,Clinton St & Lake St,Michigan Ave & Oak St,Clinton St & Lake St,Subscriber,3126,10/23/2013 15:31,42,10/23/2013 15:19,21,Michigan Ave & Oak St,715,847697
-2780,1985,Male,Wells St & Concord Ln,Clinton St & Lake St,Wells St & Concord Ln,Subscriber,3566,10/23/2013 17:36,21,10/23/2013 17:22,182,Clinton St & Lake St,850,848828
-2780,1980,Male,Morgan Ave & 14th Pl,Emerald Ave & 31st St,Morgan Ave & 14th Pl,Subscriber,3181,10/27/2013 13:47,404,10/27/2013 13:28,169,Emerald Ave & 31st St,"1,137",871938
-2780,1991,Male,Wood St & Taylor St,Halsted St & James M Rochford St,Wood St & Taylor St,Subscriber,2476,10/30/2013 14:28,166,10/30/2013 14:17,285,Halsted St & James M Rochford St,659,892810
-2780,1991,Male,Halsted St & James M Rochford St,Wood St & Taylor St,Halsted St & James M Rochford St,Subscriber,2563,10/30/2013 15:13,285,10/30/2013 15:01,166,Wood St & Taylor St,689,892997
-2780,1991,Male,Halsted St & Polk St,Halsted St & James M Rochford St,Halsted St & Polk St,Subscriber,715,10/30/2013 17:48,166,10/30/2013 17:44,27,Halsted St & James M Rochford St,234,894284
-2780,1979,Male,Morgan Ave & 14th Pl,Morgan St & Polk St,Morgan Ave & 14th Pl,Subscriber,1875,10/31/2013 23:05,168,10/31/2013 23:01,169,Morgan St & Polk St,256,898002
-2780,1985,Female,Emerald Ave & 31st St,Morgan Ave & 14th Pl,Emerald Ave & 31st St,Subscriber,3147,10/27/2013 12:52,169,10/27/2013 12:35,404,Morgan Ave & 14th Pl,"1,032",871376
-2780,1984,Female,Morgan St & Polk St,Morgan Ave & 14th Pl,Morgan St & Polk St,Subscriber,1764,10/28/2013 8:40,169,10/28/2013 8:34,168,Morgan Ave & 14th Pl,346,876324
-2780,1969,Female,Clinton St & Roosevelt Rd,Morgan St & Polk St,Clinton St & Roosevelt Rd,Subscriber,1468,10/28/2013 11:43,168,10/28/2013 11:32,327,Morgan St & Polk St,649,877492
-2780,1969,Female,Halsted St & James M Rochford St,Clinton St & Roosevelt Rd,Halsted St & James M Rochford St,Subscriber,689,10/28/2013 12:33,327,10/28/2013 12:29,166,Clinton St & Roosevelt Rd,245,877815
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2780,1979,Clinton St & Lake St,41.90096039,-87.62377664,42,Michigan Ave & Oak St,Male,3126,Michigan Ave & Oak St,10/23/2013 15:19,10/23/2013 15:31,41.8858327415,-87.6413823149,21,Clinton St & Lake St,847697,715,Subscriber
+2780,1985,Wells St & Concord Ln,41.8858327415,-87.6413823149,21,Clinton St & Lake St,Male,3566,Clinton St & Lake St,10/23/2013 17:22,10/23/2013 17:36,41.912202,-87.634664,182,Wells St & Concord Ln,848828,850,Subscriber
+2780,,Michigan Ave & Pearson St,41.911791,-87.631841,128,Clark St & North Ave,,2235,Clark St & North Ave,10/25/2013 12:06,10/25/2013 12:19,41.89766,-87.62351,34,Michigan Ave & Pearson St,859262,761,Customer
+2780,,Loomis St & Taylor St,41.87184,-87.64664,27,Halsted St & Polk St,,1585,Halsted St & Polk St,10/25/2013 22:30,10/25/2013 22:37,41.869417,-87.660996,139,Loomis St & Taylor St,863655,435,Customer
+2780,1985,Emerald Ave & 31st St,41.862378,-87.651062,169,Morgan Ave & 14th Pl,Female,3147,Morgan Ave & 14th Pl,10/27/2013 12:35,10/27/2013 12:52,41.838198,-87.645143,404,Emerald Ave & 31st St,871376,"1,032",Subscriber
+2780,1980,Morgan Ave & 14th Pl,41.838198,-87.645143,404,Emerald Ave & 31st St,Male,3181,Emerald Ave & 31st St,10/27/2013 13:28,10/27/2013 13:47,41.862378,-87.651062,169,Morgan Ave & 14th Pl,871938,"1,137",Subscriber
+2780,1984,Morgan St & Polk St,41.862378,-87.651062,169,Morgan Ave & 14th Pl,Female,1764,Morgan Ave & 14th Pl,10/28/2013 8:34,10/28/2013 8:40,41.871737,-87.65103,168,Morgan St & Polk St,876324,346,Subscriber
+2780,1969,Clinton St & Roosevelt Rd,41.871737,-87.65103,168,Morgan St & Polk St,Female,1468,Morgan St & Polk St,10/28/2013 11:32,10/28/2013 11:43,41.8671177825,-87.6410879593,327,Clinton St & Roosevelt Rd,877492,649,Subscriber
+2780,1969,Halsted St & James M Rochford St,41.8671177825,-87.6410879593,327,Clinton St & Roosevelt Rd,Female,689,Clinton St & Roosevelt Rd,10/28/2013 12:29,10/28/2013 12:33,41.865861,-87.646611,166,Halsted St & James M Rochford St,877815,245,Subscriber
+2780,1991,Wood St & Taylor St,41.865861,-87.646611,166,Halsted St & James M Rochford St,Male,2476,Halsted St & James M Rochford St,10/30/2013 14:17,10/30/2013 14:28,41.869154,-87.671045,285,Wood St & Taylor St,892810,659,Subscriber
+2780,1991,Halsted St & James M Rochford St,41.869154,-87.671045,285,Wood St & Taylor St,Male,2563,Wood St & Taylor St,10/30/2013 15:01,10/30/2013 15:13,41.865861,-87.646611,166,Halsted St & James M Rochford St,892997,689,Subscriber
+2780,1991,Halsted St & Polk St,41.865861,-87.646611,166,Halsted St & James M Rochford St,Male,715,Halsted St & James M Rochford St,10/30/2013 17:44,10/30/2013 17:48,41.87184,-87.64664,27,Halsted St & Polk St,894284,234,Subscriber
+2780,1979,Morgan Ave & 14th Pl,41.871737,-87.65103,168,Morgan St & Polk St,Male,1875,Morgan St & Polk St,10/31/2013 23:01,10/31/2013 23:05,41.862378,-87.651062,169,Morgan Ave & 14th Pl,898002,256,Subscriber
+2780,,Morgan St & Polk St,41.862378,-87.651062,169,Morgan Ave & 14th Pl,,1764,Morgan Ave & 14th Pl,11/1/2013 7:59,11/1/2013 8:06,41.871737,-87.65103,168,Morgan St & Polk St,898822,399,Customer

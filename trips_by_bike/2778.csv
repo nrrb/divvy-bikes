@@ -1,11 +1,11 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2778,1964,Male,Sheffield Ave & Kingsbury St,Ashland Ave & Armitage Ave,Sheffield Ave & Kingsbury St,Subscriber,1958,12/18/2013 9:26,25,12/18/2013 9:16,154,Ashland Ave & Armitage Ave,582,1084571
-2778,1953,Male,Sedgwick St & North Ave,St Clair St & Erie St,Sedgwick St & North Ave,Subscriber,3089,12/20/2013 19:52,16,12/20/2013 19:38,70,St Clair St & Erie St,843,1093312
-2778,1987,Male,Halsted St & Roscoe St,Sedgwick St & North Ave,Halsted St & Roscoe St,Subscriber,4081,12/20/2013 22:44,70,12/20/2013 22:28,127,Sedgwick St & North Ave,968,1093529
-2778,1987,Male,Halsted St & Waveland Ave,Halsted St & Roscoe St,Halsted St & Waveland Ave,Subscriber,675,12/21/2013 1:48,127,12/21/2013 1:43,325,Halsted St & Roscoe St,319,1093640
-2778,1987,Male,Clark St & Wellington Ave,Halsted St & Waveland Ave,Clark St & Wellington Ave,Subscriber,1639,12/21/2013 20:27,325,12/21/2013 20:23,232,Halsted St & Waveland Ave,291,1094842
-2778,1968,Male,Theater on the Lake,Clark St & Wellington Ave,Theater on the Lake,Subscriber,2538,12/22/2013 10:34,232,12/22/2013 10:24,350,Clark St & Wellington Ave,592,1095135
-2778,1968,Male,Michigan Ave & Oak St,Theater on the Lake,Michigan Ave & Oak St,Subscriber,3023,12/22/2013 10:45,350,12/22/2013 10:34,42,Theater on the Lake,660,1095137
-2778,1977,Male,Wolcott Ave & Lawrence Ave,Ravenswood Ave & Berteau Ave,Wolcott Ave & Lawrence Ave,Subscriber,1428,12/27/2013 9:01,251,12/27/2013 8:55,26,Ravenswood Ave & Berteau Ave,368,1100878
-2778,1977,Male,Ashland Ave & Grace St,Wolcott Ave & Lawrence Ave,Ashland Ave & Grace St,Subscriber,2591,12/27/2013 17:39,26,12/27/2013 17:29,319,Wolcott Ave & Lawrence Ave,584,1102238
-2778,1985,Male,Southport Ave & Roscoe St,Ashland Ave & Grace St,Southport Ave & Roscoe St,Subscriber,1154,12/29/2013 15:36,319,12/29/2013 15:31,71,Ashland Ave & Grace St,320,1106146
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2778,1964,Sheffield Ave & Kingsbury St,41.9178588677,-87.668919,25,Ashland Ave & Armitage Ave,Male,1958,Ashland Ave & Armitage Ave,12/18/2013 9:16,12/18/2013 9:26,41.90959193,-87.65349723,154,Sheffield Ave & Kingsbury St,1084571,582,Subscriber
+2778,1953,Sedgwick St & North Ave,41.894448,-87.622663,16,St Clair St & Erie St,Male,3089,St Clair St & Erie St,12/20/2013 19:38,12/20/2013 19:52,41.910579,-87.638618,70,Sedgwick St & North Ave,1093312,843,Subscriber
+2778,1987,Halsted St & Roscoe St,41.910579,-87.638618,70,Sedgwick St & North Ave,Male,4081,Sedgwick St & North Ave,12/20/2013 22:28,12/20/2013 22:44,41.943662,-87.648917,127,Halsted St & Roscoe St,1093529,968,Subscriber
+2778,1987,Halsted St & Waveland Ave,41.943662,-87.648917,127,Halsted St & Roscoe St,Male,675,Halsted St & Roscoe St,12/21/2013 1:43,12/21/2013 1:48,41.949333,-87.649634,325,Halsted St & Waveland Ave,1093640,319,Subscriber
+2778,1987,Clark St & Wellington Ave,41.949333,-87.649634,325,Halsted St & Waveland Ave,Male,1639,Halsted St & Waveland Ave,12/21/2013 20:23,12/21/2013 20:27,41.9364968219,-87.6475386582,232,Clark St & Wellington Ave,1094842,291,Subscriber
+2778,1968,Theater on the Lake,41.9364968219,-87.6475386582,232,Clark St & Wellington Ave,Male,2538,Clark St & Wellington Ave,12/22/2013 10:24,12/22/2013 10:34,41.926277,-87.630834,350,Theater on the Lake,1095135,592,Subscriber
+2778,1968,Michigan Ave & Oak St,41.926277,-87.630834,350,Theater on the Lake,Male,3023,Theater on the Lake,12/22/2013 10:34,12/22/2013 10:45,41.90096039,-87.62377664,42,Michigan Ave & Oak St,1095137,660,Subscriber
+2778,1977,Wolcott Ave & Lawrence Ave,41.957921,-87.673567,251,Ravenswood Ave & Berteau Ave,Male,1428,Ravenswood Ave & Berteau Ave,12/27/2013 8:55,12/27/2013 9:01,41.968641,-87.676335,26,Wolcott Ave & Lawrence Ave,1100878,368,Subscriber
+2778,1977,Ashland Ave & Grace St,41.968641,-87.676335,26,Wolcott Ave & Lawrence Ave,Male,2591,Wolcott Ave & Lawrence Ave,12/27/2013 17:29,12/27/2013 17:39,41.950687,-87.6687,319,Ashland Ave & Grace St,1102238,584,Subscriber
+2778,1985,Southport Ave & Roscoe St,41.950687,-87.6687,319,Ashland Ave & Grace St,Male,1154,Ashland Ave & Grace St,12/29/2013 15:31,12/29/2013 15:36,41.943739,-87.66402,71,Southport Ave & Roscoe St,1106146,320,Subscriber

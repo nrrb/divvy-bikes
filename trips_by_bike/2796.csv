@@ -1,20 +1,20 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2796,,,Michigan Ave & Jackson Blvd,Calumet Ave & 18th St,Michigan Ave & Jackson Blvd,Customer,3432,10/24/2013 11:51,102,10/24/2013 11:26,340,Calumet Ave & 18th St,"1,525",852882
-2796,,,State St & Wacker Dr,State St & Wacker Dr,State St & Wacker Dr,Customer,0,10/25/2013 15:03,339,10/25/2013 14:47,339,State St & Wacker Dr,961,860353
-2796,,,Canal St & Adams St,Columbus Dr & Randolph St,Canal St & Adams St,Customer,2255,10/29/2013 6:51,263,10/29/2013 6:40,11,Columbus Dr & Randolph St,653,882130
-2796,,,McCormick Place,Daley Center Plaza,McCormick Place,Customer,4656,10/29/2013 16:19,23,10/29/2013 16:06,106,Daley Center Plaza,777,885813
-2796,1984,Male,Calumet Ave & 18th St,State St & 19th St,Calumet Ave & 18th St,Subscriber,1160,10/24/2013 10:20,408,10/24/2013 10:16,102,State St & 19th St,205,852548
-2796,1983,Male,Michigan Ave & 14th St,Michigan Ave & Jackson Blvd,Michigan Ave & 14th St,Subscriber,2341,10/24/2013 18:10,340,10/24/2013 18:02,310,Michigan Ave & Jackson Blvd,482,855565
-2796,1972,Male,Franklin St & Arcade Pl,Michigan Ave & 14th St,Franklin St & Arcade Pl,Subscriber,2835,10/25/2013 9:43,310,10/25/2013 9:30,57,Michigan Ave & 14th St,792,858503
-2796,1962,Male,State St & Wacker Dr,Franklin St & Arcade Pl,State St & Wacker Dr,Subscriber,1379,10/25/2013 10:00,57,10/25/2013 9:46,339,Franklin St & Arcade Pl,814,858604
-2796,1980,Male,State St & Wacker Dr,State St & Wacker Dr,State St & Wacker Dr,Subscriber,0,10/25/2013 13:23,339,10/25/2013 12:46,339,State St & Wacker Dr,"2,175",859528
-2796,1987,Male,LaSalle St & Illinois St,State St & Wacker Dr,LaSalle St & Illinois St,Subscriber,922,10/25/2013 16:49,339,10/25/2013 16:44,430,State St & Wacker Dr,270,861332
-2796,1978,Male,Clinton St & Washington Blvd,LaSalle St & Illinois St,Clinton St & Washington Blvd,Subscriber,1746,10/25/2013 17:25,430,10/25/2013 17:18,10,LaSalle St & Illinois St,429,861809
-2796,1983,Male,Clinton St & Madison St,Clinton St & Tilden St,Clinton St & Madison St,Subscriber,907,10/28/2013 17:29,37,10/28/2013 17:24,301,Clinton St & Tilden St,241,879892
-2796,1976,Male,Green St & Randolph St,Canal St & Adams St,Green St & Randolph St,Subscriber,1243,10/29/2013 7:10,11,10/29/2013 7:03,53,Canal St & Adams St,431,882254
-2796,1969,Male,Ogden Ave & Chicago Ave,Desplaines St & Kinzie St,Ogden Ave & Chicago Ave,Subscriber,1229,10/29/2013 10:33,39,10/29/2013 10:27,44,Desplaines St & Kinzie St,362,884106
-2796,1981,Male,St Clair St & Erie St,LaSalle St & Jackson Blvd,St Clair St & Erie St,Subscriber,2593,10/30/2013 15:29,32,10/30/2013 15:11,16,LaSalle St & Jackson Blvd,"1,045",893049
-2796,1968,Male,Clinton St & Madison St,St Clair St & Erie St,Clinton St & Madison St,Subscriber,2952,10/30/2013 17:34,16,10/30/2013 17:17,301,St Clair St & Erie St,"1,033",893940
-2796,1973,Male,Dearborn St & Adams St,Wabash Ave & 8th St,Dearborn St & Adams St,Subscriber,1449,11/1/2013 11:12,54,11/1/2013 11:06,20,Wabash Ave & 8th St,364,900213
-2796,1971,Male,Canal St & Jackson Blvd,Dearborn St & Monroe St,Canal St & Jackson Blvd,Subscriber,1945,11/1/2013 17:32,49,11/1/2013 17:20,138,Dearborn St & Monroe St,710,903124
-2796,1979,Female,LaSalle St & Jackson Blvd,Canal St & Adams St,LaSalle St & Jackson Blvd,Subscriber,981,10/30/2013 13:34,11,10/30/2013 13:29,32,Canal St & Adams St,295,892517
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2796,1984,Calumet Ave & 18th St,41.856594,-87.627542,408,State St & 19th St,Male,1160,State St & 19th St,10/24/2013 10:16,10/24/2013 10:20,41.857611,-87.619407,102,Calumet Ave & 18th St,852548,205,Subscriber
+2796,,Michigan Ave & Jackson Blvd,41.857611,-87.619407,102,Calumet Ave & 18th St,,3432,Calumet Ave & 18th St,10/24/2013 11:26,10/24/2013 11:51,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,852882,"1,525",Customer
+2796,1983,Michigan Ave & 14th St,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,Male,2341,Michigan Ave & Jackson Blvd,10/24/2013 18:02,10/24/2013 18:10,41.864059,-87.623727,310,Michigan Ave & 14th St,855565,482,Subscriber
+2796,1972,Franklin St & Arcade Pl,41.864059,-87.623727,310,Michigan Ave & 14th St,Male,2835,Michigan Ave & 14th St,10/25/2013 9:30,10/25/2013 9:43,41.881131,-87.635185,57,Franklin St & Arcade Pl,858503,792,Subscriber
+2796,1962,State St & Wacker Dr,41.881131,-87.635185,57,Franklin St & Arcade Pl,Male,1379,Franklin St & Arcade Pl,10/25/2013 9:46,10/25/2013 10:00,41.887155,-87.62775,339,State St & Wacker Dr,858604,814,Subscriber
+2796,1980,State St & Wacker Dr,41.887155,-87.62775,339,State St & Wacker Dr,Male,0,State St & Wacker Dr,10/25/2013 12:46,10/25/2013 13:23,41.887155,-87.62775,339,State St & Wacker Dr,859528,"2,175",Subscriber
+2796,,State St & Wacker Dr,41.887155,-87.62775,339,State St & Wacker Dr,,0,State St & Wacker Dr,10/25/2013 14:47,10/25/2013 15:03,41.887155,-87.62775,339,State St & Wacker Dr,860353,961,Customer
+2796,1987,LaSalle St & Illinois St,41.887155,-87.62775,339,State St & Wacker Dr,Male,922,State St & Wacker Dr,10/25/2013 16:44,10/25/2013 16:49,41.890749,-87.63206,430,LaSalle St & Illinois St,861332,270,Subscriber
+2796,1978,Clinton St & Washington Blvd,41.890749,-87.63206,430,LaSalle St & Illinois St,Male,1746,LaSalle St & Illinois St,10/25/2013 17:18,10/25/2013 17:25,41.88338,-87.64117,10,Clinton St & Washington Blvd,861809,429,Subscriber
+2796,1983,Clinton St & Madison St,41.875885,-87.640795,37,Clinton St & Tilden St,Male,907,Clinton St & Tilden St,10/28/2013 17:24,10/28/2013 17:29,41.8815824,-87.64127743,301,Clinton St & Madison St,879892,241,Subscriber
+2796,,Canal St & Adams St,41.8853,-87.62077,263,Columbus Dr & Randolph St,,2255,Columbus Dr & Randolph St,10/29/2013 6:40,10/29/2013 6:51,41.87923,-87.640015,11,Canal St & Adams St,882130,653,Customer
+2796,1976,Green St & Randolph St,41.87923,-87.640015,11,Canal St & Adams St,Male,1243,Canal St & Adams St,10/29/2013 7:03,10/29/2013 7:10,41.884078,-87.648684,53,Green St & Randolph St,882254,431,Subscriber
+2796,1969,Ogden Ave & Chicago Ave,41.888716036,-87.6444478533,39,Desplaines St & Kinzie St,Male,1229,Desplaines St & Kinzie St,10/29/2013 10:27,10/29/2013 10:33,41.896362458,-87.6540612729,44,Ogden Ave & Chicago Ave,884106,362,Subscriber
+2796,,McCormick Place,41.884337,-87.630183,23,Daley Center Plaza,,4656,Daley Center Plaza,10/29/2013 16:06,10/29/2013 16:19,41.8513751729,-87.6188346489,106,McCormick Place,885813,777,Customer
+2796,1979,LaSalle St & Jackson Blvd,41.87923,-87.640015,11,Canal St & Adams St,Female,981,Canal St & Adams St,10/30/2013 13:29,10/30/2013 13:34,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,892517,295,Subscriber
+2796,1981,St Clair St & Erie St,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,Male,2593,LaSalle St & Jackson Blvd,10/30/2013 15:11,10/30/2013 15:29,41.894448,-87.622663,16,St Clair St & Erie St,893049,"1,045",Subscriber
+2796,1968,Clinton St & Madison St,41.894448,-87.622663,16,St Clair St & Erie St,Male,2952,St Clair St & Erie St,10/30/2013 17:17,10/30/2013 17:34,41.8815824,-87.64127743,301,Clinton St & Madison St,893940,"1,033",Subscriber
+2796,1973,Dearborn St & Adams St,41.871962,-87.626106,54,Wabash Ave & 8th St,Male,1449,Wabash Ave & 8th St,11/1/2013 11:06,11/1/2013 11:12,41.8793563587,-87.6297910363,20,Dearborn St & Adams St,900213,364,Subscriber
+2796,1971,Canal St & Jackson Blvd,41.881319815,-87.6295209193,49,Dearborn St & Monroe St,Male,1945,Dearborn St & Monroe St,11/1/2013 17:20,11/1/2013 17:32,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,903124,710,Subscriber

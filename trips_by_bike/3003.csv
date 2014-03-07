@@ -1,13 +1,13 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-3003,,,Clark St & Elm St,Aberdeen St & Jackson Blvd,Clark St & Elm St,Customer,4794,11/1/2013 5:27,157,11/1/2013 5:06,349,Aberdeen St & Jackson Blvd,"1,273",898171
-3003,,,Fairbanks Ct & Grand Ave,Desplaines St & Kinzie St,Fairbanks Ct & Grand Ave,Customer,2353,11/1/2013 17:40,39,11/1/2013 17:27,262,Desplaines St & Kinzie St,781,903212
-3003,,,LaSalle St & Illinois St,Fairbanks Ct & Grand Ave,LaSalle St & Illinois St,Customer,1141,11/2/2013 13:31,262,11/2/2013 13:18,430,Fairbanks Ct & Grand Ave,772,906635
-3003,1971,Male,St Clair St & Erie St,Ashland Ave & Grand Ave,St Clair St & Erie St,Subscriber,4440,10/31/2013 12:51,434,10/31/2013 12:35,16,Ashland Ave & Grand Ave,978,896081
-3003,1971,Male,Ashland Ave & Grand Ave,St Clair St & Erie St,Ashland Ave & Grand Ave,Subscriber,4427,10/31/2013 13:34,16,10/31/2013 13:15,434,St Clair St & Erie St,"1,132",896242
-3003,1974,Male,May St & Fulton St,Ashland Ave & Grand Ave,May St & Fulton St,Subscriber,1414,10/31/2013 20:29,434,10/31/2013 20:20,197,Ashland Ave & Grand Ave,533,897648
-3003,1978,Male,Aberdeen St & Jackson Blvd,May St & Fulton St,Aberdeen St & Jackson Blvd,Subscriber,1278,10/31/2013 21:31,197,10/31/2013 21:26,157,May St & Fulton St,295,897819
-3003,1974,Male,LaSalle St & Jackson Blvd,Clark St & Elm St,LaSalle St & Jackson Blvd,Subscriber,2943,11/1/2013 6:16,349,11/1/2013 6:06,32,Clark St & Elm St,622,898215
-3003,1961,Male,Wells St & Ohio St,Canal St & Adams St,Wells St & Ohio St,Subscriber,2417,11/1/2013 8:56,11,11/1/2013 8:48,264,Canal St & Adams St,520,899342
-3003,1975,Male,Clark St & Randolph St,Wells St & Ohio St,Clark St & Randolph St,Subscriber,1191,11/1/2013 11:50,264,11/1/2013 11:46,5,Wells St & Ohio St,274,900437
-3003,1961,Male,Dearborn St & Monroe St,Clinton St & Washington Blvd,Dearborn St & Monroe St,Subscriber,1360,11/4/2013 7:32,10,11/4/2013 7:26,49,Clinton St & Washington Blvd,332,915699
-3003,1977,Male,Clarendon Ave & Leland Ave,Broadway & Barry Ave,Clarendon Ave & Leland Ave,Subscriber,4709,11/4/2013 15:23,137,11/4/2013 15:08,385,Broadway & Barry Ave,949,919093
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+3003,1971,St Clair St & Erie St,41.891072,-87.666611,434,Ashland Ave & Grand Ave,Male,4440,Ashland Ave & Grand Ave,10/31/2013 12:35,10/31/2013 12:51,41.894448,-87.622663,16,St Clair St & Erie St,896081,978,Subscriber
+3003,1971,Ashland Ave & Grand Ave,41.894448,-87.622663,16,St Clair St & Erie St,Male,4427,St Clair St & Erie St,10/31/2013 13:15,10/31/2013 13:34,41.891072,-87.666611,434,Ashland Ave & Grand Ave,896242,"1,132",Subscriber
+3003,1974,May St & Fulton St,41.891072,-87.666611,434,Ashland Ave & Grand Ave,Male,1414,Ashland Ave & Grand Ave,10/31/2013 20:20,10/31/2013 20:29,41.886773,-87.656001,197,May St & Fulton St,897648,533,Subscriber
+3003,1978,Aberdeen St & Jackson Blvd,41.886773,-87.656001,197,May St & Fulton St,Male,1278,May St & Fulton St,10/31/2013 21:26,10/31/2013 21:31,41.87772613,-87.65478743,157,Aberdeen St & Jackson Blvd,897819,295,Subscriber
+3003,,Clark St & Elm St,41.87772613,-87.65478743,157,Aberdeen St & Jackson Blvd,,4794,Aberdeen St & Jackson Blvd,11/1/2013 5:06,11/1/2013 5:27,41.903233,-87.631253,349,Clark St & Elm St,898171,"1,273",Customer
+3003,1974,LaSalle St & Jackson Blvd,41.903233,-87.631253,349,Clark St & Elm St,Male,2943,Clark St & Elm St,11/1/2013 6:06,11/1/2013 6:16,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,898215,622,Subscriber
+3003,1961,Wells St & Ohio St,41.87923,-87.640015,11,Canal St & Adams St,Male,2417,Canal St & Adams St,11/1/2013 8:48,11/1/2013 8:56,41.892238,-87.633985,264,Wells St & Ohio St,899342,520,Subscriber
+3003,1975,Clark St & Randolph St,41.892238,-87.633985,264,Wells St & Ohio St,Male,1191,Wells St & Ohio St,11/1/2013 11:46,11/1/2013 11:50,41.884576228,-87.63188991,5,Clark St & Randolph St,900437,274,Subscriber
+3003,,Fairbanks Ct & Grand Ave,41.888716036,-87.6444478533,39,Desplaines St & Kinzie St,,2353,Desplaines St & Kinzie St,11/1/2013 17:27,11/1/2013 17:40,41.89186,-87.62062,262,Fairbanks Ct & Grand Ave,903212,781,Customer
+3003,,LaSalle St & Illinois St,41.89186,-87.62062,262,Fairbanks Ct & Grand Ave,,1141,Fairbanks Ct & Grand Ave,11/2/2013 13:18,11/2/2013 13:31,41.890749,-87.63206,430,LaSalle St & Illinois St,906635,772,Customer
+3003,1961,Dearborn St & Monroe St,41.88338,-87.64117,10,Clinton St & Washington Blvd,Male,1360,Clinton St & Washington Blvd,11/4/2013 7:26,11/4/2013 7:32,41.881319815,-87.6295209193,49,Dearborn St & Monroe St,915699,332,Subscriber
+3003,1977,Clarendon Ave & Leland Ave,41.937739,-87.644094,137,Broadway & Barry Ave,Male,4709,Broadway & Barry Ave,11/4/2013 15:08,11/4/2013 15:23,41.967968,-87.650001,385,Clarendon Ave & Leland Ave,919093,949,Subscriber

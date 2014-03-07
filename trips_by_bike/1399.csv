@@ -1,22 +1,22 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-1399,,,Lincoln Ave & Armitage Ave,Sheffield Ave & Willow St,Lincoln Ave & Armitage Ave,Customer,1718,8/8/2013 10:42,190,8/8/2013 10:31,146,Sheffield Ave & Willow St,658,179090
-1399,,,Michigan Ave & Pearson St,Lincoln Ave & Armitage Ave,Michigan Ave & Pearson St,Customer,3227,8/8/2013 13:03,146,8/8/2013 12:31,34,Lincoln Ave & Armitage Ave,"1,939",179656
-1399,,,Michigan Ave & Lake St,McClurg Ct & Illinois St,Michigan Ave & Lake St,Customer,2162,8/8/2013 19:19,51,8/8/2013 18:57,43,McClurg Ct & Illinois St,"1,375",182806
-1399,,,Millennium Park,Michigan Ave & Lake St,Millennium Park,Customer,807,8/8/2013 20:35,43,8/8/2013 19:22,8,Michigan Ave & Lake St,"4,388",183008
-1399,,,Streeter Dr & Illinois St,Fairbanks Ct & Grand Ave,Streeter Dr & Illinois St,Customer,795,8/9/2013 9:58,262,8/9/2013 9:40,22,Fairbanks Ct & Grand Ave,"1,065",185341
-1399,,,Millennium Park,Streeter Dr & Illinois St,Millennium Park,Customer,2939,8/9/2013 10:32,22,8/9/2013 10:19,8,Streeter Dr & Illinois St,793,185499
-1399,,,Fairbanks Ct & Grand Ave,Millennium Park,Fairbanks Ct & Grand Ave,Customer,2162,8/9/2013 15:27,8,8/9/2013 14:48,262,Millennium Park,"2,312",187679
-1399,,,Clinton St & Lake St,Fairbanks Ct & Grand Ave,Clinton St & Lake St,Customer,2336,8/9/2013 18:01,262,8/9/2013 17:27,21,Fairbanks Ct & Grand Ave,"2,026",189199
-1399,1965,Male,McClurg Ct & Illinois St,Wells St & Erie St,McClurg Ct & Illinois St,Subscriber,1727,8/8/2013 17:28,64,8/8/2013 17:16,51,Wells St & Erie St,717,181808
-1399,1979,Male,State St & Kinzie St,Millennium Park,State St & Kinzie St,Subscriber,1222,8/8/2013 23:59,8,8/8/2013 23:53,50,Millennium Park,361,184091
-1399,1963,Male,Damen Ave & Pierce Ave,Desplaines St & Kinzie St,Damen Ave & Pierce Ave,Subscriber,3934,8/10/2013 12:02,39,8/10/2013 11:48,65,Desplaines St & Kinzie St,833,193389
-1399,1963,Male,Sheffield Ave & Wellington Ave,Sheffield Ave & Fullerton Ave,Sheffield Ave & Wellington Ave,Subscriber,1221,8/10/2013 12:51,60,8/10/2013 12:42,67,Sheffield Ave & Fullerton Ave,514,194015
-1399,1963,Male,Clark St & Waveland Ave,Sheffield Ave & Wellington Ave,Clark St & Waveland Ave,Subscriber,1980,8/10/2013 13:03,67,8/10/2013 12:51,275,Sheffield Ave & Wellington Ave,712,194116
-1399,1963,Male,Clark St & Waveland Ave,Clark St & Waveland Ave,Clark St & Waveland Ave,Subscriber,0,8/10/2013 13:24,275,8/10/2013 13:03,275,Clark St & Waveland Ave,"1,215",194291
-1399,1963,Male,Southport Ave & Roscoe St,Clark St & Waveland Ave,Southport Ave & Roscoe St,Subscriber,1093,8/10/2013 13:36,275,8/10/2013 13:24,71,Clark St & Waveland Ave,718,194564
-1399,1963,Male,Lake Shore Dr & Wellington Ave,Southport Ave & Roscoe St,Lake Shore Dr & Wellington Ave,Subscriber,2863,8/10/2013 13:56,71,8/10/2013 13:36,234,Southport Ave & Roscoe St,"1,202",194762
-1399,1963,Male,Clark St & Waveland Ave,Lake Shore Dr & Wellington Ave,Clark St & Waveland Ave,Subscriber,2733,8/10/2013 14:07,234,8/10/2013 13:57,275,Lake Shore Dr & Wellington Ave,650,195060
-1399,1963,Male,Wilton Ave & Diversey Pkwy,Clark St & Waveland Ave,Wilton Ave & Diversey Pkwy,Subscriber,2035,8/10/2013 14:16,275,8/10/2013 14:08,66,Clark St & Waveland Ave,503,195210
-1399,1963,Male,Clark St & Elm St,Wilton Ave & Diversey Pkwy,Clark St & Elm St,Subscriber,4330,8/10/2013 14:38,66,8/10/2013 14:23,349,Wilton Ave & Diversey Pkwy,876,195426
-1399,1963,Male,Desplaines St & Kinzie St,Clark St & Elm St,Desplaines St & Kinzie St,Subscriber,2697,8/10/2013 14:48,349,8/10/2013 14:38,39,Clark St & Elm St,597,195672
-1399,1983,Female,Desplaines St & Kinzie St,Clinton St & Lake St,Desplaines St & Kinzie St,Subscriber,589,8/9/2013 19:08,21,8/9/2013 18:49,39,Clinton St & Lake St,"1,135",189925
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+1399,,Lincoln Ave & Armitage Ave,41.913688,-87.652855,190,Sheffield Ave & Willow St,,1718,Sheffield Ave & Willow St,8/8/2013 10:31,8/8/2013 10:42,41.918273,-87.638116,146,Lincoln Ave & Armitage Ave,179090,658,Customer
+1399,,Michigan Ave & Pearson St,41.918273,-87.638116,146,Lincoln Ave & Armitage Ave,,3227,Lincoln Ave & Armitage Ave,8/8/2013 12:31,8/8/2013 13:03,41.89766,-87.62351,34,Michigan Ave & Pearson St,179656,"1,939",Customer
+1399,1965,McClurg Ct & Illinois St,41.893832,-87.634195,64,Wells St & Erie St,Male,1727,Wells St & Erie St,8/8/2013 17:16,8/8/2013 17:28,41.89102,-87.6173,51,McClurg Ct & Illinois St,181808,717,Subscriber
+1399,,Michigan Ave & Lake St,41.89102,-87.6173,51,McClurg Ct & Illinois St,,2162,McClurg Ct & Illinois St,8/8/2013 18:57,8/8/2013 19:19,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,182806,"1,375",Customer
+1399,,Millennium Park,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,,807,Michigan Ave & Lake St,8/8/2013 19:22,8/8/2013 20:35,41.8810317,-87.62408432,8,Millennium Park,183008,"4,388",Customer
+1399,1979,State St & Kinzie St,41.8810317,-87.62408432,8,Millennium Park,Male,1222,Millennium Park,8/8/2013 23:53,8/8/2013 23:59,41.88918,-87.6277,50,State St & Kinzie St,184091,361,Subscriber
+1399,,Streeter Dr & Illinois St,41.89186,-87.62062,262,Fairbanks Ct & Grand Ave,,795,Fairbanks Ct & Grand Ave,8/9/2013 9:40,8/9/2013 9:58,41.891071,-87.6122,22,Streeter Dr & Illinois St,185341,"1,065",Customer
+1399,,Millennium Park,41.891071,-87.6122,22,Streeter Dr & Illinois St,,2939,Streeter Dr & Illinois St,8/9/2013 10:19,8/9/2013 10:32,41.8810317,-87.62408432,8,Millennium Park,185499,793,Customer
+1399,,Fairbanks Ct & Grand Ave,41.8810317,-87.62408432,8,Millennium Park,,2162,Millennium Park,8/9/2013 14:48,8/9/2013 15:27,41.89186,-87.62062,262,Fairbanks Ct & Grand Ave,187679,"2,312",Customer
+1399,,Clinton St & Lake St,41.89186,-87.62062,262,Fairbanks Ct & Grand Ave,,2336,Fairbanks Ct & Grand Ave,8/9/2013 17:27,8/9/2013 18:01,41.8858327415,-87.6413823149,21,Clinton St & Lake St,189199,"2,026",Customer
+1399,1983,Desplaines St & Kinzie St,41.8858327415,-87.6413823149,21,Clinton St & Lake St,Female,589,Clinton St & Lake St,8/9/2013 18:49,8/9/2013 19:08,41.888716036,-87.6444478533,39,Desplaines St & Kinzie St,189925,"1,135",Subscriber
+1399,1963,Damen Ave & Pierce Ave,41.888716036,-87.6444478533,39,Desplaines St & Kinzie St,Male,3934,Desplaines St & Kinzie St,8/10/2013 11:48,8/10/2013 12:02,41.9093960065,-87.6776919292,65,Damen Ave & Pierce Ave,193389,833,Subscriber
+1399,1963,Sheffield Ave & Wellington Ave,41.9256018819,-87.6537080423,60,Sheffield Ave & Fullerton Ave,Male,1221,Sheffield Ave & Fullerton Ave,8/10/2013 12:42,8/10/2013 12:51,41.936253,-87.653566,67,Sheffield Ave & Wellington Ave,194015,514,Subscriber
+1399,1963,Clark St & Waveland Ave,41.936253,-87.653566,67,Sheffield Ave & Wellington Ave,Male,1980,Sheffield Ave & Wellington Ave,8/10/2013 12:51,8/10/2013 13:03,41.94893,-87.65775,275,Clark St & Waveland Ave,194116,712,Subscriber
+1399,1963,Clark St & Waveland Ave,41.94893,-87.65775,275,Clark St & Waveland Ave,Male,0,Clark St & Waveland Ave,8/10/2013 13:03,8/10/2013 13:24,41.94893,-87.65775,275,Clark St & Waveland Ave,194291,"1,215",Subscriber
+1399,1963,Southport Ave & Roscoe St,41.94893,-87.65775,275,Clark St & Waveland Ave,Male,1093,Clark St & Waveland Ave,8/10/2013 13:24,8/10/2013 13:36,41.943739,-87.66402,71,Southport Ave & Roscoe St,194564,718,Subscriber
+1399,1963,Lake Shore Dr & Wellington Ave,41.943739,-87.66402,71,Southport Ave & Roscoe St,Male,2863,Southport Ave & Roscoe St,8/10/2013 13:36,8/10/2013 13:56,41.936669,-87.636794,234,Lake Shore Dr & Wellington Ave,194762,"1,202",Subscriber
+1399,1963,Clark St & Waveland Ave,41.936669,-87.636794,234,Lake Shore Dr & Wellington Ave,Male,2733,Lake Shore Dr & Wellington Ave,8/10/2013 13:57,8/10/2013 14:07,41.94893,-87.65775,275,Clark St & Waveland Ave,195060,650,Subscriber
+1399,1963,Wilton Ave & Diversey Pkwy,41.94893,-87.65775,275,Clark St & Waveland Ave,Male,2035,Clark St & Waveland Ave,8/10/2013 14:08,8/10/2013 14:16,41.93250008,-87.65268082,66,Wilton Ave & Diversey Pkwy,195210,503,Subscriber
+1399,1963,Clark St & Elm St,41.93250008,-87.65268082,66,Wilton Ave & Diversey Pkwy,Male,4330,Wilton Ave & Diversey Pkwy,8/10/2013 14:23,8/10/2013 14:38,41.903233,-87.631253,349,Clark St & Elm St,195426,876,Subscriber
+1399,1963,Desplaines St & Kinzie St,41.903233,-87.631253,349,Clark St & Elm St,Male,2697,Clark St & Elm St,8/10/2013 14:38,8/10/2013 14:48,41.888716036,-87.6444478533,39,Desplaines St & Kinzie St,195672,597,Subscriber

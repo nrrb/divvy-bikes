@@ -1,14 +1,14 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2073,,,Indiana Ave & Roosevelt Rd,Michigan Ave & Washington St,Indiana Ave & Roosevelt Rd,Customer,1887,9/17/2013 18:53,1,9/17/2013 18:32,309,Michigan Ave & Washington St,"1,239",519554
-2073,,,Indiana Ave & 40th St,Clinton St & 18th St,Indiana Ave & 40th St,Customer,6218,9/21/2013 13:02,329,9/21/2013 12:22,83,Clinton St & 18th St,"2,401",546526
-2073,,,Cottage Grove Ave & Oakwood Blvd,Indiana Ave & 40th St,Cottage Grove Ave & Oakwood Blvd,Customer,1767,9/21/2013 18:00,83,9/21/2013 17:40,346,Indiana Ave & 40th St,"1,174",552003
-2073,,,Rhodes Ave & 32nd St,Cottage Grove Ave & Oakwood Blvd,Rhodes Ave & 32nd St,Customer,1860,9/21/2013 18:23,346,9/21/2013 18:07,215,Cottage Grove Ave & Oakwood Blvd,930,552337
-2073,,,Blue Island Ave & 18th St,Rhodes Ave & 32nd St,Blue Island Ave & 18th St,Customer,6325,9/21/2013 18:54,215,9/21/2013 18:26,135,Rhodes Ave & 32nd St,"1,695",552615
-2073,1972,Male,Michigan Ave & Washington St,Blackstone Ave & Hyde Park Blvd,Michigan Ave & Washington St,Subscriber,11774,9/17/2013 17:10,398,9/17/2013 16:57,1,Blackstone Ave & Hyde Park Blvd,779,518052
-2073,1973,Male,Canal St & Jackson Blvd,Indiana Ave & Roosevelt Rd,Canal St & Jackson Blvd,Subscriber,3039,9/18/2013 8:52,309,9/18/2013 8:43,138,Indiana Ave & Roosevelt Rd,507,522711
-2073,1973,Male,Halsted St & Madison St,Canal St & Jackson Blvd,Halsted St & Madison St,Subscriber,1394,9/18/2013 9:03,138,9/18/2013 8:56,159,Canal St & Jackson Blvd,395,522831
-2073,1945,Male,Canal St & Adams St,Halsted St & Madison St,Canal St & Adams St,Subscriber,922,9/18/2013 14:55,159,9/18/2013 14:50,11,Halsted St & Madison St,292,525345
-2073,1983,Male,Franklin St & Chicago Ave,Canal St & Monroe St,Franklin St & Chicago Ave,Subscriber,2184,9/18/2013 17:10,56,9/18/2013 17:00,17,Canal St & Monroe St,576,526577
-2073,1982,Male,Clinton St & 18th St,Franklin St & Chicago Ave,Clinton St & 18th St,Subscriber,5080,9/19/2013 14:55,17,9/19/2013 14:33,329,Franklin St & Chicago Ave,"1,318",529929
-2073,1984,Male,Michigan Ave & Lake St,Blue Island Ave & 18th St,Michigan Ave & Lake St,Subscriber,5863,9/24/2013 7:07,135,9/24/2013 6:40,43,Blue Island Ave & 18th St,"1,602",573259
-2073,1944,Male,State St & Van Buren St,Canal St & Madison St,State St & Van Buren St,Subscriber,1789,9/24/2013 10:06,341,9/24/2013 9:56,3,Canal St & Madison St,591,575137
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2073,1972,Michigan Ave & Washington St,41.802562,-87.590368,398,Blackstone Ave & Hyde Park Blvd,Male,11774,Blackstone Ave & Hyde Park Blvd,9/17/2013 16:57,9/17/2013 17:10,41.8838927658,-87.6246491409,1,Michigan Ave & Washington St,518052,779,Subscriber
+2073,,Indiana Ave & Roosevelt Rd,41.8838927658,-87.6246491409,1,Michigan Ave & Washington St,,1887,Michigan Ave & Washington St,9/17/2013 18:32,9/17/2013 18:53,41.867888,-87.623041,309,Indiana Ave & Roosevelt Rd,519554,"1,239",Customer
+2073,1973,Canal St & Jackson Blvd,41.867888,-87.623041,309,Indiana Ave & Roosevelt Rd,Male,3039,Indiana Ave & Roosevelt Rd,9/18/2013 8:43,9/18/2013 8:52,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,522711,507,Subscriber
+2073,1973,Halsted St & Madison St,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,Male,1394,Canal St & Jackson Blvd,9/18/2013 8:56,9/18/2013 9:03,41.88175,-87.6478,159,Halsted St & Madison St,522831,395,Subscriber
+2073,1945,Canal St & Adams St,41.88175,-87.6478,159,Halsted St & Madison St,Male,922,Halsted St & Madison St,9/18/2013 14:50,9/18/2013 14:55,41.87923,-87.640015,11,Canal St & Adams St,525345,292,Subscriber
+2073,1983,Franklin St & Chicago Ave,41.8807,-87.63947,56,Canal St & Monroe St,Male,2184,Canal St & Monroe St,9/18/2013 17:00,9/18/2013 17:10,41.89680204,-87.63563839,17,Franklin St & Chicago Ave,526577,576,Subscriber
+2073,1982,Clinton St & 18th St,41.89680204,-87.63563839,17,Franklin St & Chicago Ave,Male,5080,Franklin St & Chicago Ave,9/19/2013 14:33,9/19/2013 14:55,41.85795,-87.640826,329,Clinton St & 18th St,529929,"1,318",Subscriber
+2073,,Indiana Ave & 40th St,41.85795,-87.640826,329,Clinton St & 18th St,,6218,Clinton St & 18th St,9/21/2013 12:22,9/21/2013 13:02,41.82168,-87.6216,83,Indiana Ave & 40th St,546526,"2,401",Customer
+2073,,Cottage Grove Ave & Oakwood Blvd,41.82168,-87.6216,83,Indiana Ave & 40th St,,1767,Indiana Ave & 40th St,9/21/2013 17:40,9/21/2013 18:00,41.822985,-87.6071,346,Cottage Grove Ave & Oakwood Blvd,552003,"1,174",Customer
+2073,,Rhodes Ave & 32nd St,41.822985,-87.6071,346,Cottage Grove Ave & Oakwood Blvd,,1860,Cottage Grove Ave & Oakwood Blvd,9/21/2013 18:07,9/21/2013 18:23,41.836208,-87.613533,215,Rhodes Ave & 32nd St,552337,930,Customer
+2073,,Blue Island Ave & 18th St,41.836208,-87.613533,215,Rhodes Ave & 32nd St,,6325,Rhodes Ave & 32nd St,9/21/2013 18:26,9/21/2013 18:54,41.857556,-87.661535,135,Blue Island Ave & 18th St,552615,"1,695",Customer
+2073,1984,Michigan Ave & Lake St,41.857556,-87.661535,135,Blue Island Ave & 18th St,Male,5863,Blue Island Ave & 18th St,9/24/2013 6:40,9/24/2013 7:07,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,573259,"1,602",Subscriber
+2073,1944,State St & Van Buren St,41.882091,-87.639833,341,Canal St & Madison St,Male,1789,Canal St & Madison St,9/24/2013 9:56,9/24/2013 10:06,41.877181,-87.627844,3,State St & Van Buren St,575137,591,Subscriber

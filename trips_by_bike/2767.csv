@@ -1,14 +1,14 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2767,,,Clark St & Wellington Ave,Wilton Ave & Belmont Ave,Clark St & Wellington Ave,Customer,695,12/19/2013 12:20,69,12/19/2013 12:17,232,Wilton Ave & Belmont Ave,155,1088616
-2767,,,Hampden Ct & Diversey Pkwy,Clark St & Wellington Ave,Hampden Ct & Diversey Pkwy,Customer,1299,12/19/2013 12:27,232,12/19/2013 12:22,123,Clark St & Wellington Ave,273,1088638
-2767,,,Wilton Ave & Diversey Pkwy,Hampden Ct & Diversey Pkwy,Wilton Ave & Diversey Pkwy,Customer,1659,12/19/2013 14:16,123,12/19/2013 14:12,66,Hampden Ct & Diversey Pkwy,241,1089016
-2767,,,Clark St & Wrightwood Ave,Broadway & Barry Ave,Clark St & Wrightwood Ave,Customer,977,12/28/2013 16:39,137,12/28/2013 16:33,209,Broadway & Barry Ave,366,1104640
-2767,,,Halsted St & Wrightwood Ave,Clark St & Wrightwood Ave,Halsted St & Wrightwood Ave,Customer,498,12/28/2013 21:39,209,12/28/2013 21:35,210,Clark St & Wrightwood Ave,205,1105359
-2767,1988,Male,Halsted St & Roscoe St,Sheffield Ave & Wellington Ave,Halsted St & Roscoe St,Subscriber,1354,12/19/2013 0:17,67,12/19/2013 0:11,127,Sheffield Ave & Wellington Ave,324,1087074
-2767,1975,Male,Lake Shore Dr & Diversey Pkwy,Wilton Ave & Diversey Pkwy,Lake Shore Dr & Diversey Pkwy,Subscriber,1972,12/19/2013 18:29,66,12/19/2013 18:22,347,Wilton Ave & Diversey Pkwy,420,1090242
-2767,1969,Male,Franklin St & Arcade Pl,Lake Shore Dr & Diversey Pkwy,Franklin St & Arcade Pl,Subscriber,6850,12/20/2013 19:14,347,12/20/2013 18:46,57,Lake Shore Dr & Diversey Pkwy,"1,688",1093167
-2767,1965,Male,Halsted St & Wrightwood Ave,Franklin St & Arcade Pl,Halsted St & Wrightwood Ave,Subscriber,6378,12/20/2013 19:42,57,12/20/2013 19:21,210,Franklin St & Arcade Pl,"1,245",1093279
-2767,1982,Male,Halsted St & Dickens Ave,Halsted St & Wrightwood Ave,Halsted St & Dickens Ave,Subscriber,1048,12/20/2013 20:19,210,12/20/2013 20:16,192,Halsted St & Wrightwood Ave,207,1093376
-2767,1973,Male,Clarendon Ave & Gordon Ter,Halsted St & Dickens Ave,Clarendon Ave & Gordon Ter,Subscriber,6456,12/22/2013 23:33,192,12/22/2013 23:15,379,Halsted St & Dickens Ave,"1,099",1096024
-2767,1984,Male,Broadway & Barry Ave,Wilton Ave & Belmont Ave,Broadway & Barry Ave,Subscriber,1021,12/25/2013 9:11,69,12/25/2013 9:06,137,Wilton Ave & Belmont Ave,288,1098844
-2767,1977,Female,Wilton Ave & Belmont Ave,Halsted St & Roscoe St,Wilton Ave & Belmont Ave,Subscriber,918,12/19/2013 9:47,127,12/19/2013 9:42,69,Halsted St & Roscoe St,292,1088099
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2767,1988,Halsted St & Roscoe St,41.936253,-87.653566,67,Sheffield Ave & Wellington Ave,Male,1354,Sheffield Ave & Wellington Ave,12/19/2013 0:11,12/19/2013 0:17,41.943662,-87.648917,127,Halsted St & Roscoe St,1087074,324,Subscriber
+2767,1977,Wilton Ave & Belmont Ave,41.943662,-87.648917,127,Halsted St & Roscoe St,Female,918,Halsted St & Roscoe St,12/19/2013 9:42,12/19/2013 9:47,41.94018,-87.65304,69,Wilton Ave & Belmont Ave,1088099,292,Subscriber
+2767,,Clark St & Wellington Ave,41.94018,-87.65304,69,Wilton Ave & Belmont Ave,,695,Wilton Ave & Belmont Ave,12/19/2013 12:17,12/19/2013 12:20,41.9364968219,-87.6475386582,232,Clark St & Wellington Ave,1088616,155,Customer
+2767,,Hampden Ct & Diversey Pkwy,41.9364968219,-87.6475386582,232,Clark St & Wellington Ave,,1299,Clark St & Wellington Ave,12/19/2013 12:22,12/19/2013 12:27,41.93262,-87.642385,123,Hampden Ct & Diversey Pkwy,1088638,273,Customer
+2767,,Wilton Ave & Diversey Pkwy,41.93262,-87.642385,123,Hampden Ct & Diversey Pkwy,,1659,Hampden Ct & Diversey Pkwy,12/19/2013 14:12,12/19/2013 14:16,41.93250008,-87.65268082,66,Wilton Ave & Diversey Pkwy,1089016,241,Customer
+2767,1975,Lake Shore Dr & Diversey Pkwy,41.93250008,-87.65268082,66,Wilton Ave & Diversey Pkwy,Male,1972,Wilton Ave & Diversey Pkwy,12/19/2013 18:22,12/19/2013 18:29,41.932684,-87.63625,347,Lake Shore Dr & Diversey Pkwy,1090242,420,Subscriber
+2767,1969,Franklin St & Arcade Pl,41.932684,-87.63625,347,Lake Shore Dr & Diversey Pkwy,Male,6850,Lake Shore Dr & Diversey Pkwy,12/20/2013 18:46,12/20/2013 19:14,41.881131,-87.635185,57,Franklin St & Arcade Pl,1093167,"1,688",Subscriber
+2767,1965,Halsted St & Wrightwood Ave,41.881131,-87.635185,57,Franklin St & Arcade Pl,Male,6378,Franklin St & Arcade Pl,12/20/2013 19:21,12/20/2013 19:42,41.929143,-87.649077,210,Halsted St & Wrightwood Ave,1093279,"1,245",Subscriber
+2767,1982,Halsted St & Dickens Ave,41.929143,-87.649077,210,Halsted St & Wrightwood Ave,Male,1048,Halsted St & Wrightwood Ave,12/20/2013 20:16,12/20/2013 20:19,41.919936,-87.64883,192,Halsted St & Dickens Ave,1093376,207,Subscriber
+2767,1973,Clarendon Ave & Gordon Ter,41.919936,-87.64883,192,Halsted St & Dickens Ave,Male,6456,Halsted St & Dickens Ave,12/22/2013 23:15,12/22/2013 23:33,41.957879,-87.649519,379,Clarendon Ave & Gordon Ter,1096024,"1,099",Subscriber
+2767,1984,Broadway & Barry Ave,41.94018,-87.65304,69,Wilton Ave & Belmont Ave,Male,1021,Wilton Ave & Belmont Ave,12/25/2013 9:06,12/25/2013 9:11,41.937739,-87.644094,137,Broadway & Barry Ave,1098844,288,Subscriber
+2767,,Clark St & Wrightwood Ave,41.937739,-87.644094,137,Broadway & Barry Ave,,977,Broadway & Barry Ave,12/28/2013 16:33,12/28/2013 16:39,41.929546,-87.643118,209,Clark St & Wrightwood Ave,1104640,366,Customer
+2767,,Halsted St & Wrightwood Ave,41.929546,-87.643118,209,Clark St & Wrightwood Ave,,498,Clark St & Wrightwood Ave,12/28/2013 21:35,12/28/2013 21:39,41.929143,-87.649077,210,Halsted St & Wrightwood Ave,1105359,205,Customer

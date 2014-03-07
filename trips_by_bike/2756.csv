@@ -1,10 +1,10 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2756,1968,Male,Wells St & Erie St,Canal St & Adams St,Wells St & Erie St,Subscriber,2590,12/19/2013 8:26,11,12/19/2013 8:16,64,Canal St & Adams St,559,1087594
-2756,1973,Male,Canal St & Madison St,Wells St & Erie St,Canal St & Madison St,Subscriber,2222,12/19/2013 12:51,64,12/19/2013 12:44,341,Wells St & Erie St,417,1088705
-2756,1969,Male,Michigan Ave & Oak St,Canal St & Madison St,Michigan Ave & Oak St,Subscriber,3430,12/19/2013 14:48,341,12/19/2013 14:31,42,Canal St & Madison St,972,1089075
-2756,1976,Male,Sheffield Ave & Fullerton Ave,Wells St & Concord Ln,Sheffield Ave & Fullerton Ave,Subscriber,2520,12/21/2013 8:55,182,12/21/2013 8:47,60,Wells St & Concord Ln,519,1093800
-2756,1976,Male,Wells St & Concord Ln,Sheffield Ave & Fullerton Ave,Wells St & Concord Ln,Subscriber,2520,12/21/2013 9:49,60,12/21/2013 9:38,182,Sheffield Ave & Fullerton Ave,645,1093882
-2756,1970,Male,Michigan Ave & 18th St,Canal St & Harrison St,Michigan Ave & 18th St,Subscriber,3168,12/28/2013 13:41,326,12/28/2013 13:29,150,Canal St & Harrison St,732,1103757
-2756,1977,Male,State St & Erie St,Michigan Ave & 18th St,State St & Erie St,Subscriber,6646,12/28/2013 18:28,150,12/28/2013 18:12,45,Michigan Ave & 18th St,958,1104987
-2756,1988,Female,Wells St & Concord Ln,Michigan Ave & Oak St,Wells St & Concord Ln,Subscriber,2214,12/20/2013 17:32,42,12/20/2013 17:23,182,Michigan Ave & Oak St,535,1092879
-2756,1984,Female,Dearborn St & Monroe St,Wells St & Concord Ln,Dearborn St & Monroe St,Subscriber,3809,12/21/2013 12:43,182,12/21/2013 12:27,49,Wells St & Concord Ln,975,1094198
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2756,1968,Wells St & Erie St,41.87923,-87.640015,11,Canal St & Adams St,Male,2590,Canal St & Adams St,12/19/2013 8:16,12/19/2013 8:26,41.893832,-87.634195,64,Wells St & Erie St,1087594,559,Subscriber
+2756,1973,Canal St & Madison St,41.893832,-87.634195,64,Wells St & Erie St,Male,2222,Wells St & Erie St,12/19/2013 12:44,12/19/2013 12:51,41.882091,-87.639833,341,Canal St & Madison St,1088705,417,Subscriber
+2756,1969,Michigan Ave & Oak St,41.882091,-87.639833,341,Canal St & Madison St,Male,3430,Canal St & Madison St,12/19/2013 14:31,12/19/2013 14:48,41.90096039,-87.62377664,42,Michigan Ave & Oak St,1089075,972,Subscriber
+2756,1988,Wells St & Concord Ln,41.90096039,-87.62377664,42,Michigan Ave & Oak St,Female,2214,Michigan Ave & Oak St,12/20/2013 17:23,12/20/2013 17:32,41.912202,-87.634664,182,Wells St & Concord Ln,1092879,535,Subscriber
+2756,1976,Sheffield Ave & Fullerton Ave,41.912202,-87.634664,182,Wells St & Concord Ln,Male,2520,Wells St & Concord Ln,12/21/2013 8:47,12/21/2013 8:55,41.9256018819,-87.6537080423,60,Sheffield Ave & Fullerton Ave,1093800,519,Subscriber
+2756,1976,Wells St & Concord Ln,41.9256018819,-87.6537080423,60,Sheffield Ave & Fullerton Ave,Male,2520,Sheffield Ave & Fullerton Ave,12/21/2013 9:38,12/21/2013 9:49,41.912202,-87.634664,182,Wells St & Concord Ln,1093882,645,Subscriber
+2756,1984,Dearborn St & Monroe St,41.912202,-87.634664,182,Wells St & Concord Ln,Female,3809,Wells St & Concord Ln,12/21/2013 12:27,12/21/2013 12:43,41.881319815,-87.6295209193,49,Dearborn St & Monroe St,1094198,975,Subscriber
+2756,1970,Michigan Ave & 18th St,41.874337,-87.639566,326,Canal St & Harrison St,Male,3168,Canal St & Harrison St,12/28/2013 13:29,12/28/2013 13:41,41.857937,-87.623633,150,Michigan Ave & 18th St,1103757,732,Subscriber
+2756,1977,State St & Erie St,41.857937,-87.623633,150,Michigan Ave & 18th St,Male,6646,Michigan Ave & 18th St,12/28/2013 18:12,12/28/2013 18:28,41.893975,-87.628623,45,State St & Erie St,1104987,958,Subscriber

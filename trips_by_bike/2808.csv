@@ -1,13 +1,13 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2808,,,Clark St & Elm St,Lake Shore Dr & Belmont Ave,Clark St & Elm St,Customer,4972,12/28/2013 11:40,233,12/28/2013 11:07,349,Lake Shore Dr & Belmont Ave,"1,944",1103326
-2808,1984,Male,State St & Kinzie St,Franklin St & Lake St,State St & Kinzie St,Subscriber,1039,12/17/2013 19:08,272,12/17/2013 19:00,50,Franklin St & Lake St,469,1083430
-2808,1962,Male,Canal St & Adams St,State St & Kinzie St,Canal St & Adams St,Subscriber,2310,12/17/2013 19:26,50,12/17/2013 19:14,11,State St & Kinzie St,746,1083470
-2808,1975,Male,Columbus Dr & Randolph St,Canal St & Adams St,Columbus Dr & Randolph St,Subscriber,3039,12/18/2013 6:37,11,12/18/2013 6:28,263,Canal St & Adams St,539,1083924
-2808,1984,Male,Franklin St & Quincy St,Columbus Dr & Randolph St,Franklin St & Quincy St,Subscriber,1894,12/18/2013 7:43,263,12/18/2013 7:36,7,Columbus Dr & Randolph St,462,1084071
-2808,1970,Male,Dearborn St & Adams St,Franklin St & Quincy St,Dearborn St & Adams St,Subscriber,917,12/18/2013 12:52,7,12/18/2013 12:49,20,Franklin St & Quincy St,172,1085230
-2808,1981,Male,State St & Erie St,Dearborn St & Adams St,State St & Erie St,Subscriber,1755,12/18/2013 15:29,20,12/18/2013 15:19,45,Dearborn St & Adams St,602,1085674
-2808,1979,Male,Clark St & Randolph St,State St & Erie St,Clark St & Randolph St,Subscriber,1437,12/18/2013 16:44,45,12/18/2013 16:38,5,State St & Erie St,375,1085934
-2808,1981,Male,LaSalle St & Illinois St,Clark St & Randolph St,LaSalle St & Illinois St,Subscriber,778,12/20/2013 15:43,5,12/20/2013 15:39,430,Clark St & Randolph St,228,1092370
-2808,1985,Male,Lake Shore Dr & Belmont Ave,LaSalle St & Illinois St,Lake Shore Dr & Belmont Ave,Subscriber,8528,12/20/2013 18:00,430,12/20/2013 17:33,233,LaSalle St & Illinois St,"1,573",1092937
-2808,1985,Male,Wilton Ave & Diversey Pkwy,Lake Shore Dr & Belmont Ave,Wilton Ave & Diversey Pkwy,Subscriber,3097,12/21/2013 15:18,233,12/21/2013 15:04,66,Lake Shore Dr & Belmont Ave,874,1094480
-2808,1985,Male,Lake Shore Dr & Belmont Ave,Wilton Ave & Diversey Pkwy,Lake Shore Dr & Belmont Ave,Subscriber,2467,12/21/2013 16:02,66,12/21/2013 15:51,233,Wilton Ave & Diversey Pkwy,668,1094557
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2808,1984,State St & Kinzie St,41.885837,-87.6355,272,Franklin St & Lake St,Male,1039,Franklin St & Lake St,12/17/2013 19:00,12/17/2013 19:08,41.88918,-87.6277,50,State St & Kinzie St,1083430,469,Subscriber
+2808,1962,Canal St & Adams St,41.88918,-87.6277,50,State St & Kinzie St,Male,2310,State St & Kinzie St,12/17/2013 19:14,12/17/2013 19:26,41.87923,-87.640015,11,Canal St & Adams St,1083470,746,Subscriber
+2808,1975,Columbus Dr & Randolph St,41.87923,-87.640015,11,Canal St & Adams St,Male,3039,Canal St & Adams St,12/18/2013 6:28,12/18/2013 6:37,41.8853,-87.62077,263,Columbus Dr & Randolph St,1083924,539,Subscriber
+2808,1984,Franklin St & Quincy St,41.8853,-87.62077,263,Columbus Dr & Randolph St,Male,1894,Columbus Dr & Randolph St,12/18/2013 7:36,12/18/2013 7:43,41.878724,-87.634793,7,Franklin St & Quincy St,1084071,462,Subscriber
+2808,1970,Dearborn St & Adams St,41.878724,-87.634793,7,Franklin St & Quincy St,Male,917,Franklin St & Quincy St,12/18/2013 12:49,12/18/2013 12:52,41.8793563587,-87.6297910363,20,Dearborn St & Adams St,1085230,172,Subscriber
+2808,1981,State St & Erie St,41.8793563587,-87.6297910363,20,Dearborn St & Adams St,Male,1755,Dearborn St & Adams St,12/18/2013 15:19,12/18/2013 15:29,41.893975,-87.628623,45,State St & Erie St,1085674,602,Subscriber
+2808,1979,Clark St & Randolph St,41.893975,-87.628623,45,State St & Erie St,Male,1437,State St & Erie St,12/18/2013 16:38,12/18/2013 16:44,41.884576228,-87.63188991,5,Clark St & Randolph St,1085934,375,Subscriber
+2808,1981,LaSalle St & Illinois St,41.884576228,-87.63188991,5,Clark St & Randolph St,Male,778,Clark St & Randolph St,12/20/2013 15:39,12/20/2013 15:43,41.890749,-87.63206,430,LaSalle St & Illinois St,1092370,228,Subscriber
+2808,1985,Lake Shore Dr & Belmont Ave,41.890749,-87.63206,430,LaSalle St & Illinois St,Male,8528,LaSalle St & Illinois St,12/20/2013 17:33,12/20/2013 18:00,41.940775,-87.639192,233,Lake Shore Dr & Belmont Ave,1092937,"1,573",Subscriber
+2808,1985,Wilton Ave & Diversey Pkwy,41.940775,-87.639192,233,Lake Shore Dr & Belmont Ave,Male,3097,Lake Shore Dr & Belmont Ave,12/21/2013 15:04,12/21/2013 15:18,41.93250008,-87.65268082,66,Wilton Ave & Diversey Pkwy,1094480,874,Subscriber
+2808,1985,Lake Shore Dr & Belmont Ave,41.93250008,-87.65268082,66,Wilton Ave & Diversey Pkwy,Male,2467,Wilton Ave & Diversey Pkwy,12/21/2013 15:51,12/21/2013 16:02,41.940775,-87.639192,233,Lake Shore Dr & Belmont Ave,1094557,668,Subscriber
+2808,,Clark St & Elm St,41.940775,-87.639192,233,Lake Shore Dr & Belmont Ave,,4972,Lake Shore Dr & Belmont Ave,12/28/2013 11:07,12/28/2013 11:40,41.903233,-87.631253,349,Clark St & Elm St,1103326,"1,944",Customer

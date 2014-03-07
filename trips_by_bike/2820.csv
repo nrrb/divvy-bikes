@@ -1,21 +1,21 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2820,,,Clark St & Congress Pkwy,Millennium Park,Clark St & Congress Pkwy,Customer,1342,10/25/2013 16:23,8,10/25/2013 16:17,9,Millennium Park,373,861010
-2820,,,Streeter Dr & Illinois St,Michigan Ave & Oak St,Streeter Dr & Illinois St,Customer,2418,10/28/2013 10:48,42,10/28/2013 10:32,22,Michigan Ave & Oak St,915,877220
-2820,,,Michigan Ave & Pearson St,Streeter Dr & Illinois St,Michigan Ave & Pearson St,Customer,2146,10/28/2013 12:59,22,10/28/2013 12:42,34,Streeter Dr & Illinois St,"1,005",877895
-2820,1974,Male,California Ave & Francis Pl,Sheffield Ave & Fullerton Ave,California Ave & Francis Pl,Subscriber,4782,10/22/2013 21:11,60,10/22/2013 20:57,259,Sheffield Ave & Fullerton Ave,828,843890
-2820,1988,Male,Damen Ave & Pierce Ave,Wood St & Division St,Damen Ave & Pierce Ave,Subscriber,1160,10/24/2013 22:23,246,10/24/2013 22:19,65,Wood St & Division St,271,856808
-2820,1967,Male,Millennium Park,Franklin St & Arcade Pl,Millennium Park,Subscriber,995,10/25/2013 16:01,57,10/25/2013 15:55,8,Franklin St & Arcade Pl,377,860845
-2820,1967,Male,Michigan Ave & Oak St,Clark St & Congress Pkwy,Michigan Ave & Oak St,Subscriber,5887,10/28/2013 7:24,9,10/28/2013 7:06,42,Clark St & Congress Pkwy,"1,082",875491
-2820,1977,Male,State St & Erie St,Michigan Ave & Pearson St,State St & Erie St,Subscriber,1092,10/28/2013 14:02,34,10/28/2013 13:58,45,Michigan Ave & Pearson St,287,878315
-2820,1967,Male,Canal St & Adams St,State St & Erie St,Canal St & Adams St,Subscriber,2865,10/28/2013 16:50,45,10/28/2013 16:37,11,State St & Erie St,790,879267
-2820,1951,Male,Clinton St & Madison St,Wolcott Ave & Polk St,Clinton St & Madison St,Subscriber,3840,10/30/2013 16:03,284,10/30/2013 15:44,301,Wolcott Ave & Polk St,"1,152",893222
-2820,1985,Male,LaSalle St & Jackson Blvd,Clinton St & Madison St,LaSalle St & Jackson Blvd,Subscriber,1150,10/31/2013 9:47,301,10/31/2013 9:40,32,Clinton St & Madison St,365,895662
-2820,1977,Male,Clinton St & Lake St,Canal St & Adams St,Clinton St & Lake St,Subscriber,1282,11/1/2013 8:26,11,11/1/2013 8:20,21,Canal St & Adams St,396,899050
-2820,1987,Male,Michigan Ave & Washington St,State St & Pearson St,Michigan Ave & Washington St,Subscriber,1884,11/1/2013 11:24,14,11/1/2013 11:17,1,State St & Pearson St,424,900276
-2820,1953,Male,Canal St & Monroe St,Michigan Ave & Washington St,Canal St & Monroe St,Subscriber,1871,11/1/2013 12:05,1,11/1/2013 11:57,56,Michigan Ave & Washington St,491,900500
-2820,1961,Male,Canal St & Harrison St,Canal St & Monroe St,Canal St & Harrison St,Subscriber,1089,11/1/2013 16:48,56,11/1/2013 16:42,326,Canal St & Monroe St,348,902647
-2820,1981,Female,Wood St & Division St,California Ave & Francis Pl,Wood St & Division St,Subscriber,3226,10/24/2013 20:14,259,10/24/2013 20:00,246,California Ave & Francis Pl,867,856393
-2820,1983,Female,Clark St & Elm St,Dearborn St & Monroe St,Clark St & Elm St,Subscriber,2534,10/28/2013 17:40,49,10/28/2013 17:28,349,Dearborn St & Monroe St,671,880020
-2820,1970,Female,State St & Pearson St,Clinton St & Lake St,State St & Pearson St,Subscriber,2465,11/1/2013 9:00,21,11/1/2013 8:47,14,Clinton St & Lake St,730,899341
-2820,1984,Female,Clinton St & Madison St,Canal St & Harrison St,Clinton St & Madison St,Subscriber,949,11/2/2013 8:55,326,11/2/2013 8:49,301,Canal St & Harrison St,348,904910
-2820,1990,Female,Orleans St & Merchandise Mart Plaza,Clinton St & Madison St,Orleans St & Merchandise Mart Plaza,Subscriber,1945,11/2/2013 13:27,301,11/2/2013 13:19,13,Clinton St & Madison St,470,906642
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2820,1974,California Ave & Francis Pl,41.9256018819,-87.6537080423,60,Sheffield Ave & Fullerton Ave,Male,4782,Sheffield Ave & Fullerton Ave,10/22/2013 20:57,10/22/2013 21:11,41.91855,-87.69723,259,California Ave & Francis Pl,843890,828,Subscriber
+2820,1981,Wood St & Division St,41.91855,-87.69723,259,California Ave & Francis Pl,Female,3226,California Ave & Francis Pl,10/24/2013 20:00,10/24/2013 20:14,41.90332,-87.67273,246,Wood St & Division St,856393,867,Subscriber
+2820,1988,Damen Ave & Pierce Ave,41.90332,-87.67273,246,Wood St & Division St,Male,1160,Wood St & Division St,10/24/2013 22:19,10/24/2013 22:23,41.9093960065,-87.6776919292,65,Damen Ave & Pierce Ave,856808,271,Subscriber
+2820,1967,Millennium Park,41.881131,-87.635185,57,Franklin St & Arcade Pl,Male,995,Franklin St & Arcade Pl,10/25/2013 15:55,10/25/2013 16:01,41.8810317,-87.62408432,8,Millennium Park,860845,377,Subscriber
+2820,,Clark St & Congress Pkwy,41.8810317,-87.62408432,8,Millennium Park,,1342,Millennium Park,10/25/2013 16:17,10/25/2013 16:23,41.8759326655,-87.6305845355,9,Clark St & Congress Pkwy,861010,373,Customer
+2820,1967,Michigan Ave & Oak St,41.8759326655,-87.6305845355,9,Clark St & Congress Pkwy,Male,5887,Clark St & Congress Pkwy,10/28/2013 7:06,10/28/2013 7:24,41.90096039,-87.62377664,42,Michigan Ave & Oak St,875491,"1,082",Subscriber
+2820,,Streeter Dr & Illinois St,41.90096039,-87.62377664,42,Michigan Ave & Oak St,,2418,Michigan Ave & Oak St,10/28/2013 10:32,10/28/2013 10:48,41.891071,-87.6122,22,Streeter Dr & Illinois St,877220,915,Customer
+2820,,Michigan Ave & Pearson St,41.891071,-87.6122,22,Streeter Dr & Illinois St,,2146,Streeter Dr & Illinois St,10/28/2013 12:42,10/28/2013 12:59,41.89766,-87.62351,34,Michigan Ave & Pearson St,877895,"1,005",Customer
+2820,1977,State St & Erie St,41.89766,-87.62351,34,Michigan Ave & Pearson St,Male,1092,Michigan Ave & Pearson St,10/28/2013 13:58,10/28/2013 14:02,41.893975,-87.628623,45,State St & Erie St,878315,287,Subscriber
+2820,1967,Canal St & Adams St,41.893975,-87.628623,45,State St & Erie St,Male,2865,State St & Erie St,10/28/2013 16:37,10/28/2013 16:50,41.87923,-87.640015,11,Canal St & Adams St,879267,790,Subscriber
+2820,1983,Clark St & Elm St,41.881319815,-87.6295209193,49,Dearborn St & Monroe St,Female,2534,Dearborn St & Monroe St,10/28/2013 17:28,10/28/2013 17:40,41.903233,-87.631253,349,Clark St & Elm St,880020,671,Subscriber
+2820,1951,Clinton St & Madison St,41.871262,-87.673688,284,Wolcott Ave & Polk St,Male,3840,Wolcott Ave & Polk St,10/30/2013 15:44,10/30/2013 16:03,41.8815824,-87.64127743,301,Clinton St & Madison St,893222,"1,152",Subscriber
+2820,1985,LaSalle St & Jackson Blvd,41.8815824,-87.64127743,301,Clinton St & Madison St,Male,1150,Clinton St & Madison St,10/31/2013 9:40,10/31/2013 9:47,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,895662,365,Subscriber
+2820,1977,Clinton St & Lake St,41.87923,-87.640015,11,Canal St & Adams St,Male,1282,Canal St & Adams St,11/1/2013 8:20,11/1/2013 8:26,41.8858327415,-87.6413823149,21,Clinton St & Lake St,899050,396,Subscriber
+2820,1970,State St & Pearson St,41.8858327415,-87.6413823149,21,Clinton St & Lake St,Female,2465,Clinton St & Lake St,11/1/2013 8:47,11/1/2013 9:00,41.897448,-87.628722,14,State St & Pearson St,899341,730,Subscriber
+2820,1987,Michigan Ave & Washington St,41.897448,-87.628722,14,State St & Pearson St,Male,1884,State St & Pearson St,11/1/2013 11:17,11/1/2013 11:24,41.8838927658,-87.6246491409,1,Michigan Ave & Washington St,900276,424,Subscriber
+2820,1953,Canal St & Monroe St,41.8838927658,-87.6246491409,1,Michigan Ave & Washington St,Male,1871,Michigan Ave & Washington St,11/1/2013 11:57,11/1/2013 12:05,41.8807,-87.63947,56,Canal St & Monroe St,900500,491,Subscriber
+2820,1961,Canal St & Harrison St,41.8807,-87.63947,56,Canal St & Monroe St,Male,1089,Canal St & Monroe St,11/1/2013 16:42,11/1/2013 16:48,41.874337,-87.639566,326,Canal St & Harrison St,902647,348,Subscriber
+2820,1984,Clinton St & Madison St,41.874337,-87.639566,326,Canal St & Harrison St,Female,949,Canal St & Harrison St,11/2/2013 8:49,11/2/2013 8:55,41.8815824,-87.64127743,301,Clinton St & Madison St,904910,348,Subscriber
+2820,1990,Orleans St & Merchandise Mart Plaza,41.8815824,-87.64127743,301,Clinton St & Madison St,Female,1945,Clinton St & Madison St,11/2/2013 13:19,11/2/2013 13:27,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,906642,470,Subscriber

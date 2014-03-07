@@ -1,14 +1,14 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2932,1968,Male,State St & Van Buren St,Canal St & Jackson Blvd,State St & Van Buren St,Subscriber,1452,12/18/2013 8:38,138,12/18/2013 8:33,3,Canal St & Jackson Blvd,293,1084356
-2932,1962,Male,Michigan Ave & Madison St,State St & Van Buren St,Michigan Ave & Madison St,Subscriber,898,12/18/2013 11:46,3,12/18/2013 11:37,36,State St & Van Buren St,500,1084940
-2932,1962,Male,State St & Van Buren St,Michigan Ave & Madison St,State St & Van Buren St,Subscriber,764,12/18/2013 12:18,36,12/18/2013 12:10,3,Michigan Ave & Madison St,463,1085073
-2932,1981,Male,Wells St & Walton St,Canal St & Madison St,Wells St & Walton St,Subscriber,2469,12/19/2013 6:56,341,12/19/2013 6:46,46,Canal St & Madison St,565,1087202
-2932,1987,Male,Clinton St & Lake St,Wells St & Walton St,Clinton St & Lake St,Subscriber,2163,12/19/2013 9:11,46,12/19/2013 9:02,21,Wells St & Walton St,570,1087894
-2932,1989,Male,Michigan Ave & Madison St,Wells St & Erie St,Michigan Ave & Madison St,Subscriber,2154,12/19/2013 20:53,64,12/19/2013 20:43,36,Wells St & Erie St,573,1090642
-2932,1989,Male,Dearborn St & Monroe St,Michigan Ave & Madison St,Dearborn St & Monroe St,Subscriber,431,12/19/2013 21:24,36,12/19/2013 21:22,49,Michigan Ave & Madison St,148,1090691
-2932,1986,Male,Dayton St & North Ave,Canal St & Madison St,Dayton St & North Ave,Subscriber,4479,12/23/2013 17:27,341,12/23/2013 17:12,58,Canal St & Madison St,916,1097457
-2932,1986,Male,Lincoln Ave & Belle Plaine Ave,Dayton St & North Ave,Lincoln Ave & Belle Plaine Ave,Subscriber,5999,12/23/2013 18:12,58,12/23/2013 17:41,252,Dayton St & North Ave,"1,819",1097548
-2932,1981,Female,Canal St & Jackson Blvd,Clinton St & Lake St,Canal St & Jackson Blvd,Subscriber,959,12/18/2013 8:25,21,12/18/2013 8:19,138,Clinton St & Lake St,324,1084276
-2932,1959,Female,Michigan Ave & Washington St,State St & Van Buren St,Michigan Ave & Washington St,Subscriber,1178,12/18/2013 19:12,3,12/18/2013 19:05,1,State St & Van Buren St,421,1086714
-2932,1959,Female,Canal St & Madison St,Michigan Ave & Washington St,Canal St & Madison St,Subscriber,1485,12/18/2013 22:10,1,12/18/2013 22:02,341,Michigan Ave & Washington St,487,1086986
-2932,1979,Female,Wells St & Erie St,Clinton St & Lake St,Wells St & Erie St,Subscriber,1554,12/19/2013 18:10,21,12/19/2013 18:02,64,Clinton St & Lake St,456,1090119
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2932,1981,Canal St & Jackson Blvd,41.8858327415,-87.6413823149,21,Clinton St & Lake St,Female,959,Clinton St & Lake St,12/18/2013 8:19,12/18/2013 8:25,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,1084276,324,Subscriber
+2932,1968,State St & Van Buren St,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,Male,1452,Canal St & Jackson Blvd,12/18/2013 8:33,12/18/2013 8:38,41.877181,-87.627844,3,State St & Van Buren St,1084356,293,Subscriber
+2932,1962,Michigan Ave & Madison St,41.877181,-87.627844,3,State St & Van Buren St,Male,898,State St & Van Buren St,12/18/2013 11:37,12/18/2013 11:46,41.882134,-87.625125,36,Michigan Ave & Madison St,1084940,500,Subscriber
+2932,1962,State St & Van Buren St,41.882134,-87.625125,36,Michigan Ave & Madison St,Male,764,Michigan Ave & Madison St,12/18/2013 12:10,12/18/2013 12:18,41.877181,-87.627844,3,State St & Van Buren St,1085073,463,Subscriber
+2932,1959,Michigan Ave & Washington St,41.877181,-87.627844,3,State St & Van Buren St,Female,1178,State St & Van Buren St,12/18/2013 19:05,12/18/2013 19:12,41.8838927658,-87.6246491409,1,Michigan Ave & Washington St,1086714,421,Subscriber
+2932,1959,Canal St & Madison St,41.8838927658,-87.6246491409,1,Michigan Ave & Washington St,Female,1485,Michigan Ave & Washington St,12/18/2013 22:02,12/18/2013 22:10,41.882091,-87.639833,341,Canal St & Madison St,1086986,487,Subscriber
+2932,1981,Wells St & Walton St,41.882091,-87.639833,341,Canal St & Madison St,Male,2469,Canal St & Madison St,12/19/2013 6:46,12/19/2013 6:56,41.89993001,-87.63443007,46,Wells St & Walton St,1087202,565,Subscriber
+2932,1987,Clinton St & Lake St,41.89993001,-87.63443007,46,Wells St & Walton St,Male,2163,Wells St & Walton St,12/19/2013 9:02,12/19/2013 9:11,41.8858327415,-87.6413823149,21,Clinton St & Lake St,1087894,570,Subscriber
+2932,1979,Wells St & Erie St,41.8858327415,-87.6413823149,21,Clinton St & Lake St,Female,1554,Clinton St & Lake St,12/19/2013 18:02,12/19/2013 18:10,41.893832,-87.634195,64,Wells St & Erie St,1090119,456,Subscriber
+2932,1989,Michigan Ave & Madison St,41.893832,-87.634195,64,Wells St & Erie St,Male,2154,Wells St & Erie St,12/19/2013 20:43,12/19/2013 20:53,41.882134,-87.625125,36,Michigan Ave & Madison St,1090642,573,Subscriber
+2932,1989,Dearborn St & Monroe St,41.882134,-87.625125,36,Michigan Ave & Madison St,Male,431,Michigan Ave & Madison St,12/19/2013 21:22,12/19/2013 21:24,41.881319815,-87.6295209193,49,Dearborn St & Monroe St,1090691,148,Subscriber
+2932,1986,Dayton St & North Ave,41.882091,-87.639833,341,Canal St & Madison St,Male,4479,Canal St & Madison St,12/23/2013 17:12,12/23/2013 17:27,41.9105780349,-87.6494219288,58,Dayton St & North Ave,1097457,916,Subscriber
+2932,1986,Lincoln Ave & Belle Plaine Ave,41.9105780349,-87.6494219288,58,Dayton St & North Ave,Male,5999,Dayton St & North Ave,12/23/2013 17:41,12/23/2013 18:12,41.955927,-87.679259,252,Lincoln Ave & Belle Plaine Ave,1097548,"1,819",Subscriber

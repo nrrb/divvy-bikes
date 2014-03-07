@@ -1,4 +1,4 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2770,1988,Male,Clifton Ave & Armitage Ave,Leavitt St & Armitage Ave,Clifton Ave & Armitage Ave,Subscriber,2459,12/18/2013 18:28,286,12/18/2013 18:17,185,Leavitt St & Armitage Ave,665,1086544
-2770,1963,Male,Clifton Ave & Armitage Ave,Damen Ave & Division St,Clifton Ave & Armitage Ave,Subscriber,3280,12/20/2013 9:03,136,12/20/2013 8:50,185,Damen Ave & Division St,738,1091414
-2770,1985,Female,Sheffield Ave & Kingsbury St,Clifton Ave & Armitage Ave,Sheffield Ave & Kingsbury St,Subscriber,1251,12/20/2013 10:20,185,12/20/2013 10:14,154,Clifton Ave & Armitage Ave,326,1091614
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2770,1988,Clifton Ave & Armitage Ave,41.917805,-87.682437,286,Leavitt St & Armitage Ave,Male,2459,Leavitt St & Armitage Ave,12/18/2013 18:17,12/18/2013 18:28,41.918216,-87.656936,185,Clifton Ave & Armitage Ave,1086544,665,Subscriber
+2770,1963,Clifton Ave & Armitage Ave,41.90331,-87.67695,136,Damen Ave & Division St,Male,3280,Damen Ave & Division St,12/20/2013 8:50,12/20/2013 9:03,41.918216,-87.656936,185,Clifton Ave & Armitage Ave,1091414,738,Subscriber
+2770,1985,Sheffield Ave & Kingsbury St,41.918216,-87.656936,185,Clifton Ave & Armitage Ave,Female,1251,Clifton Ave & Armitage Ave,12/20/2013 10:14,12/20/2013 10:20,41.90959193,-87.65349723,154,Sheffield Ave & Kingsbury St,1091614,326,Subscriber

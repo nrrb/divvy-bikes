@@ -1,2 +1,2 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2810,1971,Male,Michigan Ave & Lake St,Michigan Ave & Lake St,Michigan Ave & Lake St,Subscriber,0,10/22/2013 19:43,43,10/22/2013 19:41,43,Michigan Ave & Lake St,133,843569
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2810,1971,Michigan Ave & Lake St,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,Male,0,Michigan Ave & Lake St,10/22/2013 19:41,10/22/2013 19:43,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,843569,133,Subscriber

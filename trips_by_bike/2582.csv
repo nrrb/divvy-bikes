@@ -1,9 +1,9 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2582,1986,Male,Clinton St & Lake St,Wells St & Erie St,Clinton St & Lake St,Subscriber,1484,10/15/2013 8:07,64,10/15/2013 8:01,21,Wells St & Erie St,390,789167
-2582,1983,Male,Daley Center Plaza,Clinton St & Lake St,Daley Center Plaza,Subscriber,1192,10/15/2013 8:21,21,10/15/2013 8:14,23,Clinton St & Lake St,448,789350
-2582,1986,Male,Dearborn St & Monroe St,Daley Center Plaza,Dearborn St & Monroe St,Subscriber,537,10/15/2013 23:52,23,10/15/2013 23:50,49,Daley Center Plaza,109,796029
-2582,1964,Male,Michigan Ave & Pearson St,Dearborn St & Monroe St,Michigan Ave & Pearson St,Subscriber,2324,10/16/2013 21:19,49,10/16/2013 21:01,34,Dearborn St & Monroe St,"1,087",803605
-2582,1982,Male,Clinton St & Washington Blvd,Wells St & Erie St,Clinton St & Washington Blvd,Subscriber,1757,10/17/2013 17:06,64,10/17/2013 16:56,10,Wells St & Erie St,555,806738
-2582,1975,Male,Eckhart Park,Franklin St & Quincy St,Eckhart Park,Subscriber,3535,10/17/2013 19:44,7,10/17/2013 19:28,289,Franklin St & Quincy St,992,808590
-2582,1975,Male,Canal St & Adams St,Eckhart Park,Canal St & Adams St,Subscriber,3103,10/17/2013 21:01,289,10/17/2013 20:44,11,Eckhart Park,"1,025",808951
-2582,1983,Male,Aberdeen St & Madison St,Canal St & Adams St,Aberdeen St & Madison St,Subscriber,1475,10/18/2013 8:14,11,10/18/2013 8:08,156,Canal St & Adams St,397,810591
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2582,1986,Clinton St & Lake St,41.893832,-87.634195,64,Wells St & Erie St,Male,1484,Wells St & Erie St,10/15/2013 8:01,10/15/2013 8:07,41.8858327415,-87.6413823149,21,Clinton St & Lake St,789167,390,Subscriber
+2582,1983,Daley Center Plaza,41.8858327415,-87.6413823149,21,Clinton St & Lake St,Male,1192,Clinton St & Lake St,10/15/2013 8:14,10/15/2013 8:21,41.884337,-87.630183,23,Daley Center Plaza,789350,448,Subscriber
+2582,1986,Dearborn St & Monroe St,41.884337,-87.630183,23,Daley Center Plaza,Male,537,Daley Center Plaza,10/15/2013 23:50,10/15/2013 23:52,41.881319815,-87.6295209193,49,Dearborn St & Monroe St,796029,109,Subscriber
+2582,1964,Michigan Ave & Pearson St,41.881319815,-87.6295209193,49,Dearborn St & Monroe St,Male,2324,Dearborn St & Monroe St,10/16/2013 21:01,10/16/2013 21:19,41.89766,-87.62351,34,Michigan Ave & Pearson St,803605,"1,087",Subscriber
+2582,1982,Clinton St & Washington Blvd,41.893832,-87.634195,64,Wells St & Erie St,Male,1757,Wells St & Erie St,10/17/2013 16:56,10/17/2013 17:06,41.88338,-87.64117,10,Clinton St & Washington Blvd,806738,555,Subscriber
+2582,1975,Eckhart Park,41.878724,-87.634793,7,Franklin St & Quincy St,Male,3535,Franklin St & Quincy St,10/17/2013 19:28,10/17/2013 19:44,41.89637337,-87.66098386,289,Eckhart Park,808590,992,Subscriber
+2582,1975,Canal St & Adams St,41.89637337,-87.66098386,289,Eckhart Park,Male,3103,Eckhart Park,10/17/2013 20:44,10/17/2013 21:01,41.87923,-87.640015,11,Canal St & Adams St,808951,"1,025",Subscriber
+2582,1983,Aberdeen St & Madison St,41.87923,-87.640015,11,Canal St & Adams St,Male,1475,Canal St & Adams St,10/18/2013 8:08,10/18/2013 8:14,41.881487,-87.654752,156,Aberdeen St & Madison St,810591,397,Subscriber

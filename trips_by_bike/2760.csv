@@ -1,14 +1,14 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2760,,,Clinton St & Tilden St,LaSalle St & Jackson Blvd,Clinton St & Tilden St,Customer,1176,10/15/2013 19:16,32,10/15/2013 19:08,37,LaSalle St & Jackson Blvd,453,794810
-2760,,,California Ave & Milwaukee Ave,Wood St & Division St,California Ave & Milwaukee Ave,Customer,3306,10/19/2013 13:13,246,10/19/2013 12:56,84,Wood St & Division St,"1,014",820049
-2760,,,Kingsbury St & Erie St,California Ave & Milwaukee Ave,Kingsbury St & Erie St,Customer,6343,10/19/2013 14:13,84,10/19/2013 13:49,265,California Ave & Milwaukee Ave,"1,443",820644
-2760,1986,Male,Wells St & Erie St,Clinton St & Tilden St,Wells St & Erie St,Subscriber,2905,10/15/2013 19:28,37,10/15/2013 19:16,64,Clinton St & Tilden St,718,794867
-2760,1969,Male,Wells St & Walton St,Wells St & Erie St,Wells St & Walton St,Subscriber,678,10/15/2013 19:49,64,10/15/2013 19:46,46,Wells St & Erie St,184,795059
-2760,1986,Male,Clinton St & Washington Blvd,Wells St & Walton St,Clinton St & Washington Blvd,Subscriber,2436,10/17/2013 8:40,46,10/17/2013 8:31,10,Wells St & Walton St,568,804848
-2760,1959,Male,Franklin St & Jackson Blvd,Clinton St & Washington Blvd,Franklin St & Jackson Blvd,Subscriber,1559,10/17/2013 9:08,10,10/17/2013 9:02,19,Clinton St & Washington Blvd,334,804986
-2760,1945,Male,State St & Randolph St,Franklin St & Jackson Blvd,State St & Randolph St,Subscriber,1473,10/17/2013 14:23,19,10/17/2013 14:07,2,Franklin St & Jackson Blvd,972,805743
-2760,1972,Male,Ogden Ave & Race Ave,State St & Randolph St,Ogden Ave & Race Ave,Subscriber,3947,10/17/2013 18:09,2,10/17/2013 17:54,194,State St & Randolph St,943,807652
-2760,1979,Male,Green St & Randolph St,Ogden Ave & Race Ave,Green St & Randolph St,Subscriber,1910,10/17/2013 20:43,194,10/17/2013 20:37,53,Ogden Ave & Race Ave,373,808927
-2760,1984,Male,LaSalle St & Illinois St,Kingsbury St & Erie St,LaSalle St & Illinois St,Subscriber,1172,10/19/2013 23:11,265,10/19/2013 23:07,430,Kingsbury St & Erie St,249,824222
-2760,1989,Male,Sedgwick St & Huron St,LaSalle St & Illinois St,Sedgwick St & Huron St,Subscriber,1641,10/20/2013 3:38,430,10/20/2013 3:29,52,LaSalle St & Illinois St,518,824474
-2760,1976,Male,Orleans St & Merchandise Mart Plaza,Sedgwick St & Huron St,Orleans St & Merchandise Mart Plaza,Subscriber,1693,10/20/2013 15:15,52,10/20/2013 15:07,13,Sedgwick St & Huron St,463,827847
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2760,,Clinton St & Tilden St,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,,1176,LaSalle St & Jackson Blvd,10/15/2013 19:08,10/15/2013 19:16,41.875885,-87.640795,37,Clinton St & Tilden St,794810,453,Customer
+2760,1986,Wells St & Erie St,41.875885,-87.640795,37,Clinton St & Tilden St,Male,2905,Clinton St & Tilden St,10/15/2013 19:16,10/15/2013 19:28,41.893832,-87.634195,64,Wells St & Erie St,794867,718,Subscriber
+2760,1969,Wells St & Walton St,41.893832,-87.634195,64,Wells St & Erie St,Male,678,Wells St & Erie St,10/15/2013 19:46,10/15/2013 19:49,41.89993001,-87.63443007,46,Wells St & Walton St,795059,184,Subscriber
+2760,1986,Clinton St & Washington Blvd,41.89993001,-87.63443007,46,Wells St & Walton St,Male,2436,Wells St & Walton St,10/17/2013 8:31,10/17/2013 8:40,41.88338,-87.64117,10,Clinton St & Washington Blvd,804848,568,Subscriber
+2760,1959,Franklin St & Jackson Blvd,41.88338,-87.64117,10,Clinton St & Washington Blvd,Male,1559,Clinton St & Washington Blvd,10/17/2013 9:02,10/17/2013 9:08,41.8777079559,-87.6353211408,19,Franklin St & Jackson Blvd,804986,334,Subscriber
+2760,1945,State St & Randolph St,41.8777079559,-87.6353211408,19,Franklin St & Jackson Blvd,Male,1473,Franklin St & Jackson Blvd,10/17/2013 14:07,10/17/2013 14:23,41.8847302006,-87.6277335692,2,State St & Randolph St,805743,972,Subscriber
+2760,1972,Ogden Ave & Race Ave,41.8847302006,-87.6277335692,2,State St & Randolph St,Male,3947,State St & Randolph St,10/17/2013 17:54,10/17/2013 18:09,41.891795,-87.658751,194,Ogden Ave & Race Ave,807652,943,Subscriber
+2760,1979,Green St & Randolph St,41.891795,-87.658751,194,Ogden Ave & Race Ave,Male,1910,Ogden Ave & Race Ave,10/17/2013 20:37,10/17/2013 20:43,41.884078,-87.648684,53,Green St & Randolph St,808927,373,Subscriber
+2760,,California Ave & Milwaukee Ave,41.90332,-87.67273,246,Wood St & Division St,,3306,Wood St & Division St,10/19/2013 12:56,10/19/2013 13:13,41.922695,-87.697153,84,California Ave & Milwaukee Ave,820049,"1,014",Customer
+2760,,Kingsbury St & Erie St,41.922695,-87.697153,84,California Ave & Milwaukee Ave,,6343,California Ave & Milwaukee Ave,10/19/2013 13:49,10/19/2013 14:13,41.89384315,-87.64185116,265,Kingsbury St & Erie St,820644,"1,443",Customer
+2760,1984,LaSalle St & Illinois St,41.89384315,-87.64185116,265,Kingsbury St & Erie St,Male,1172,Kingsbury St & Erie St,10/19/2013 23:07,10/19/2013 23:11,41.890749,-87.63206,430,LaSalle St & Illinois St,824222,249,Subscriber
+2760,1989,Sedgwick St & Huron St,41.890749,-87.63206,430,LaSalle St & Illinois St,Male,1641,LaSalle St & Illinois St,10/20/2013 3:29,10/20/2013 3:38,41.894666,-87.638437,52,Sedgwick St & Huron St,824474,518,Subscriber
+2760,1976,Orleans St & Merchandise Mart Plaza,41.894666,-87.638437,52,Sedgwick St & Huron St,Male,1693,Sedgwick St & Huron St,10/20/2013 15:07,10/20/2013 15:15,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,827847,463,Subscriber

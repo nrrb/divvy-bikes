@@ -1,9 +1,9 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2901,,,Wells St & Ohio St,Halsted St & Blackhawk St,Wells St & Ohio St,Customer,2905,12/28/2013 14:22,176,12/28/2013 14:09,264,Halsted St & Blackhawk St,790,1103952
-2901,1961,Male,LaSalle St & Jackson Blvd,Clark St & Congress Pkwy,LaSalle St & Jackson Blvd,Subscriber,478,12/17/2013 9:06,9,12/17/2013 9:03,32,Clark St & Congress Pkwy,201,1081713
-2901,1952,Male,Canal St & Madison St,LaSalle St & Jackson Blvd,Canal St & Madison St,Subscriber,1079,12/17/2013 16:24,32,12/17/2013 16:17,341,LaSalle St & Jackson Blvd,410,1082718
-2901,1955,Male,Aberdeen St & Jackson Blvd,Canal St & Jackson Blvd,Aberdeen St & Jackson Blvd,Subscriber,1928,12/18/2013 6:59,138,12/18/2013 6:52,157,Canal St & Jackson Blvd,417,1083971
-2901,1973,Male,Orleans St & Merchandise Mart Plaza,Franklin St & Arcade Pl,Orleans St & Merchandise Mart Plaza,Subscriber,863,12/18/2013 17:26,57,12/18/2013 17:20,13,Franklin St & Arcade Pl,355,1086205
-2901,1964,Male,Canal St & Adams St,Orleans St & Merchandise Mart Plaza,Canal St & Adams St,Subscriber,1873,12/18/2013 22:28,13,12/18/2013 22:22,11,Orleans St & Merchandise Mart Plaza,378,1086999
-2901,1964,Male,Halsted St & Blackhawk St,Canal St & Adams St,Halsted St & Blackhawk St,Subscriber,3896,12/19/2013 7:30,11,12/19/2013 7:15,176,Canal St & Adams St,895,1087286
-2901,1977,Female,Canal St & Jackson Blvd,Aberdeen St & Jackson Blvd,Canal St & Jackson Blvd,Subscriber,1227,12/18/2013 9:11,157,12/18/2013 9:03,138,Aberdeen St & Jackson Blvd,450,1084518
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2901,1961,LaSalle St & Jackson Blvd,41.8759326655,-87.6305845355,9,Clark St & Congress Pkwy,Male,478,Clark St & Congress Pkwy,12/17/2013 9:03,12/17/2013 9:06,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,1081713,201,Subscriber
+2901,1952,Canal St & Madison St,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,Male,1079,LaSalle St & Jackson Blvd,12/17/2013 16:17,12/17/2013 16:24,41.882091,-87.639833,341,Canal St & Madison St,1082718,410,Subscriber
+2901,1955,Aberdeen St & Jackson Blvd,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,Male,1928,Canal St & Jackson Blvd,12/18/2013 6:52,12/18/2013 6:59,41.87772613,-87.65478743,157,Aberdeen St & Jackson Blvd,1083971,417,Subscriber
+2901,1977,Canal St & Jackson Blvd,41.87772613,-87.65478743,157,Aberdeen St & Jackson Blvd,Female,1227,Aberdeen St & Jackson Blvd,12/18/2013 9:03,12/18/2013 9:11,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,1084518,450,Subscriber
+2901,1973,Orleans St & Merchandise Mart Plaza,41.881131,-87.635185,57,Franklin St & Arcade Pl,Male,863,Franklin St & Arcade Pl,12/18/2013 17:20,12/18/2013 17:26,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,1086205,355,Subscriber
+2901,1964,Canal St & Adams St,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,Male,1873,Orleans St & Merchandise Mart Plaza,12/18/2013 22:22,12/18/2013 22:28,41.87923,-87.640015,11,Canal St & Adams St,1086999,378,Subscriber
+2901,1964,Halsted St & Blackhawk St,41.87923,-87.640015,11,Canal St & Adams St,Male,3896,Canal St & Adams St,12/19/2013 7:15,12/19/2013 7:30,41.90854,-87.648568,176,Halsted St & Blackhawk St,1087286,895,Subscriber
+2901,,Wells St & Ohio St,41.90854,-87.648568,176,Halsted St & Blackhawk St,,2905,Halsted St & Blackhawk St,12/28/2013 14:09,12/28/2013 14:22,41.892238,-87.633985,264,Wells St & Ohio St,1103952,790,Customer

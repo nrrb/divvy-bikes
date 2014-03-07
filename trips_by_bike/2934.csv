@@ -1,9 +1,9 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2934,,,Peoria St & Jackson Blvd,Columbus Dr & Randolph St,Peoria St & Jackson Blvd,Customer,3443,12/19/2013 13:10,263,12/19/2013 12:50,158,Columbus Dr & Randolph St,"1,221",1088735
-2934,,,Columbus Dr & Randolph St,Peoria St & Jackson Blvd,Columbus Dr & Randolph St,Customer,3532,12/19/2013 14:45,158,12/19/2013 14:31,263,Peoria St & Jackson Blvd,844,1089068
-2934,,,St Clair St & Erie St,McClurg Ct & Illinois St,St Clair St & Erie St,Customer,826,12/28/2013 16:57,51,12/28/2013 16:27,16,McClurg Ct & Illinois St,"1,840",1104607
-2934,1969,Male,Columbus Dr & Randolph St,Canal St & Adams St,Columbus Dr & Randolph St,Subscriber,3039,12/19/2013 8:57,11,12/19/2013 8:42,263,Canal St & Adams St,875,1087752
-2934,1977,Male,Canal St & Madison St,Columbus Dr & Randolph St,Canal St & Madison St,Subscriber,1954,12/19/2013 16:59,263,12/19/2013 16:51,341,Columbus Dr & Randolph St,482,1089629
-2934,1978,Male,Clinton St & Lake St,Canal St & Madison St,Clinton St & Lake St,Subscriber,685,12/19/2013 17:12,341,12/19/2013 17:09,21,Canal St & Madison St,186,1089758
-2934,1957,Male,McClurg Ct & Illinois St,LaSalle St & Illinois St,McClurg Ct & Illinois St,Subscriber,1223,12/23/2013 16:55,430,12/23/2013 16:50,51,LaSalle St & Illinois St,341,1097377
-2934,1982,Female,LaSalle St & Illinois St,Clinton St & Lake St,LaSalle St & Illinois St,Subscriber,1350,12/20/2013 8:02,21,12/20/2013 7:57,430,Clinton St & Lake St,334,1091176
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2934,1969,Columbus Dr & Randolph St,41.87923,-87.640015,11,Canal St & Adams St,Male,3039,Canal St & Adams St,12/19/2013 8:42,12/19/2013 8:57,41.8853,-87.62077,263,Columbus Dr & Randolph St,1087752,875,Subscriber
+2934,,Peoria St & Jackson Blvd,41.8853,-87.62077,263,Columbus Dr & Randolph St,,3443,Columbus Dr & Randolph St,12/19/2013 12:50,12/19/2013 13:10,41.877749,-87.649633,158,Peoria St & Jackson Blvd,1088735,"1,221",Customer
+2934,,Columbus Dr & Randolph St,41.877749,-87.649633,158,Peoria St & Jackson Blvd,,3532,Peoria St & Jackson Blvd,12/19/2013 14:31,12/19/2013 14:45,41.8853,-87.62077,263,Columbus Dr & Randolph St,1089068,844,Customer
+2934,1977,Canal St & Madison St,41.8853,-87.62077,263,Columbus Dr & Randolph St,Male,1954,Columbus Dr & Randolph St,12/19/2013 16:51,12/19/2013 16:59,41.882091,-87.639833,341,Canal St & Madison St,1089629,482,Subscriber
+2934,1978,Clinton St & Lake St,41.882091,-87.639833,341,Canal St & Madison St,Male,685,Canal St & Madison St,12/19/2013 17:09,12/19/2013 17:12,41.8858327415,-87.6413823149,21,Clinton St & Lake St,1089758,186,Subscriber
+2934,1982,LaSalle St & Illinois St,41.8858327415,-87.6413823149,21,Clinton St & Lake St,Female,1350,Clinton St & Lake St,12/20/2013 7:57,12/20/2013 8:02,41.890749,-87.63206,430,LaSalle St & Illinois St,1091176,334,Subscriber
+2934,1957,McClurg Ct & Illinois St,41.890749,-87.63206,430,LaSalle St & Illinois St,Male,1223,LaSalle St & Illinois St,12/23/2013 16:50,12/23/2013 16:55,41.89102,-87.6173,51,McClurg Ct & Illinois St,1097377,341,Subscriber
+2934,,St Clair St & Erie St,41.89102,-87.6173,51,McClurg Ct & Illinois St,,826,McClurg Ct & Illinois St,12/28/2013 16:27,12/28/2013 16:57,41.894448,-87.622663,16,St Clair St & Erie St,1104607,"1,840",Customer

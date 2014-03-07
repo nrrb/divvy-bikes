@@ -1,24 +1,24 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2526,,,Fairbanks Ct & Grand Ave,Columbus Dr & Randolph St,Fairbanks Ct & Grand Ave,Customer,966,10/14/2013 16:53,263,10/14/2013 16:08,262,Columbus Dr & Randolph St,"2,691",783938
-2526,,,Broadway & Sheridan Rd,Fairbanks Ct & Grand Ave,Broadway & Sheridan Rd,Customer,9076,10/14/2013 17:39,262,10/14/2013 17:06,323,Fairbanks Ct & Grand Ave,"1,983",784817
-2526,,,Wood St & Grand Ave,Aberdeen St & Jackson Blvd,Wood St & Grand Ave,Customer,2941,10/19/2013 10:24,157,10/19/2013 10:12,432,Aberdeen St & Jackson Blvd,700,818329
-2526,,,Sheridan Rd & Irving Park Rd,Sheridan Rd & Montrose Ave,Sheridan Rd & Irving Park Rd,Customer,815,10/27/2013 10:25,130,10/27/2013 10:18,63,Sheridan Rd & Montrose Ave,417,870427
-2526,,,Racine Ave & Fullerton Ave,Sheffield Ave & Addison St,Racine Ave & Fullerton Ave,Customer,2839,10/30/2013 13:37,62,10/30/2013 13:10,189,Sheffield Ave & Addison St,"1,637",892423
-2526,1989,Male,State St & Randolph St,Peoria St & Jackson Blvd,State St & Randolph St,Subscriber,2634,10/17/2013 20:19,158,10/17/2013 20:10,2,Peoria St & Jackson Blvd,516,808812
-2526,1988,Male,Clinton St & Washington Blvd,State St & Randolph St,Clinton St & Washington Blvd,Subscriber,1251,10/18/2013 6:27,2,10/18/2013 6:22,10,State St & Randolph St,304,809834
-2526,1956,Male,Morgan St & Polk St,Clinton St & Washington Blvd,Morgan St & Polk St,Subscriber,2134,10/18/2013 6:39,10,10/18/2013 6:28,168,Clinton St & Washington Blvd,637,809860
-2526,1974,Male,Halsted St & Polk St,Morgan St & Polk St,Halsted St & Polk St,Subscriber,640,10/18/2013 7:42,168,10/18/2013 7:39,27,Morgan St & Polk St,194,810315
-2526,1971,Male,Aberdeen St & Jackson Blvd,Racine Ave & 18th St,Aberdeen St & Jackson Blvd,Subscriber,2369,10/19/2013 0:43,164,10/19/2013 0:31,157,Racine Ave & 18th St,686,817300
-2526,1974,Male,Ashland Ave & Lake St,Wood St & Grand Ave,Ashland Ave & Lake St,Subscriber,1039,10/19/2013 11:36,432,10/19/2013 11:29,73,Wood St & Grand Ave,462,819002
-2526,1967,Male,Clinton St & Lake St,Ashland Ave & Lake St,Clinton St & Lake St,Subscriber,2387,10/21/2013 10:58,73,10/21/2013 10:47,21,Ashland Ave & Lake St,654,833213
-2526,1992,Male,Ashland Ave & Augusta Blvd,Clinton St & Lake St,Ashland Ave & Augusta Blvd,Subscriber,3012,10/21/2013 17:39,21,10/21/2013 17:24,248,Clinton St & Lake St,884,836175
-2526,1982,Male,Damen Ave & Division St,Halsted St & Blackhawk St,Damen Ave & Division St,Subscriber,2965,10/22/2013 13:22,176,10/22/2013 13:09,136,Halsted St & Blackhawk St,754,841100
-2526,1986,Male,Noble St & Milwaukee Ave,Damen Ave & Cortland Ave,Noble St & Milwaukee Ave,Subscriber,2275,10/22/2013 17:55,133,10/22/2013 17:36,290,Damen Ave & Cortland Ave,"1,180",842563
-2526,1984,Male,Damen Ave & Charleston St,Noble St & Milwaukee Ave,Damen Ave & Charleston St,Subscriber,2728,10/22/2013 18:59,290,10/22/2013 18:48,288,Noble St & Milwaukee Ave,641,843277
-2526,1968,Male,Sheridan Rd & Montrose Ave,Broadway & Sheridan Rd,Sheridan Rd & Montrose Ave,Subscriber,1116,10/24/2013 23:05,323,10/24/2013 23:00,130,Broadway & Sheridan Rd,307,856905
-2526,1985,Male,Sheridan Rd & Irving Park Rd,Sheridan Rd & Montrose Ave,Sheridan Rd & Irving Park Rd,Subscriber,815,10/26/2013 18:53,130,10/26/2013 18:48,63,Sheridan Rd & Montrose Ave,263,868687
-2526,1985,Male,Sheridan Rd & Montrose Ave,Sheridan Rd & Irving Park Rd,Sheridan Rd & Montrose Ave,Subscriber,815,10/26/2013 19:02,63,10/26/2013 18:56,130,Sheridan Rd & Irving Park Rd,326,868733
-2526,1967,Male,Sheffield Ave & Addison St,Southport Ave & Clark St,Sheffield Ave & Addison St,Subscriber,1617,10/29/2013 8:13,317,10/29/2013 8:02,62,Southport Ave & Clark St,628,882838
-2526,1977,Male,Leavitt St & North Ave,Racine Ave & Fullerton Ave,Leavitt St & North Ave,Subscriber,3532,10/31/2013 8:09,189,10/31/2013 7:54,244,Racine Ave & Fullerton Ave,850,895352
-2526,,Male,Damen Ave & Pierce Ave,Leavitt St & North Ave,Damen Ave & Pierce Ave,Subscriber,536,11/3/2013 11:27,244,11/3/2013 11:24,65,Leavitt St & North Ave,148,911089
-2526,1982,Female,Damen Ave & Cortland Ave,Damen Ave & Division St,Damen Ave & Cortland Ave,Subscriber,1460,10/22/2013 15:55,136,10/22/2013 15:47,133,Damen Ave & Division St,462,841704
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2526,,Fairbanks Ct & Grand Ave,41.8853,-87.62077,263,Columbus Dr & Randolph St,,966,Columbus Dr & Randolph St,10/14/2013 16:08,10/14/2013 16:53,41.89186,-87.62062,262,Fairbanks Ct & Grand Ave,783938,"2,691",Customer
+2526,,Broadway & Sheridan Rd,41.89186,-87.62062,262,Fairbanks Ct & Grand Ave,,9076,Fairbanks Ct & Grand Ave,10/14/2013 17:06,10/14/2013 17:39,41.952833,-87.649993,323,Broadway & Sheridan Rd,784817,"1,983",Customer
+2526,1989,State St & Randolph St,41.877749,-87.649633,158,Peoria St & Jackson Blvd,Male,2634,Peoria St & Jackson Blvd,10/17/2013 20:10,10/17/2013 20:19,41.8847302006,-87.6277335692,2,State St & Randolph St,808812,516,Subscriber
+2526,1988,Clinton St & Washington Blvd,41.8847302006,-87.6277335692,2,State St & Randolph St,Male,1251,State St & Randolph St,10/18/2013 6:22,10/18/2013 6:27,41.88338,-87.64117,10,Clinton St & Washington Blvd,809834,304,Subscriber
+2526,1956,Morgan St & Polk St,41.88338,-87.64117,10,Clinton St & Washington Blvd,Male,2134,Clinton St & Washington Blvd,10/18/2013 6:28,10/18/2013 6:39,41.871737,-87.65103,168,Morgan St & Polk St,809860,637,Subscriber
+2526,1974,Halsted St & Polk St,41.871737,-87.65103,168,Morgan St & Polk St,Male,640,Morgan St & Polk St,10/18/2013 7:39,10/18/2013 7:42,41.87184,-87.64664,27,Halsted St & Polk St,810315,194,Subscriber
+2526,1971,Aberdeen St & Jackson Blvd,41.8581806068,-87.6564866473,164,Racine Ave & 18th St,Male,2369,Racine Ave & 18th St,10/19/2013 0:31,10/19/2013 0:43,41.87772613,-87.65478743,157,Aberdeen St & Jackson Blvd,817300,686,Subscriber
+2526,,Wood St & Grand Ave,41.87772613,-87.65478743,157,Aberdeen St & Jackson Blvd,,2941,Aberdeen St & Jackson Blvd,10/19/2013 10:12,10/19/2013 10:24,41.89113,-87.67203,432,Wood St & Grand Ave,818329,700,Customer
+2526,1974,Ashland Ave & Lake St,41.89113,-87.67203,432,Wood St & Grand Ave,Male,1039,Wood St & Grand Ave,10/19/2013 11:29,10/19/2013 11:36,41.88541,-87.66732,73,Ashland Ave & Lake St,819002,462,Subscriber
+2526,1967,Clinton St & Lake St,41.88541,-87.66732,73,Ashland Ave & Lake St,Male,2387,Ashland Ave & Lake St,10/21/2013 10:47,10/21/2013 10:58,41.8858327415,-87.6413823149,21,Clinton St & Lake St,833213,654,Subscriber
+2526,1992,Ashland Ave & Augusta Blvd,41.8858327415,-87.6413823149,21,Clinton St & Lake St,Male,3012,Clinton St & Lake St,10/21/2013 17:24,10/21/2013 17:39,41.899643,-87.6677,248,Ashland Ave & Augusta Blvd,836175,884,Subscriber
+2526,1982,Damen Ave & Division St,41.90854,-87.648568,176,Halsted St & Blackhawk St,Male,2965,Halsted St & Blackhawk St,10/22/2013 13:09,10/22/2013 13:22,41.90331,-87.67695,136,Damen Ave & Division St,841100,754,Subscriber
+2526,1982,Damen Ave & Cortland Ave,41.90331,-87.67695,136,Damen Ave & Division St,Female,1460,Damen Ave & Division St,10/22/2013 15:47,10/22/2013 15:55,41.916027,-87.677411,133,Damen Ave & Cortland Ave,841704,462,Subscriber
+2526,1986,Noble St & Milwaukee Ave,41.916027,-87.677411,133,Damen Ave & Cortland Ave,Male,2275,Damen Ave & Cortland Ave,10/22/2013 17:36,10/22/2013 17:55,41.90068,-87.6626,290,Noble St & Milwaukee Ave,842563,"1,180",Subscriber
+2526,1984,Damen Ave & Charleston St,41.90068,-87.6626,290,Noble St & Milwaukee Ave,Male,2728,Noble St & Milwaukee Ave,10/22/2013 18:48,10/22/2013 18:59,41.920082,-87.677855,288,Damen Ave & Charleston St,843277,641,Subscriber
+2526,1968,Sheridan Rd & Montrose Ave,41.952833,-87.649993,323,Broadway & Sheridan Rd,Male,1116,Broadway & Sheridan Rd,10/24/2013 23:00,10/24/2013 23:05,41.96167,-87.65464,130,Sheridan Rd & Montrose Ave,856905,307,Subscriber
+2526,1985,Sheridan Rd & Irving Park Rd,41.96167,-87.65464,130,Sheridan Rd & Montrose Ave,Male,815,Sheridan Rd & Montrose Ave,10/26/2013 18:48,10/26/2013 18:53,41.95434,-87.654601,63,Sheridan Rd & Irving Park Rd,868687,263,Subscriber
+2526,1985,Sheridan Rd & Montrose Ave,41.95434,-87.654601,63,Sheridan Rd & Irving Park Rd,Male,815,Sheridan Rd & Irving Park Rd,10/26/2013 18:56,10/26/2013 19:02,41.96167,-87.65464,130,Sheridan Rd & Montrose Ave,868733,326,Subscriber
+2526,,Sheridan Rd & Irving Park Rd,41.96167,-87.65464,130,Sheridan Rd & Montrose Ave,,815,Sheridan Rd & Montrose Ave,10/27/2013 10:18,10/27/2013 10:25,41.95434,-87.654601,63,Sheridan Rd & Irving Park Rd,870427,417,Customer
+2526,1967,Sheffield Ave & Addison St,41.957081,-87.664199,317,Southport Ave & Clark St,Male,1617,Southport Ave & Clark St,10/29/2013 8:02,10/29/2013 8:13,41.94688,-87.65445,62,Sheffield Ave & Addison St,882838,628,Subscriber
+2526,,Racine Ave & Fullerton Ave,41.94688,-87.65445,62,Sheffield Ave & Addison St,,2839,Sheffield Ave & Addison St,10/30/2013 13:10,10/30/2013 13:37,41.92556258,-87.65840426,189,Racine Ave & Fullerton Ave,892423,"1,637",Customer
+2526,1977,Leavitt St & North Ave,41.92556258,-87.65840426,189,Racine Ave & Fullerton Ave,Male,3532,Racine Ave & Fullerton Ave,10/31/2013 7:54,10/31/2013 8:09,41.910652,-87.6824,244,Leavitt St & North Ave,895352,850,Subscriber
+2526,,Damen Ave & Pierce Ave,41.910652,-87.6824,244,Leavitt St & North Ave,Male,536,Leavitt St & North Ave,11/3/2013 11:24,11/3/2013 11:27,41.9093960065,-87.6776919292,65,Damen Ave & Pierce Ave,911089,148,Subscriber

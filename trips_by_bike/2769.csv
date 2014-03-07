@@ -1,7 +1,7 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2769,1972,Male,Clybourn Ave & Division St,Wells St & Evergreen Ave,Clybourn Ave & Division St,Subscriber,871,12/27/2013 11:57,302,12/27/2013 11:52,171,Wells St & Evergreen Ave,249,1101199
-2769,1972,Male,Clinton St & Washington Blvd,Clybourn Ave & Division St,Clinton St & Washington Blvd,Subscriber,2938,12/30/2013 8:23,171,12/30/2013 8:08,10,Clybourn Ave & Division St,899,1106700
-2769,1969,Male,Clinton St & Roosevelt Rd,Canal St & Jackson Blvd,Clinton St & Roosevelt Rd,Subscriber,1374,12/30/2013 9:36,138,12/30/2013 9:29,327,Canal St & Jackson Blvd,414,1106855
-2769,1969,Male,Canal St & Jackson Blvd,Clinton St & Roosevelt Rd,Canal St & Jackson Blvd,Subscriber,1578,12/30/2013 11:09,327,12/30/2013 11:02,138,Clinton St & Roosevelt Rd,426,1106943
-2769,1990,Female,Halsted St & Diversey Pkwy,Sheffield Ave & Wellington Ave,Halsted St & Diversey Pkwy,Subscriber,1013,12/22/2013 15:32,67,12/22/2013 15:28,208,Sheffield Ave & Wellington Ave,242,1095519
-2769,1972,Female,Canal St & Jackson Blvd,Clinton St & Washington Blvd,Canal St & Jackson Blvd,Subscriber,686,12/30/2013 8:48,10,12/30/2013 8:45,138,Clinton St & Washington Blvd,220,1106788
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2769,1990,Halsted St & Diversey Pkwy,41.936253,-87.653566,67,Sheffield Ave & Wellington Ave,Female,1013,Sheffield Ave & Wellington Ave,12/22/2013 15:28,12/22/2013 15:32,41.933341,-87.648747,208,Halsted St & Diversey Pkwy,1095519,242,Subscriber
+2769,1972,Clybourn Ave & Division St,41.906724,-87.63483,302,Wells St & Evergreen Ave,Male,871,Wells St & Evergreen Ave,12/27/2013 11:52,12/27/2013 11:57,41.904509,-87.6405,171,Clybourn Ave & Division St,1101199,249,Subscriber
+2769,1972,Clinton St & Washington Blvd,41.904509,-87.6405,171,Clybourn Ave & Division St,Male,2938,Clybourn Ave & Division St,12/30/2013 8:08,12/30/2013 8:23,41.88338,-87.64117,10,Clinton St & Washington Blvd,1106700,899,Subscriber
+2769,1972,Canal St & Jackson Blvd,41.88338,-87.64117,10,Clinton St & Washington Blvd,Female,686,Clinton St & Washington Blvd,12/30/2013 8:45,12/30/2013 8:48,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,1106788,220,Subscriber
+2769,1969,Clinton St & Roosevelt Rd,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,Male,1374,Canal St & Jackson Blvd,12/30/2013 9:29,12/30/2013 9:36,41.8671177825,-87.6410879593,327,Clinton St & Roosevelt Rd,1106855,414,Subscriber
+2769,1969,Canal St & Jackson Blvd,41.8671177825,-87.6410879593,327,Clinton St & Roosevelt Rd,Male,1578,Clinton St & Roosevelt Rd,12/30/2013 11:02,12/30/2013 11:09,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,1106943,426,Subscriber

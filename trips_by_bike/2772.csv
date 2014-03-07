@@ -1,14 +1,14 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2772,,,Adler Planetarium,Michigan Ave & Jackson Blvd,Adler Planetarium,Customer,2754,12/27/2013 15:25,340,12/27/2013 15:01,431,Michigan Ave & Jackson Blvd,"1,466",1101677
-2772,,,Michigan Ave & Jackson Blvd,Adler Planetarium,Michigan Ave & Jackson Blvd,Customer,2690,12/27/2013 19:29,431,12/27/2013 19:12,340,Adler Planetarium,"1,003",1102546
-2772,,,State St & Erie St,Michigan Ave & Jackson Blvd,State St & Erie St,Customer,2320,12/28/2013 16:23,340,12/28/2013 15:55,45,Michigan Ave & Jackson Blvd,"1,676",1104484
-2772,1972,Male,Clinton St & Lake St,Dearborn Pkwy & Delaware Pl,Clinton St & Lake St,Subscriber,2601,12/19/2013 17:00,173,12/19/2013 16:48,21,Dearborn Pkwy & Delaware Pl,717,1089610
-2772,1980,Male,Wabash Ave & Roosevelt Rd,Dearborn St & Adams St,Wabash Ave & Roosevelt Rd,Subscriber,1681,12/23/2013 16:27,20,12/23/2013 16:18,31,Dearborn St & Adams St,543,1097291
-2772,1953,Male,State St & Pearson St,Clark St & Schiller St,State St & Pearson St,Subscriber,1465,12/29/2013 8:34,200,12/29/2013 8:29,14,Clark St & Schiller St,345,1105701
-2772,1970,Female,Wood St & Taylor St,Clinton St & Lake St,Wood St & Taylor St,Subscriber,4299,12/20/2013 8:00,21,12/20/2013 7:42,285,Clinton St & Lake St,"1,078",1091106
-2772,1970,Female,Clinton St & Washington Blvd,Wood St & Taylor St,Clinton St & Washington Blvd,Subscriber,3970,12/20/2013 18:46,285,12/20/2013 18:29,10,Wood St & Taylor St,"1,059",1093129
-2772,1994,Female,Halsted St & 18th St,Wabash Ave & Roosevelt Rd,Halsted St & 18th St,Subscriber,2751,12/23/2013 17:15,31,12/23/2013 17:01,99,Wabash Ave & Roosevelt Rd,848,1097413
-2772,1994,Female,Indiana Ave & Roosevelt Rd,Halsted St & 18th St,Indiana Ave & Roosevelt Rd,Subscriber,3220,12/24/2013 12:48,99,12/24/2013 12:30,309,Halsted St & 18th St,"1,077",1098220
-2772,1994,Female,State St & Harrison St,Indiana Ave & Roosevelt Rd,State St & Harrison St,Subscriber,1148,12/24/2013 13:35,309,12/24/2013 13:28,30,Indiana Ave & Roosevelt Rd,365,1098293
-2772,1994,Female,Indiana Ave & Roosevelt Rd,State St & Harrison St,Indiana Ave & Roosevelt Rd,Subscriber,1256,12/24/2013 17:48,30,12/24/2013 17:43,309,State St & Harrison St,331,1098639
-2772,1978,Female,Sedgwick St & Schiller St,Clark St & Schiller St,Sedgwick St & Schiller St,Subscriber,592,12/30/2013 15:48,200,12/30/2013 15:44,410,Clark St & Schiller St,200,1107332
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2772,1972,Clinton St & Lake St,41.899007,-87.629928,173,Dearborn Pkwy & Delaware Pl,Male,2601,Dearborn Pkwy & Delaware Pl,12/19/2013 16:48,12/19/2013 17:00,41.8858327415,-87.6413823149,21,Clinton St & Lake St,1089610,717,Subscriber
+2772,1970,Wood St & Taylor St,41.8858327415,-87.6413823149,21,Clinton St & Lake St,Female,4299,Clinton St & Lake St,12/20/2013 7:42,12/20/2013 8:00,41.869154,-87.671045,285,Wood St & Taylor St,1091106,"1,078",Subscriber
+2772,1970,Clinton St & Washington Blvd,41.869154,-87.671045,285,Wood St & Taylor St,Female,3970,Wood St & Taylor St,12/20/2013 18:29,12/20/2013 18:46,41.88338,-87.64117,10,Clinton St & Washington Blvd,1093129,"1,059",Subscriber
+2772,1980,Wabash Ave & Roosevelt Rd,41.8793563587,-87.6297910363,20,Dearborn St & Adams St,Male,1681,Dearborn St & Adams St,12/23/2013 16:18,12/23/2013 16:27,41.8671729952,-87.6259550069,31,Wabash Ave & Roosevelt Rd,1097291,543,Subscriber
+2772,1994,Halsted St & 18th St,41.8671729952,-87.6259550069,31,Wabash Ave & Roosevelt Rd,Female,2751,Wabash Ave & Roosevelt Rd,12/23/2013 17:01,12/23/2013 17:15,41.857499,-87.646277,99,Halsted St & 18th St,1097413,848,Subscriber
+2772,1994,Indiana Ave & Roosevelt Rd,41.857499,-87.646277,99,Halsted St & 18th St,Female,3220,Halsted St & 18th St,12/24/2013 12:30,12/24/2013 12:48,41.867888,-87.623041,309,Indiana Ave & Roosevelt Rd,1098220,"1,077",Subscriber
+2772,1994,State St & Harrison St,41.867888,-87.623041,309,Indiana Ave & Roosevelt Rd,Female,1148,Indiana Ave & Roosevelt Rd,12/24/2013 13:28,12/24/2013 13:35,41.8739580629,-87.6277394859,30,State St & Harrison St,1098293,365,Subscriber
+2772,1994,Indiana Ave & Roosevelt Rd,41.8739580629,-87.6277394859,30,State St & Harrison St,Female,1256,State St & Harrison St,12/24/2013 17:43,12/24/2013 17:48,41.867888,-87.623041,309,Indiana Ave & Roosevelt Rd,1098639,331,Subscriber
+2772,,Adler Planetarium,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,,2754,Michigan Ave & Jackson Blvd,12/27/2013 15:01,12/27/2013 15:25,41.866095,-87.607267,431,Adler Planetarium,1101677,"1,466",Customer
+2772,,Michigan Ave & Jackson Blvd,41.866095,-87.607267,431,Adler Planetarium,,2690,Adler Planetarium,12/27/2013 19:12,12/27/2013 19:29,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,1102546,"1,003",Customer
+2772,,State St & Erie St,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,,2320,Michigan Ave & Jackson Blvd,12/28/2013 15:55,12/28/2013 16:23,41.893975,-87.628623,45,State St & Erie St,1104484,"1,676",Customer
+2772,1953,State St & Pearson St,41.907993,-87.631501,200,Clark St & Schiller St,Male,1465,Clark St & Schiller St,12/29/2013 8:29,12/29/2013 8:34,41.897448,-87.628722,14,State St & Pearson St,1105701,345,Subscriber
+2772,1978,Sedgwick St & Schiller St,41.907993,-87.631501,200,Clark St & Schiller St,Female,592,Clark St & Schiller St,12/30/2013 15:44,12/30/2013 15:48,41.907576,-87.638517,410,Sedgwick St & Schiller St,1107332,200,Subscriber

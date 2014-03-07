@@ -1,21 +1,21 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-216,,,Michigan Ave & Pearson St,Orleans St & Merchandise Mart Plaza,Michigan Ave & Pearson St,Customer,2164,7/24/2013 11:21,13,7/24/2013 11:10,34,Orleans St & Merchandise Mart Plaza,602,100500
-216,,,Loomis St & Taylor St,Canal St & Jackson Blvd,Loomis St & Taylor St,Customer,2730,7/27/2013 13:31,138,7/27/2013 13:07,139,Canal St & Jackson Blvd,"1,415",114000
-216,,,State St & Harrison St,Loomis St & Taylor St,State St & Harrison St,Customer,3314,7/27/2013 18:04,139,7/27/2013 17:30,30,Loomis St & Taylor St,"2,045",115774
-216,,,Damen Ave & Pierce Ave,Damen Ave & Grand Ave,Damen Ave & Pierce Ave,Customer,2115,8/17/2013 15:43,141,8/17/2013 15:09,65,Damen Ave & Grand Ave,"2,059",248864
-216,,,Streeter Dr & Illinois St,Kingsbury St & Erie St,Streeter Dr & Illinois St,Customer,2817,8/18/2013 8:42,265,8/18/2013 8:19,22,Kingsbury St & Erie St,"1,365",254732
-216,,,State St & Erie St,Michigan Ave & Oak St,State St & Erie St,Customer,1586,8/18/2013 14:07,42,8/18/2013 13:31,45,Michigan Ave & Oak St,"2,165",257949
-216,,,Dearborn St & Adams St,State St & Randolph St,Dearborn St & Adams St,Customer,756,8/19/2013 9:08,2,8/19/2013 9:01,20,State St & Randolph St,412,265461
-216,,,State St & Wacker Dr,Dearborn St & Adams St,State St & Wacker Dr,Customer,1121,8/19/2013 11:07,20,8/19/2013 10:58,339,Dearborn St & Adams St,502,266066
-216,,,McClurg Ct & Illinois St,Michigan Ave & Madison St,McClurg Ct & Illinois St,Customer,2362,8/19/2013 17:52,36,8/19/2013 17:39,51,Michigan Ave & Madison St,782,269744
-216,1987,Male,Canal St & Jackson Blvd,Clark St & Congress Pkwy,Canal St & Jackson Blvd,Subscriber,1439,7/21/2013 19:44,9,7/21/2013 19:35,138,Clark St & Congress Pkwy,567,90159
-216,1978,Male,Michigan Ave & Lake St,Canal St & Jackson Blvd,Michigan Ave & Lake St,Subscriber,2171,7/23/2013 7:17,138,7/23/2013 7:10,43,Canal St & Jackson Blvd,443,95301
-216,1963,Male,Michigan Ave & Lake St,Clinton St & Washington Blvd,Michigan Ave & Lake St,Subscriber,1742,7/25/2013 7:30,10,7/25/2013 7:21,43,Clinton St & Washington Blvd,552,104127
-216,1953,Male,Canal St & Jackson Blvd,State St & Randolph St,Canal St & Jackson Blvd,Subscriber,1937,7/27/2013 11:16,2,7/27/2013 11:07,138,State St & Randolph St,515,113207
-216,1977,Male,State St & Erie St,State St & Erie St,State St & Erie St,Subscriber,0,8/18/2013 18:43,45,8/18/2013 18:26,45,State St & Erie St,990,262377
-216,1986,Male,Carpenter St & Huron St,State St & Erie St,Carpenter St & Huron St,Subscriber,2619,8/18/2013 21:33,45,8/18/2013 21:16,196,State St & Erie St,"1,051",263743
-216,1971,Male,State St & Randolph St,Carpenter St & Huron St,State St & Randolph St,Subscriber,2930,8/19/2013 7:40,196,8/19/2013 7:31,2,Carpenter St & Huron St,579,264729
-216,1988,Male,Theater on the Lake,McClurg Ct & Illinois St,Theater on the Lake,Subscriber,5203,8/19/2013 18:35,51,8/19/2013 18:20,350,McClurg Ct & Illinois St,878,270230
-216,1984,Female,State St & Harrison St,Clinton St & Madison St,State St & Harrison St,Subscriber,1994,7/22/2013 19:59,301,7/22/2013 19:43,30,Clinton St & Madison St,965,94391
-216,1981,Female,State St & Randolph St,Canal St & Jackson Blvd,State St & Randolph St,Subscriber,1822,7/26/2013 8:09,138,7/26/2013 8:00,2,Canal St & Jackson Blvd,534,108768
-216,1982,Female,Kingsbury St & Erie St,Damen Ave & Pierce Ave,Kingsbury St & Erie St,Subscriber,4309,8/17/2013 20:10,65,8/17/2013 19:55,265,Damen Ave & Pierce Ave,864,252511
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+216,1987,Canal St & Jackson Blvd,41.8759326655,-87.6305845355,9,Clark St & Congress Pkwy,Male,1439,Clark St & Congress Pkwy,7/21/2013 19:35,7/21/2013 19:44,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,90159,567,Subscriber
+216,1984,State St & Harrison St,41.8815824,-87.64127743,301,Clinton St & Madison St,Female,1994,Clinton St & Madison St,7/22/2013 19:43,7/22/2013 19:59,41.8739580629,-87.6277394859,30,State St & Harrison St,94391,965,Subscriber
+216,1978,Michigan Ave & Lake St,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,Male,2171,Canal St & Jackson Blvd,7/23/2013 7:10,7/23/2013 7:17,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,95301,443,Subscriber
+216,,Michigan Ave & Pearson St,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,,2164,Orleans St & Merchandise Mart Plaza,7/24/2013 11:10,7/24/2013 11:21,41.89766,-87.62351,34,Michigan Ave & Pearson St,100500,602,Customer
+216,1963,Michigan Ave & Lake St,41.88338,-87.64117,10,Clinton St & Washington Blvd,Male,1742,Clinton St & Washington Blvd,7/25/2013 7:21,7/25/2013 7:30,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,104127,552,Subscriber
+216,1981,State St & Randolph St,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,Female,1822,Canal St & Jackson Blvd,7/26/2013 8:00,7/26/2013 8:09,41.8847302006,-87.6277335692,2,State St & Randolph St,108768,534,Subscriber
+216,1953,Canal St & Jackson Blvd,41.8847302006,-87.6277335692,2,State St & Randolph St,Male,1937,State St & Randolph St,7/27/2013 11:07,7/27/2013 11:16,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,113207,515,Subscriber
+216,,Loomis St & Taylor St,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,,2730,Canal St & Jackson Blvd,7/27/2013 13:07,7/27/2013 13:31,41.869417,-87.660996,139,Loomis St & Taylor St,114000,"1,415",Customer
+216,,State St & Harrison St,41.869417,-87.660996,139,Loomis St & Taylor St,,3314,Loomis St & Taylor St,7/27/2013 17:30,7/27/2013 18:04,41.8739580629,-87.6277394859,30,State St & Harrison St,115774,"2,045",Customer
+216,,Damen Ave & Pierce Ave,41.89122,-87.67686,141,Damen Ave & Grand Ave,,2115,Damen Ave & Grand Ave,8/17/2013 15:09,8/17/2013 15:43,41.9093960065,-87.6776919292,65,Damen Ave & Pierce Ave,248864,"2,059",Customer
+216,1982,Kingsbury St & Erie St,41.9093960065,-87.6776919292,65,Damen Ave & Pierce Ave,Female,4309,Damen Ave & Pierce Ave,8/17/2013 19:55,8/17/2013 20:10,41.89384315,-87.64185116,265,Kingsbury St & Erie St,252511,864,Subscriber
+216,,Streeter Dr & Illinois St,41.89384315,-87.64185116,265,Kingsbury St & Erie St,,2817,Kingsbury St & Erie St,8/18/2013 8:19,8/18/2013 8:42,41.891071,-87.6122,22,Streeter Dr & Illinois St,254732,"1,365",Customer
+216,,State St & Erie St,41.90096039,-87.62377664,42,Michigan Ave & Oak St,,1586,Michigan Ave & Oak St,8/18/2013 13:31,8/18/2013 14:07,41.893975,-87.628623,45,State St & Erie St,257949,"2,165",Customer
+216,1977,State St & Erie St,41.893975,-87.628623,45,State St & Erie St,Male,0,State St & Erie St,8/18/2013 18:26,8/18/2013 18:43,41.893975,-87.628623,45,State St & Erie St,262377,990,Subscriber
+216,1986,Carpenter St & Huron St,41.893975,-87.628623,45,State St & Erie St,Male,2619,State St & Erie St,8/18/2013 21:16,8/18/2013 21:33,41.894556,-87.653449,196,Carpenter St & Huron St,263743,"1,051",Subscriber
+216,1971,State St & Randolph St,41.894556,-87.653449,196,Carpenter St & Huron St,Male,2930,Carpenter St & Huron St,8/19/2013 7:31,8/19/2013 7:40,41.8847302006,-87.6277335692,2,State St & Randolph St,264729,579,Subscriber
+216,,Dearborn St & Adams St,41.8847302006,-87.6277335692,2,State St & Randolph St,,756,State St & Randolph St,8/19/2013 9:01,8/19/2013 9:08,41.8793563587,-87.6297910363,20,Dearborn St & Adams St,265461,412,Customer
+216,,State St & Wacker Dr,41.8793563587,-87.6297910363,20,Dearborn St & Adams St,,1121,Dearborn St & Adams St,8/19/2013 10:58,8/19/2013 11:07,41.887155,-87.62775,339,State St & Wacker Dr,266066,502,Customer
+216,,McClurg Ct & Illinois St,41.882134,-87.625125,36,Michigan Ave & Madison St,,2362,Michigan Ave & Madison St,8/19/2013 17:39,8/19/2013 17:52,41.89102,-87.6173,51,McClurg Ct & Illinois St,269744,782,Customer
+216,1988,Theater on the Lake,41.89102,-87.6173,51,McClurg Ct & Illinois St,Male,5203,McClurg Ct & Illinois St,8/19/2013 18:20,8/19/2013 18:35,41.926277,-87.630834,350,Theater on the Lake,270230,878,Subscriber

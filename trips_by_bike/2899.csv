@@ -1,10 +1,10 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2899,,,Lake Shore Dr & Monroe St,Museum Campus,Lake Shore Dr & Monroe St,Customer,2229,12/21/2013 14:10,29,12/21/2013 13:57,300,Museum Campus,754,1094356
-2899,1954,Male,Daley Center Plaza,Canal St & Madison St,Daley Center Plaza,Subscriber,1460,12/22/2013 12:46,341,12/22/2013 12:40,23,Canal St & Madison St,382,1095278
-2899,1954,Male,St Clair St & Erie St,Daley Center Plaza,St Clair St & Erie St,Subscriber,1728,12/22/2013 13:22,23,12/22/2013 13:13,16,Daley Center Plaza,588,1095335
-2899,1986,Male,Larrabee St & Kingsbury St,Mies van der Rohe Way & Chicago Ave,Larrabee St & Kingsbury St,Subscriber,2311,12/24/2013 12:08,338,12/24/2013 11:58,12,Mies van der Rohe Way & Chicago Ave,601,1098178
-2899,1986,Male,Clybourn Ave & Division St,Larrabee St & Kingsbury St,Clybourn Ave & Division St,Subscriber,1086,12/24/2013 12:14,12,12/24/2013 12:10,171,Larrabee St & Kingsbury St,256,1098196
-2899,1986,Male,Mies van der Rohe Way & Chicago Ave,Clybourn Ave & Division St,Mies van der Rohe Way & Chicago Ave,Subscriber,2383,12/24/2013 13:28,171,12/24/2013 13:16,338,Clybourn Ave & Division St,715,1098276
-2899,1986,Male,Lincoln Ave & Armitage Ave,Mies van der Rohe Way & Chicago Ave,Lincoln Ave & Armitage Ave,Subscriber,3819,12/27/2013 22:31,338,12/27/2013 22:16,146,Mies van der Rohe Way & Chicago Ave,894,1102784
-2899,1986,Male,Clark St & Wellington Ave,Lincoln Ave & Armitage Ave,Clark St & Wellington Ave,Subscriber,2425,12/27/2013 22:42,146,12/27/2013 22:31,232,Lincoln Ave & Armitage Ave,657,1102807
-2899,1987,Female,Wilton Ave & Diversey Pkwy,Clark St & Wellington Ave,Wilton Ave & Diversey Pkwy,Subscriber,1225,12/28/2013 0:51,232,12/28/2013 0:45,66,Clark St & Wellington Ave,358,1102896
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2899,,Lake Shore Dr & Monroe St,41.865212,-87.617759,29,Museum Campus,,2229,Museum Campus,12/21/2013 13:57,12/21/2013 14:10,41.88105,-87.61697,300,Lake Shore Dr & Monroe St,1094356,754,Customer
+2899,1954,Daley Center Plaza,41.882091,-87.639833,341,Canal St & Madison St,Male,1460,Canal St & Madison St,12/22/2013 12:40,12/22/2013 12:46,41.884337,-87.630183,23,Daley Center Plaza,1095278,382,Subscriber
+2899,1954,St Clair St & Erie St,41.884337,-87.630183,23,Daley Center Plaza,Male,1728,Daley Center Plaza,12/22/2013 13:13,12/22/2013 13:22,41.894448,-87.622663,16,St Clair St & Erie St,1095335,588,Subscriber
+2899,1986,Larrabee St & Kingsbury St,41.89691,-87.621743,338,Mies van der Rohe Way & Chicago Ave,Male,2311,Mies van der Rohe Way & Chicago Ave,12/24/2013 11:58,12/24/2013 12:08,41.897764,-87.642884,12,Larrabee St & Kingsbury St,1098178,601,Subscriber
+2899,1986,Clybourn Ave & Division St,41.897764,-87.642884,12,Larrabee St & Kingsbury St,Male,1086,Larrabee St & Kingsbury St,12/24/2013 12:10,12/24/2013 12:14,41.904509,-87.6405,171,Clybourn Ave & Division St,1098196,256,Subscriber
+2899,1986,Mies van der Rohe Way & Chicago Ave,41.904509,-87.6405,171,Clybourn Ave & Division St,Male,2383,Clybourn Ave & Division St,12/24/2013 13:16,12/24/2013 13:28,41.89691,-87.621743,338,Mies van der Rohe Way & Chicago Ave,1098276,715,Subscriber
+2899,1986,Lincoln Ave & Armitage Ave,41.89691,-87.621743,338,Mies van der Rohe Way & Chicago Ave,Male,3819,Mies van der Rohe Way & Chicago Ave,12/27/2013 22:16,12/27/2013 22:31,41.918273,-87.638116,146,Lincoln Ave & Armitage Ave,1102784,894,Subscriber
+2899,1986,Clark St & Wellington Ave,41.918273,-87.638116,146,Lincoln Ave & Armitage Ave,Male,2425,Lincoln Ave & Armitage Ave,12/27/2013 22:31,12/27/2013 22:42,41.9364968219,-87.6475386582,232,Clark St & Wellington Ave,1102807,657,Subscriber
+2899,1987,Wilton Ave & Diversey Pkwy,41.9364968219,-87.6475386582,232,Clark St & Wellington Ave,Female,1225,Clark St & Wellington Ave,12/28/2013 0:45,12/28/2013 0:51,41.93250008,-87.65268082,66,Wilton Ave & Diversey Pkwy,1102896,358,Subscriber

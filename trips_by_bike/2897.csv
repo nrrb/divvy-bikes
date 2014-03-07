@@ -1,15 +1,15 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2897,,,Wabash Ave & Grand Ave,Daley Center Plaza,Wabash Ave & Grand Ave,Customer,1528,12/22/2013 11:27,23,12/22/2013 11:17,4,Daley Center Plaza,615,1095179
-2897,,,Ashland Ave & Division St,Larrabee St & Webster Ave,Ashland Ave & Division St,Customer,4163,12/28/2013 17:17,193,12/28/2013 16:52,61,Larrabee St & Webster Ave,"1,502",1104724
-2897,1973,Male,LaSalle St & Washington St,Sangamon St & Washington Blvd,LaSalle St & Washington St,Subscriber,1603,12/17/2013 8:44,409,12/17/2013 8:35,6,Sangamon St & Washington Blvd,512,1081588
-2897,1956,Male,Michigan Ave & Lake St,LaSalle St & Washington St,Michigan Ave & Lake St,Subscriber,1031,12/17/2013 15:04,6,12/17/2013 14:56,43,LaSalle St & Washington St,511,1082448
-2897,1956,Male,Desplaines St & Kinzie St,Michigan Ave & Lake St,Desplaines St & Kinzie St,Subscriber,2150,12/17/2013 15:30,43,12/17/2013 15:16,39,Michigan Ave & Lake St,856,1082500
-2897,1956,Male,Clinton St & Washington Blvd,Desplaines St & Kinzie St,Clinton St & Washington Blvd,Subscriber,835,12/17/2013 15:46,39,12/17/2013 15:41,10,Desplaines St & Kinzie St,311,1082577
-2897,1958,Male,Millennium Park,LaSalle St & Washington St,Millennium Park,Subscriber,916,12/27/2013 15:03,6,12/27/2013 14:54,8,LaSalle St & Washington St,512,1101649
-2897,1958,Male,LaSalle St & Washington St,Millennium Park,LaSalle St & Washington St,Subscriber,872,12/27/2013 15:21,8,12/27/2013 15:13,6,Millennium Park,506,1101715
-2897,1980,Male,Clark St & Elm St,LaSalle St & Washington St,Clark St & Elm St,Subscriber,2654,12/27/2013 18:37,6,12/27/2013 18:25,349,LaSalle St & Washington St,682,1102444
-2897,1987,Male,Lincoln Ave & Diversey Pkwy,Halsted St & Wrightwood Ave,Lincoln Ave & Diversey Pkwy,Subscriber,1154,12/28/2013 13:01,210,12/28/2013 12:56,226,Halsted St & Wrightwood Ave,298,1103640
-2897,1987,Male,Larrabee St & Webster Ave,Lincoln Ave & Diversey Pkwy,Larrabee St & Webster Ave,Subscriber,1778,12/28/2013 16:34,226,12/28/2013 16:15,193,Lincoln Ave & Diversey Pkwy,"1,108",1104561
-2897,1977,Male,Clinton St & Washington Blvd,Ashland Ave & Division St,Clinton St & Washington Blvd,Subscriber,3415,12/30/2013 8:29,61,12/30/2013 8:14,10,Ashland Ave & Division St,880,1106723
-2897,1976,Female,Canal St & Madison St,Michigan Ave & Congress Pkwy,Canal St & Madison St,Subscriber,2013,12/18/2013 17:04,40,12/18/2013 16:51,341,Michigan Ave & Congress Pkwy,778,1085991
-2897,1977,Female,Clinton St & Washington Blvd,Franklin St & Quincy St,Clinton St & Washington Blvd,Subscriber,1283,12/30/2013 17:11,7,12/30/2013 17:02,10,Franklin St & Quincy St,512,1107497
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2897,1973,LaSalle St & Washington St,41.883004,-87.651148,409,Sangamon St & Washington Blvd,Male,1603,Sangamon St & Washington Blvd,12/17/2013 8:35,12/17/2013 8:44,41.882664,-87.63253,6,LaSalle St & Washington St,1081588,512,Subscriber
+2897,1956,Michigan Ave & Lake St,41.882664,-87.63253,6,LaSalle St & Washington St,Male,1031,LaSalle St & Washington St,12/17/2013 14:56,12/17/2013 15:04,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,1082448,511,Subscriber
+2897,1956,Desplaines St & Kinzie St,41.8860581151,-87.6242893413,43,Michigan Ave & Lake St,Male,2150,Michigan Ave & Lake St,12/17/2013 15:16,12/17/2013 15:30,41.888716036,-87.6444478533,39,Desplaines St & Kinzie St,1082500,856,Subscriber
+2897,1956,Clinton St & Washington Blvd,41.888716036,-87.6444478533,39,Desplaines St & Kinzie St,Male,835,Desplaines St & Kinzie St,12/17/2013 15:41,12/17/2013 15:46,41.88338,-87.64117,10,Clinton St & Washington Blvd,1082577,311,Subscriber
+2897,1976,Canal St & Madison St,41.876065599,-87.6244333636,40,Michigan Ave & Congress Pkwy,Female,2013,Michigan Ave & Congress Pkwy,12/18/2013 16:51,12/18/2013 17:04,41.882091,-87.639833,341,Canal St & Madison St,1085991,778,Subscriber
+2897,,Wabash Ave & Grand Ave,41.884337,-87.630183,23,Daley Center Plaza,,1528,Daley Center Plaza,12/22/2013 11:17,12/22/2013 11:27,41.891738,-87.626937,4,Wabash Ave & Grand Ave,1095179,615,Customer
+2897,1958,Millennium Park,41.882664,-87.63253,6,LaSalle St & Washington St,Male,916,LaSalle St & Washington St,12/27/2013 14:54,12/27/2013 15:03,41.8810317,-87.62408432,8,Millennium Park,1101649,512,Subscriber
+2897,1958,LaSalle St & Washington St,41.8810317,-87.62408432,8,Millennium Park,Male,872,Millennium Park,12/27/2013 15:13,12/27/2013 15:21,41.882664,-87.63253,6,LaSalle St & Washington St,1101715,506,Subscriber
+2897,1980,Clark St & Elm St,41.882664,-87.63253,6,LaSalle St & Washington St,Male,2654,LaSalle St & Washington St,12/27/2013 18:25,12/27/2013 18:37,41.903233,-87.631253,349,Clark St & Elm St,1102444,682,Subscriber
+2897,1987,Lincoln Ave & Diversey Pkwy,41.929143,-87.649077,210,Halsted St & Wrightwood Ave,Male,1154,Halsted St & Wrightwood Ave,12/28/2013 12:56,12/28/2013 13:01,41.932225,-87.658617,226,Lincoln Ave & Diversey Pkwy,1103640,298,Subscriber
+2897,1987,Larrabee St & Webster Ave,41.932225,-87.658617,226,Lincoln Ave & Diversey Pkwy,Male,1778,Lincoln Ave & Diversey Pkwy,12/28/2013 16:15,12/28/2013 16:34,41.92175,-87.64401,193,Larrabee St & Webster Ave,1104561,"1,108",Subscriber
+2897,,Ashland Ave & Division St,41.92175,-87.64401,193,Larrabee St & Webster Ave,,4163,Larrabee St & Webster Ave,12/28/2013 16:52,12/28/2013 17:17,41.903456,-87.66777,61,Ashland Ave & Division St,1104724,"1,502",Customer
+2897,1977,Clinton St & Washington Blvd,41.903456,-87.66777,61,Ashland Ave & Division St,Male,3415,Ashland Ave & Division St,12/30/2013 8:14,12/30/2013 8:29,41.88338,-87.64117,10,Clinton St & Washington Blvd,1106723,880,Subscriber
+2897,1977,Clinton St & Washington Blvd,41.878724,-87.634793,7,Franklin St & Quincy St,Female,1283,Franklin St & Quincy St,12/30/2013 17:02,12/30/2013 17:11,41.88338,-87.64117,10,Clinton St & Washington Blvd,1107497,512,Subscriber

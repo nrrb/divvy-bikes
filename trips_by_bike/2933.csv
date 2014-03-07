@@ -1,21 +1,21 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2933,,,Millennium Park,Michigan Ave & Congress Pkwy,Millennium Park,Customer,637,12/22/2013 12:39,40,12/22/2013 12:23,8,Michigan Ave & Congress Pkwy,951,1095245
-2933,,,State St & Wacker Dr,Millennium Park,State St & Wacker Dr,Customer,1056,12/22/2013 13:10,8,12/22/2013 12:43,339,Millennium Park,"1,623",1095288
-2933,,,Streeter Dr & Illinois St,State St & Wacker Dr,Streeter Dr & Illinois St,Customer,1835,12/22/2013 13:36,339,12/22/2013 13:12,22,State St & Wacker Dr,"1,467",1095334
-2933,,,McClurg Ct & Illinois St,Streeter Dr & Illinois St,McClurg Ct & Illinois St,Customer,768,12/22/2013 15:08,22,12/22/2013 15:03,51,Streeter Dr & Illinois St,273,1095486
-2933,,,State St & Randolph St,McClurg Ct & Illinois St,State St & Randolph St,Customer,1726,12/22/2013 15:39,51,12/22/2013 15:18,2,McClurg Ct & Illinois St,"1,229",1095506
-2933,,,Millennium Park,State St & Randolph St,Millennium Park,Customer,839,12/22/2013 16:02,2,12/22/2013 15:40,8,State St & Randolph St,"1,273",1095534
-2933,,,Adler Planetarium,Millennium Park,Adler Planetarium,Customer,3001,12/22/2013 16:29,8,12/22/2013 16:03,431,Millennium Park,"1,558",1095558
-2933,,,Michigan Ave & Congress Pkwy,Adler Planetarium,Michigan Ave & Congress Pkwy,Customer,2506,12/22/2013 17:00,431,12/22/2013 16:44,40,Adler Planetarium,934,1095602
-2933,1975,Male,Orleans St & Merchandise Mart Plaza,LaSalle St & Jackson Blvd,Orleans St & Merchandise Mart Plaza,Subscriber,1470,12/17/2013 17:06,32,12/17/2013 16:56,13,LaSalle St & Jackson Blvd,553,1082876
-2933,1988,Male,Ashland Ave & Grand Ave,Orleans St & Merchandise Mart Plaza,Ashland Ave & Grand Ave,Subscriber,3017,12/18/2013 21:52,13,12/18/2013 21:38,434,Orleans St & Merchandise Mart Plaza,854,1086967
-2933,1967,Male,Canal St & Adams St,Orleans St & Merchandise Mart Plaza,Canal St & Adams St,Subscriber,1873,12/19/2013 16:34,13,12/19/2013 16:27,11,Orleans St & Merchandise Mart Plaza,434,1089502
-2933,1977,Male,LaSalle St & Jackson Blvd,Michigan Ave & Congress Pkwy,LaSalle St & Jackson Blvd,Subscriber,1065,12/22/2013 17:28,40,12/22/2013 17:23,32,Michigan Ave & Congress Pkwy,247,1095657
-2933,1977,Male,Rhodes Ave & 32nd St,LaSalle St & Jackson Blvd,Rhodes Ave & 32nd St,Subscriber,6734,12/22/2013 20:23,32,12/22/2013 19:56,215,LaSalle St & Jackson Blvd,"1,638",1095876
-2933,1977,Male,LaSalle St & Jackson Blvd,Rhodes Ave & 32nd St,LaSalle St & Jackson Blvd,Subscriber,6999,12/26/2013 16:41,215,12/26/2013 16:15,32,Rhodes Ave & 32nd St,"1,564",1099955
-2933,1976,Male,Columbus Dr & Randolph St,LaSalle St & Jackson Blvd,Columbus Dr & Randolph St,Subscriber,2058,12/27/2013 15:36,32,12/27/2013 15:25,263,LaSalle St & Jackson Blvd,648,1101764
-2933,1985,Male,Orleans St & Merchandise Mart Plaza,Columbus Dr & Randolph St,Orleans St & Merchandise Mart Plaza,Subscriber,1787,12/28/2013 8:48,263,12/28/2013 8:40,13,Columbus Dr & Randolph St,463,1103055
-2933,1985,Male,Columbus Dr & Randolph St,Orleans St & Merchandise Mart Plaza,Columbus Dr & Randolph St,Subscriber,2104,12/28/2013 13:26,13,12/28/2013 13:18,263,Orleans St & Merchandise Mart Plaza,517,1103718
-2933,1963,Male,Lake Shore Dr & Ohio St,Columbus Dr & Randolph St,Lake Shore Dr & Ohio St,Subscriber,6107,12/29/2013 7:41,263,12/29/2013 7:33,337,Columbus Dr & Randolph St,461,1105639
-2933,1963,Male,Millennium Park,Lake Shore Dr & Ohio St,Millennium Park,Subscriber,2643,12/29/2013 19:06,337,12/29/2013 18:54,8,Lake Shore Dr & Ohio St,715,1106312
-2933,1985,Female,Columbus Dr & Randolph St,Dearborn St & Adams St,Columbus Dr & Randolph St,Subscriber,1733,12/19/2013 17:43,20,12/19/2013 17:31,263,Dearborn St & Adams St,718,1089917
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2933,1975,Orleans St & Merchandise Mart Plaza,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,Male,1470,LaSalle St & Jackson Blvd,12/17/2013 16:56,12/17/2013 17:06,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,1082876,553,Subscriber
+2933,1988,Ashland Ave & Grand Ave,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,Male,3017,Orleans St & Merchandise Mart Plaza,12/18/2013 21:38,12/18/2013 21:52,41.891072,-87.666611,434,Ashland Ave & Grand Ave,1086967,854,Subscriber
+2933,1967,Canal St & Adams St,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,Male,1873,Orleans St & Merchandise Mart Plaza,12/19/2013 16:27,12/19/2013 16:34,41.87923,-87.640015,11,Canal St & Adams St,1089502,434,Subscriber
+2933,1985,Columbus Dr & Randolph St,41.8793563587,-87.6297910363,20,Dearborn St & Adams St,Female,1733,Dearborn St & Adams St,12/19/2013 17:31,12/19/2013 17:43,41.8853,-87.62077,263,Columbus Dr & Randolph St,1089917,718,Subscriber
+2933,,Millennium Park,41.876065599,-87.6244333636,40,Michigan Ave & Congress Pkwy,,637,Michigan Ave & Congress Pkwy,12/22/2013 12:23,12/22/2013 12:39,41.8810317,-87.62408432,8,Millennium Park,1095245,951,Customer
+2933,,State St & Wacker Dr,41.8810317,-87.62408432,8,Millennium Park,,1056,Millennium Park,12/22/2013 12:43,12/22/2013 13:10,41.887155,-87.62775,339,State St & Wacker Dr,1095288,"1,623",Customer
+2933,,Streeter Dr & Illinois St,41.887155,-87.62775,339,State St & Wacker Dr,,1835,State St & Wacker Dr,12/22/2013 13:12,12/22/2013 13:36,41.891071,-87.6122,22,Streeter Dr & Illinois St,1095334,"1,467",Customer
+2933,,McClurg Ct & Illinois St,41.891071,-87.6122,22,Streeter Dr & Illinois St,,768,Streeter Dr & Illinois St,12/22/2013 15:03,12/22/2013 15:08,41.89102,-87.6173,51,McClurg Ct & Illinois St,1095486,273,Customer
+2933,,State St & Randolph St,41.89102,-87.6173,51,McClurg Ct & Illinois St,,1726,McClurg Ct & Illinois St,12/22/2013 15:18,12/22/2013 15:39,41.8847302006,-87.6277335692,2,State St & Randolph St,1095506,"1,229",Customer
+2933,,Millennium Park,41.8847302006,-87.6277335692,2,State St & Randolph St,,839,State St & Randolph St,12/22/2013 15:40,12/22/2013 16:02,41.8810317,-87.62408432,8,Millennium Park,1095534,"1,273",Customer
+2933,,Adler Planetarium,41.8810317,-87.62408432,8,Millennium Park,,3001,Millennium Park,12/22/2013 16:03,12/22/2013 16:29,41.866095,-87.607267,431,Adler Planetarium,1095558,"1,558",Customer
+2933,,Michigan Ave & Congress Pkwy,41.866095,-87.607267,431,Adler Planetarium,,2506,Adler Planetarium,12/22/2013 16:44,12/22/2013 17:00,41.876065599,-87.6244333636,40,Michigan Ave & Congress Pkwy,1095602,934,Customer
+2933,1977,LaSalle St & Jackson Blvd,41.876065599,-87.6244333636,40,Michigan Ave & Congress Pkwy,Male,1065,Michigan Ave & Congress Pkwy,12/22/2013 17:23,12/22/2013 17:28,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,1095657,247,Subscriber
+2933,1977,Rhodes Ave & 32nd St,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,Male,6734,LaSalle St & Jackson Blvd,12/22/2013 19:56,12/22/2013 20:23,41.836208,-87.613533,215,Rhodes Ave & 32nd St,1095876,"1,638",Subscriber
+2933,1977,LaSalle St & Jackson Blvd,41.836208,-87.613533,215,Rhodes Ave & 32nd St,Male,6999,Rhodes Ave & 32nd St,12/26/2013 16:15,12/26/2013 16:41,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,1099955,"1,564",Subscriber
+2933,1976,Columbus Dr & Randolph St,41.87817,-87.631985,32,LaSalle St & Jackson Blvd,Male,2058,LaSalle St & Jackson Blvd,12/27/2013 15:25,12/27/2013 15:36,41.8853,-87.62077,263,Columbus Dr & Randolph St,1101764,648,Subscriber
+2933,1985,Orleans St & Merchandise Mart Plaza,41.8853,-87.62077,263,Columbus Dr & Randolph St,Male,1787,Columbus Dr & Randolph St,12/28/2013 8:40,12/28/2013 8:48,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,1103055,463,Subscriber
+2933,1985,Columbus Dr & Randolph St,41.888243,-87.63639,13,Orleans St & Merchandise Mart Plaza,Male,2104,Orleans St & Merchandise Mart Plaza,12/28/2013 13:18,12/28/2013 13:26,41.8853,-87.62077,263,Columbus Dr & Randolph St,1103718,517,Subscriber
+2933,1963,Lake Shore Dr & Ohio St,41.8853,-87.62077,263,Columbus Dr & Randolph St,Male,6107,Columbus Dr & Randolph St,12/29/2013 7:33,12/29/2013 7:41,41.89257,-87.614492,337,Lake Shore Dr & Ohio St,1105639,461,Subscriber
+2933,1963,Millennium Park,41.89257,-87.614492,337,Lake Shore Dr & Ohio St,Male,2643,Lake Shore Dr & Ohio St,12/29/2013 18:54,12/29/2013 19:06,41.8810317,-87.62408432,8,Millennium Park,1106312,715,Subscriber

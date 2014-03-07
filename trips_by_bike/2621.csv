@@ -1,17 +1,17 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2621,1969,Male,State St & Kinzie St,Canal St & Jackson Blvd,State St & Kinzie St,Subscriber,2268,11/11/2013 8:17,138,11/11/2013 8:05,50,Canal St & Jackson Blvd,733,960051
-2621,1974,Male,Wilton Ave & Diversey Pkwy,Wilton Ave & Belmont Ave,Wilton Ave & Diversey Pkwy,Subscriber,1058,11/13/2013 3:12,69,11/13/2013 3:08,66,Wilton Ave & Belmont Ave,264,968100
-2621,1984,Male,Michigan Ave & Jackson Blvd,Indiana Ave & Roosevelt Rd,Michigan Ave & Jackson Blvd,Subscriber,1198,12/9/2013 12:19,309,12/9/2013 12:14,340,Indiana Ave & Roosevelt Rd,318,1065353
-2621,1984,Male,Indiana Ave & Roosevelt Rd,Michigan Ave & Jackson Blvd,Indiana Ave & Roosevelt Rd,Subscriber,1720,12/9/2013 14:13,340,12/9/2013 14:07,309,Michigan Ave & Jackson Blvd,336,1065567
-2621,1981,Male,Adler Planetarium,Indiana Ave & Roosevelt Rd,Adler Planetarium,Subscriber,1830,12/9/2013 17:54,309,12/9/2013 17:45,431,Indiana Ave & Roosevelt Rd,506,1066227
-2621,1948,Male,Michigan Ave & Jackson Blvd,Adler Planetarium,Michigan Ave & Jackson Blvd,Subscriber,2690,12/18/2013 11:00,431,12/18/2013 10:49,340,Adler Planetarium,687,1084827
-2621,1978,Male,Clark St & Congress Pkwy,Michigan Ave & Jackson Blvd,Clark St & Congress Pkwy,Subscriber,840,12/18/2013 17:18,340,12/18/2013 17:15,9,Michigan Ave & Jackson Blvd,189,1086170
-2621,1960,Male,Canal St & Madison St,Clark St & Congress Pkwy,Canal St & Madison St,Subscriber,1434,12/18/2013 18:17,9,12/18/2013 18:10,341,Clark St & Congress Pkwy,397,1086514
-2621,1980,Male,State St & Kinzie St,Canal St & Adams St,State St & Kinzie St,Subscriber,2563,12/19/2013 7:36,11,12/19/2013 7:26,50,Canal St & Adams St,591,1087327
-2621,1977,Male,Sangamon St & Washington Blvd,Ada St & Washington Blvd,Sangamon St & Washington Blvd,Subscriber,833,12/20/2013 9:00,353,12/20/2013 8:57,409,Ada St & Washington Blvd,187,1091432
-2621,1966,Male,Clinton St & Washington Blvd,Sangamon St & Washington Blvd,Clinton St & Washington Blvd,Subscriber,843,12/20/2013 19:24,409,12/20/2013 19:21,10,Sangamon St & Washington Blvd,196,1093278
-2621,1979,Male,Ada St & Washington Blvd,Clinton St & Washington Blvd,Ada St & Washington Blvd,Subscriber,2284,12/21/2013 12:04,10,12/21/2013 11:54,353,Clinton St & Washington Blvd,564,1094127
-2621,1992,Male,Damen Ave & Madison St,Peoria St & Jackson Blvd,Damen Ave & Madison St,Subscriber,2531,12/28/2013 18:37,158,12/28/2013 18:23,134,Peoria St & Jackson Blvd,833,1105021
-2621,1986,Male,Eckhart Park,Wood St & Division St,Eckhart Park,Subscriber,1763,12/29/2013 13:39,246,12/29/2013 13:32,289,Wood St & Division St,434,1106025
-2621,1980,Male,Wabash Ave & Grand Ave,Eckhart Park,Wabash Ave & Grand Ave,Subscriber,3637,12/30/2013 9:21,289,12/30/2013 9:05,4,Eckhart Park,958,1106813
-2621,1988,Female,Peoria St & Jackson Blvd,Aberdeen St & Jackson Blvd,Peoria St & Jackson Blvd,Subscriber,449,12/27/2013 17:42,157,12/27/2013 17:36,158,Aberdeen St & Jackson Blvd,356,1102252
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2621,1969,State St & Kinzie St,41.87811421,-87.63997112,138,Canal St & Jackson Blvd,Male,2268,Canal St & Jackson Blvd,11/11/2013 8:05,11/11/2013 8:17,41.88918,-87.6277,50,State St & Kinzie St,960051,733,Subscriber
+2621,1974,Wilton Ave & Diversey Pkwy,41.94018,-87.65304,69,Wilton Ave & Belmont Ave,Male,1058,Wilton Ave & Belmont Ave,11/13/2013 3:08,11/13/2013 3:12,41.93250008,-87.65268082,66,Wilton Ave & Diversey Pkwy,968100,264,Subscriber
+2621,1984,Michigan Ave & Jackson Blvd,41.867888,-87.623041,309,Indiana Ave & Roosevelt Rd,Male,1198,Indiana Ave & Roosevelt Rd,12/9/2013 12:14,12/9/2013 12:19,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,1065353,318,Subscriber
+2621,1984,Indiana Ave & Roosevelt Rd,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,Male,1720,Michigan Ave & Jackson Blvd,12/9/2013 14:07,12/9/2013 14:13,41.867888,-87.623041,309,Indiana Ave & Roosevelt Rd,1065567,336,Subscriber
+2621,1981,Adler Planetarium,41.867888,-87.623041,309,Indiana Ave & Roosevelt Rd,Male,1830,Indiana Ave & Roosevelt Rd,12/9/2013 17:45,12/9/2013 17:54,41.866095,-87.607267,431,Adler Planetarium,1066227,506,Subscriber
+2621,1948,Michigan Ave & Jackson Blvd,41.866095,-87.607267,431,Adler Planetarium,Male,2690,Adler Planetarium,12/18/2013 10:49,12/18/2013 11:00,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,1084827,687,Subscriber
+2621,1978,Clark St & Congress Pkwy,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,Male,840,Michigan Ave & Jackson Blvd,12/18/2013 17:15,12/18/2013 17:18,41.8759326655,-87.6305845355,9,Clark St & Congress Pkwy,1086170,189,Subscriber
+2621,1960,Canal St & Madison St,41.8759326655,-87.6305845355,9,Clark St & Congress Pkwy,Male,1434,Clark St & Congress Pkwy,12/18/2013 18:10,12/18/2013 18:17,41.882091,-87.639833,341,Canal St & Madison St,1086514,397,Subscriber
+2621,1980,State St & Kinzie St,41.87923,-87.640015,11,Canal St & Adams St,Male,2563,Canal St & Adams St,12/19/2013 7:26,12/19/2013 7:36,41.88918,-87.6277,50,State St & Kinzie St,1087327,591,Subscriber
+2621,1977,Sangamon St & Washington Blvd,41.88283,-87.661206,353,Ada St & Washington Blvd,Male,833,Ada St & Washington Blvd,12/20/2013 8:57,12/20/2013 9:00,41.883004,-87.651148,409,Sangamon St & Washington Blvd,1091432,187,Subscriber
+2621,1966,Clinton St & Washington Blvd,41.883004,-87.651148,409,Sangamon St & Washington Blvd,Male,843,Sangamon St & Washington Blvd,12/20/2013 19:21,12/20/2013 19:24,41.88338,-87.64117,10,Clinton St & Washington Blvd,1093278,196,Subscriber
+2621,1979,Ada St & Washington Blvd,41.88338,-87.64117,10,Clinton St & Washington Blvd,Male,2284,Clinton St & Washington Blvd,12/21/2013 11:54,12/21/2013 12:04,41.88283,-87.661206,353,Ada St & Washington Blvd,1094127,564,Subscriber
+2621,1988,Peoria St & Jackson Blvd,41.87772613,-87.65478743,157,Aberdeen St & Jackson Blvd,Female,449,Aberdeen St & Jackson Blvd,12/27/2013 17:36,12/27/2013 17:42,41.877749,-87.649633,158,Peoria St & Jackson Blvd,1102252,356,Subscriber
+2621,1992,Damen Ave & Madison St,41.877749,-87.649633,158,Peoria St & Jackson Blvd,Male,2531,Peoria St & Jackson Blvd,12/28/2013 18:23,12/28/2013 18:37,41.88137,-87.67493,134,Damen Ave & Madison St,1105021,833,Subscriber
+2621,1986,Eckhart Park,41.90332,-87.67273,246,Wood St & Division St,Male,1763,Wood St & Division St,12/29/2013 13:32,12/29/2013 13:39,41.89637337,-87.66098386,289,Eckhart Park,1106025,434,Subscriber
+2621,1980,Wabash Ave & Grand Ave,41.89637337,-87.66098386,289,Eckhart Park,Male,3637,Eckhart Park,12/30/2013 9:05,12/30/2013 9:21,41.891738,-87.626937,4,Wabash Ave & Grand Ave,1106813,958,Subscriber

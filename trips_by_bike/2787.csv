@@ -1,15 +1,15 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2787,1986,Male,Wells St & Concord Ln,Sedgwick St & North Ave,Wells St & Concord Ln,Subscriber,646,12/18/2013 20:51,70,12/18/2013 20:48,182,Sedgwick St & North Ave,165,1086899
-2787,1985,Male,Jefferson St & Monroe St,Wells St & Concord Ln,Jefferson St & Monroe St,Subscriber,4495,12/19/2013 8:24,182,12/19/2013 8:07,38,Wells St & Concord Ln,"1,031",1087527
-2787,1979,Male,Dearborn St & Monroe St,Jefferson St & Monroe St,Dearborn St & Monroe St,Subscriber,1179,12/19/2013 13:30,38,12/19/2013 13:23,49,Jefferson St & Monroe St,382,1088851
-2787,1976,Male,Clinton St & Madison St,Michigan Ave & Jackson Blvd,Clinton St & Madison St,Subscriber,1923,12/20/2013 5:52,340,12/20/2013 5:45,301,Michigan Ave & Jackson Blvd,430,1090885
-2787,1969,Male,Wentworth Ave & Archer Ave,Clinton St & Madison St,Wentworth Ave & Archer Ave,Subscriber,3724,12/20/2013 16:19,301,12/20/2013 16:01,75,Clinton St & Madison St,"1,063",1092438
-2787,1969,Male,Michigan Ave & 18th St,Wentworth Ave & Archer Ave,Michigan Ave & 18th St,Subscriber,1037,12/20/2013 17:13,75,12/20/2013 17:06,150,Wentworth Ave & Archer Ave,421,1092760
-2787,1986,Male,Wabash Ave & Roosevelt Rd,Michigan Ave & 18th St,Wabash Ave & Roosevelt Rd,Subscriber,1202,12/20/2013 23:03,150,12/20/2013 22:58,31,Michigan Ave & 18th St,295,1093558
-2787,1982,Male,Franklin St & Jackson Blvd,Wabash Ave & Roosevelt Rd,Franklin St & Jackson Blvd,Subscriber,1941,12/21/2013 2:30,31,12/21/2013 2:24,19,Wabash Ave & Roosevelt Rd,384,1093654
-2787,1984,Male,Halsted St & 35th St,Franklin St & Jackson Blvd,Halsted St & 35th St,Subscriber,6912,12/22/2013 0:51,19,12/22/2013 0:27,413,Franklin St & Jackson Blvd,"1,459",1095008
-2787,1987,Male,Halsted St & 21st St,Halsted St & 35th St,Halsted St & 21st St,Subscriber,2650,12/22/2013 8:46,413,12/22/2013 8:36,162,Halsted St & 35th St,635,1095070
-2787,1984,Male,Wood St & North Ave,Wood St & North Ave,Wood St & North Ave,Subscriber,0,12/27/2013 10:35,223,12/27/2013 10:34,223,Wood St & North Ave,65,1101056
-2787,1984,Male,Ashland Ave & Armitage Ave,Wood St & North Ave,Ashland Ave & Armitage Ave,Subscriber,1153,12/27/2013 10:41,223,12/27/2013 10:37,25,Wood St & North Ave,269,1101058
-2787,1980,Female,Wabash Ave & Roosevelt Rd,Dearborn St & Monroe St,Wabash Ave & Roosevelt Rd,Subscriber,1854,12/19/2013 16:43,49,12/19/2013 16:33,31,Dearborn St & Monroe St,625,1089530
-2787,1980,Female,Michigan Ave & Jackson Blvd,Wabash Ave & Roosevelt Rd,Michigan Ave & Jackson Blvd,Subscriber,1333,12/19/2013 18:22,31,12/19/2013 18:17,340,Wabash Ave & Roosevelt Rd,317,1090213
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2787,1986,Wells St & Concord Ln,41.910579,-87.638618,70,Sedgwick St & North Ave,Male,646,Sedgwick St & North Ave,12/18/2013 20:48,12/18/2013 20:51,41.912202,-87.634664,182,Wells St & Concord Ln,1086899,165,Subscriber
+2787,1985,Jefferson St & Monroe St,41.912202,-87.634664,182,Wells St & Concord Ln,Male,4495,Wells St & Concord Ln,12/19/2013 8:07,12/19/2013 8:24,41.880422,-87.642746,38,Jefferson St & Monroe St,1087527,"1,031",Subscriber
+2787,1979,Dearborn St & Monroe St,41.880422,-87.642746,38,Jefferson St & Monroe St,Male,1179,Jefferson St & Monroe St,12/19/2013 13:23,12/19/2013 13:30,41.881319815,-87.6295209193,49,Dearborn St & Monroe St,1088851,382,Subscriber
+2787,1980,Wabash Ave & Roosevelt Rd,41.881319815,-87.6295209193,49,Dearborn St & Monroe St,Female,1854,Dearborn St & Monroe St,12/19/2013 16:33,12/19/2013 16:43,41.8671729952,-87.6259550069,31,Wabash Ave & Roosevelt Rd,1089530,625,Subscriber
+2787,1980,Michigan Ave & Jackson Blvd,41.8671729952,-87.6259550069,31,Wabash Ave & Roosevelt Rd,Female,1333,Wabash Ave & Roosevelt Rd,12/19/2013 18:17,12/19/2013 18:22,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,1090213,317,Subscriber
+2787,1976,Clinton St & Madison St,41.87785,-87.62408,340,Michigan Ave & Jackson Blvd,Male,1923,Michigan Ave & Jackson Blvd,12/20/2013 5:45,12/20/2013 5:52,41.8815824,-87.64127743,301,Clinton St & Madison St,1090885,430,Subscriber
+2787,1969,Wentworth Ave & Archer Ave,41.8815824,-87.64127743,301,Clinton St & Madison St,Male,3724,Clinton St & Madison St,12/20/2013 16:01,12/20/2013 16:19,41.854564,-87.631937,75,Wentworth Ave & Archer Ave,1092438,"1,063",Subscriber
+2787,1969,Michigan Ave & 18th St,41.854564,-87.631937,75,Wentworth Ave & Archer Ave,Male,1037,Wentworth Ave & Archer Ave,12/20/2013 17:06,12/20/2013 17:13,41.857937,-87.623633,150,Michigan Ave & 18th St,1092760,421,Subscriber
+2787,1986,Wabash Ave & Roosevelt Rd,41.857937,-87.623633,150,Michigan Ave & 18th St,Male,1202,Michigan Ave & 18th St,12/20/2013 22:58,12/20/2013 23:03,41.8671729952,-87.6259550069,31,Wabash Ave & Roosevelt Rd,1093558,295,Subscriber
+2787,1982,Franklin St & Jackson Blvd,41.8671729952,-87.6259550069,31,Wabash Ave & Roosevelt Rd,Male,1941,Wabash Ave & Roosevelt Rd,12/21/2013 2:24,12/21/2013 2:30,41.8777079559,-87.6353211408,19,Franklin St & Jackson Blvd,1093654,384,Subscriber
+2787,1984,Halsted St & 35th St,41.8777079559,-87.6353211408,19,Franklin St & Jackson Blvd,Male,6912,Franklin St & Jackson Blvd,12/22/2013 0:27,12/22/2013 0:51,41.830661,-87.647172,413,Halsted St & 35th St,1095008,"1,459",Subscriber
+2787,1987,Halsted St & 21st St,41.830661,-87.647172,413,Halsted St & 35th St,Male,2650,Halsted St & 35th St,12/22/2013 8:36,12/22/2013 8:46,41.85378,-87.64665,162,Halsted St & 21st St,1095070,635,Subscriber
+2787,1984,Wood St & North Ave,41.910329,-87.672516,223,Wood St & North Ave,Male,0,Wood St & North Ave,12/27/2013 10:34,12/27/2013 10:35,41.910329,-87.672516,223,Wood St & North Ave,1101056,65,Subscriber
+2787,1984,Ashland Ave & Armitage Ave,41.910329,-87.672516,223,Wood St & North Ave,Male,1153,Wood St & North Ave,12/27/2013 10:37,12/27/2013 10:41,41.9178588677,-87.668919,25,Ashland Ave & Armitage Ave,1101058,269,Subscriber

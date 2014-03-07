@@ -1,5 +1,5 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2755,,,Clark St & Congress Pkwy,Columbus Dr & Randolph St,Clark St & Congress Pkwy,Customer,1868,12/19/2013 17:23,263,12/19/2013 17:11,9,Columbus Dr & Randolph St,719,1089766
-2755,1986,Male,Franklin St & Quincy St,Jefferson St & Monroe St,Franklin St & Quincy St,Subscriber,1043,12/23/2013 9:27,38,12/23/2013 9:22,7,Jefferson St & Monroe St,293,1096397
-2755,1986,Female,Wabash Ave & Roosevelt Rd,Wood St & Taylor St,Wabash Ave & Roosevelt Rd,Subscriber,4037,12/19/2013 8:21,285,12/19/2013 8:03,31,Wood St & Taylor St,"1,061",1087511
-2755,1978,Female,Columbus Dr & Randolph St,Wabash Ave & Roosevelt Rd,Columbus Dr & Randolph St,Subscriber,4427,12/19/2013 8:41,31,12/19/2013 8:27,263,Wabash Ave & Roosevelt Rd,813,1087654
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2755,1986,Wabash Ave & Roosevelt Rd,41.869154,-87.671045,285,Wood St & Taylor St,Female,4037,Wood St & Taylor St,12/19/2013 8:03,12/19/2013 8:21,41.8671729952,-87.6259550069,31,Wabash Ave & Roosevelt Rd,1087511,"1,061",Subscriber
+2755,1978,Columbus Dr & Randolph St,41.8671729952,-87.6259550069,31,Wabash Ave & Roosevelt Rd,Female,4427,Wabash Ave & Roosevelt Rd,12/19/2013 8:27,12/19/2013 8:41,41.8853,-87.62077,263,Columbus Dr & Randolph St,1087654,813,Subscriber
+2755,,Clark St & Congress Pkwy,41.8853,-87.62077,263,Columbus Dr & Randolph St,,1868,Columbus Dr & Randolph St,12/19/2013 17:11,12/19/2013 17:23,41.8759326655,-87.6305845355,9,Clark St & Congress Pkwy,1089766,719,Customer
+2755,1986,Franklin St & Quincy St,41.880422,-87.642746,38,Jefferson St & Monroe St,Male,1043,Jefferson St & Monroe St,12/23/2013 9:22,12/23/2013 9:27,41.878724,-87.634793,7,Franklin St & Quincy St,1096397,293,Subscriber

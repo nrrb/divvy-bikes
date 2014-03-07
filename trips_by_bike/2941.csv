@@ -1,3 +1,3 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2941,1959,Male,Congress Pkwy & Ogden Ave,Ashland Ave & Lake St,Congress Pkwy & Ogden Ave,Subscriber,1593,10/24/2013 11:26,73,10/24/2013 11:19,0,Ashland Ave & Lake St,454,852859
-2941,1959,Male,Ashland Ave & Lake St,Congress Pkwy & Ogden Ave,Ashland Ave & Lake St,Subscriber,1642,10/24/2013 13:14,0,10/24/2013 13:07,73,Congress Pkwy & Ogden Ave,403,853343
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2941,1959,Congress Pkwy & Ogden Ave,41.88541,-87.66732,73,Ashland Ave & Lake St,Male,1593,Ashland Ave & Lake St,10/24/2013 11:19,10/24/2013 11:26,41.87501,-87.67328,0,Congress Pkwy & Ogden Ave,852859,454,Subscriber
+2941,1959,Ashland Ave & Lake St,41.87501,-87.67328,0,Congress Pkwy & Ogden Ave,Male,1642,Congress Pkwy & Ogden Ave,10/24/2013 13:07,10/24/2013 13:14,41.88541,-87.66732,73,Ashland Ave & Lake St,853343,403,Subscriber

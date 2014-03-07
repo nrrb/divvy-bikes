@@ -1,8 +1,8 @@
-bikeid,birthyear,gender,to_station_name,from_station_name,end_station,usertype,meters,stoptime,from_station_id,starttime,to_station_id,start_station,tripduration,trip_id
-2935,1973,Male,Lake Shore Dr & Wellington Ave,Sheffield Ave & Wellington Ave,Lake Shore Dr & Wellington Ave,Subscriber,1390,12/17/2013 18:56,67,12/17/2013 18:49,234,Sheffield Ave & Wellington Ave,414,1083403
-2935,1988,Male,Damen Ave & Pierce Ave,Wood St & Division St,Damen Ave & Pierce Ave,Subscriber,1160,12/19/2013 18:17,246,12/19/2013 18:13,65,Wood St & Division St,259,1090182
-2935,1988,Male,Ashland Ave & Division St,Damen Ave & Pierce Ave,Ashland Ave & Division St,Subscriber,1272,12/19/2013 19:56,65,12/19/2013 19:51,61,Damen Ave & Pierce Ave,298,1090544
-2935,1977,Male,Clark St & Chicago Ave,Ashland Ave & Division St,Clark St & Chicago Ave,Subscriber,3833,12/20/2013 6:50,61,12/20/2013 6:36,303,Ashland Ave & Division St,839,1090924
-2935,1984,Male,Larrabee St & Kingsbury St,Clark St & Chicago Ave,Larrabee St & Kingsbury St,Subscriber,1541,12/20/2013 8:15,303,12/20/2013 8:10,12,Clark St & Chicago Ave,305,1091235
-2935,1978,Male,State St & Van Buren St,Franklin St & Arcade Pl,State St & Van Buren St,Subscriber,1073,12/20/2013 12:19,57,12/20/2013 12:14,3,Franklin St & Arcade Pl,314,1091885
-2935,1982,Female,Franklin St & Arcade Pl,Larrabee St & Kingsbury St,Franklin St & Arcade Pl,Subscriber,2923,12/20/2013 9:37,12,12/20/2013 9:25,57,Larrabee St & Kingsbury St,682,1091506
+bikeid,birthyear,end_station,from_lat,from_long,from_station_id,from_station_name,gender,meters,start_station,starttime,stoptime,to_lat,to_long,to_station_id,to_station_name,trip_id,tripduration,usertype
+2935,1973,Lake Shore Dr & Wellington Ave,41.936253,-87.653566,67,Sheffield Ave & Wellington Ave,Male,1390,Sheffield Ave & Wellington Ave,12/17/2013 18:49,12/17/2013 18:56,41.936669,-87.636794,234,Lake Shore Dr & Wellington Ave,1083403,414,Subscriber
+2935,1988,Damen Ave & Pierce Ave,41.90332,-87.67273,246,Wood St & Division St,Male,1160,Wood St & Division St,12/19/2013 18:13,12/19/2013 18:17,41.9093960065,-87.6776919292,65,Damen Ave & Pierce Ave,1090182,259,Subscriber
+2935,1988,Ashland Ave & Division St,41.9093960065,-87.6776919292,65,Damen Ave & Pierce Ave,Male,1272,Damen Ave & Pierce Ave,12/19/2013 19:51,12/19/2013 19:56,41.903456,-87.66777,61,Ashland Ave & Division St,1090544,298,Subscriber
+2935,1977,Clark St & Chicago Ave,41.903456,-87.66777,61,Ashland Ave & Division St,Male,3833,Ashland Ave & Division St,12/20/2013 6:36,12/20/2013 6:50,41.896544,-87.630931,303,Clark St & Chicago Ave,1090924,839,Subscriber
+2935,1984,Larrabee St & Kingsbury St,41.896544,-87.630931,303,Clark St & Chicago Ave,Male,1541,Clark St & Chicago Ave,12/20/2013 8:10,12/20/2013 8:15,41.897764,-87.642884,12,Larrabee St & Kingsbury St,1091235,305,Subscriber
+2935,1982,Franklin St & Arcade Pl,41.897764,-87.642884,12,Larrabee St & Kingsbury St,Female,2923,Larrabee St & Kingsbury St,12/20/2013 9:25,12/20/2013 9:37,41.881131,-87.635185,57,Franklin St & Arcade Pl,1091506,682,Subscriber
+2935,1978,State St & Van Buren St,41.881131,-87.635185,57,Franklin St & Arcade Pl,Male,1073,Franklin St & Arcade Pl,12/20/2013 12:14,12/20/2013 12:19,41.877181,-87.627844,3,State St & Van Buren St,1091885,314,Subscriber
