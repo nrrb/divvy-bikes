@@ -27,8 +27,9 @@ def trip_cost(trip):
 			# 60-90 minutes: +$3.00
 			cost += 3.0
 		if trip['tripduration'] > 90*60:
+			# Each additional 30 minutes past 90 minutes: $6.00			
 			addl_duration = trip['tripduration'] - 90*60
-			cost += 6.0*ceil(addl_duration/30.)
+			cost += 6.0*ceil(addl_duration/(30.0*60))
 		return cost
 	else:
 		cost = 0
@@ -39,8 +40,9 @@ def trip_cost(trip):
 			# 60-90 minutes: $4.00
 			cost += 4.0
 		if trip['tripduration'] > 90*60:
+			# Each additional 30 minutes past 90 minutes: $8.00
 			addl_duration = trip['tripduration'] - 90*60
-			cost += 8.0*ceil(addl_duration/30.)
+			cost += 8.0*ceil(addl_duration/(30.0*60))
 		return cost
 
 with open('Divvy_Trips_And_Distances_2013.csv', 'rb') as f:
@@ -186,7 +188,7 @@ print "What bike has generated the most revenue?"
 print "bikeid {0}, ${1}".format(
 		*max(revenue_by_bike.iteritems(), key=lambda x: x[1])
 	)
-# bikeid 520, $68230.0
+# bikeid 520, $1438.00
 
 # What bike has the longest streak of days in use?
 # What bike has had the greatest proportion of male/female riders?
