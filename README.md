@@ -1,16 +1,14 @@
 The Real Stars of Divvy: The Bikes
 ----------------------------------
 
+![A Divvy Bike](http://www.activetrans.org/sites/default/files/Divvy%20Bike.jpg)
+
 Background
 ==========
 
-Divvy Bikes operates an urban bike sharing system in Chicago
- IL in cooperation with Chicago Department of Transportation (CDOT). They released a set of data representing all bike trips taken in the system since original deployment in July 2013. This is part of the [Divvy Data Challenge][1]
- a competition they are sponsoring to do something interesting with the data.
+Divvy Bikes operates an urban bike sharing system in Chicago, IL in cooperation with the Chicago Department of Transportation (CDOT). They released a set of data representing all bike trips taken in the system since original deployment in July 2013. This is part of the [Divvy Data Challenge][1] a competition they are sponsoring to do something interesting with the data.
 
-They've done [a similar challenge in Boston][2]
- where there were 67 submissions telling a variety of stories using the data. The predominant narrative was from the perspective of the users of the system
- those people riding the bikes. There is a vacuum in the space of telling stories from the perspectives of the bikes themselves.
+They've done [a similar challenge in Boston][2] where there were 67 submissions telling a variety of stories using the data. The predominant narrative was from the perspective of the users of the system those people riding the bikes. There is a vacuum in the space of telling stories from the perspectives of the bikes themselves.
 
 What's In The Data
 ==================
@@ -38,7 +36,7 @@ Steve Vance munged the data, combining it with station-to-station distances to a
 
 ## Derived Data
 
-[read_csv.py](https://github.com/tothebeat/divvy-bikes/blob/master/read_csv.py) also creates a file [stats_by_bike.csv](https://github.com/tothebeat/divvy-bikes/blob/master/stats_by_bike.csv) that has 2887 rows, one for each bike, and the following fields for each bike:
+[read_csv.py](https://github.com/tothebeat/divvy-bikes/blob/master/read_csv.py) also creates a file [stats_by_bike.csv](https://github.com/tothebeat/divvy-bikes/blob/master/stats_by_bike.csv) that has 2888 rows, one for each bike, and the following fields for each bike:
 
 * **trips** - number of trips taken by the bike.
 * **distance** - total distance travelled by the bike, a sum of the individual trip estimated distances. note that this is a lower bound.
@@ -78,7 +76,7 @@ There are some very young bikes ([2768](https://github.com/tothebeat/divvy-bikes
 
 Let's exclude young bikes and only consider those that have been on 20 trips or more (this is totally arbitrary). Bike [1787](https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/1787.csv) stands out with 51 trips and 65 unique stations. This is better than the theoretical maximum number of unique stations with rebalancing so this bike must have been rebalanced at least 13 times.
 
-If we exclude bikes these cheating bikes and only consider those that haven't been rebalanced then we find bike [2592](https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2592.csv) that has been on 45 trips and been to 46 unique stations in that time.
+If we exclude these cheating bikes and only consider those that haven't been rebalanced, then we find bike [2592](https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2592.csv) has been on 45 trips and been to 46 unique stations in that time.
 
 ## What bike has the longest average trip distance?
 
