@@ -102,6 +102,8 @@ Excluding young bikes (less than 20 trips), bike [2452](https://github.com/tothe
 
 ## What bike has generated the most revenue?
 
+Bike [520](https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2779.csv) has brought in a whopping $68230.00 in overage charges!
+
 ## What bike has the longest streak of days in use?
 
 ## What bike has had the greatest proportion of male/female riders?
