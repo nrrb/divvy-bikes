@@ -6,7 +6,7 @@ The Real Stars of Divvy: The Bikes
 Background
 ==========
 
-Divvy Bikes operates an urban bike sharing system in Chicago, IL in cooperation with the Chicago Department of Transportation (CDOT). They released a set of data representing all bike trips taken in the system since original deployment in July 2013. This is part of the [Divvy Data Challenge][1] a competition they are sponsoring to do something interesting with the data.
+[Divvy Bikes](http://divvybikes.com) operates an urban bike sharing system in Chicago, IL in cooperation with the [Chicago Department of Transportation (CDOT)](http://www.cityofchicago.org/city/en/depts/cdot.html). They released a set of data representing all bike trips taken in the system since original deployment in July 2013. This is part of the [Divvy Data Challenge][1] a competition they are sponsoring to do something interesting with the data.
 
 They've done [a similar challenge in Boston][2] where there were 67 submissions telling a variety of stories using the data. The predominant narrative was from the perspective of the users of the system those people riding the bikes. There is a vacuum in the space of telling stories from the perspectives of the bikes themselves.
 
