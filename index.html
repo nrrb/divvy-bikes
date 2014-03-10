@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Divvy-bikes by tothebeat</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Divvy-bikes</h1>
+        <p>Highlighting the notable Divvy bikes for the Divvy Data Challenge.</p>
+
+        <p class="view"><a href="https://github.com/tothebeat/divvy-bikes">View the Project on GitHub <small>tothebeat/divvy-bikes</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/tothebeat/divvy-bikes/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/tothebeat/divvy-bikes/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/tothebeat/divvy-bikes">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a name="the-real-stars-of-divvy-the-bikes" class="anchor" href="#the-real-stars-of-divvy-the-bikes"><span class="octicon octicon-link"></span></a>The Real Stars of Divvy: The Bikes</h2>
+
+<p><img src="http://www.activetrans.org/sites/default/files/Divvy%20Bike.jpg" alt="A Divvy Bike"></p>
+
+<h1>
+<a name="background" class="anchor" href="#background"><span class="octicon octicon-link"></span></a>Background</h1>
+
+<p><a href="http://divvybikes.com">Divvy Bikes</a> operates an urban bike sharing system in Chicago, IL in cooperation with the <a href="http://www.cityofchicago.org/city/en/depts/cdot.html">Chicago Department of Transportation (CDOT)</a>. They released a set of data representing all bike trips taken in the system since original deployment in July 2013. This is part of the <a href="https://divvybikes.com/datachallenge">Divvy Data Challenge</a>, a competition they are sponsoring to do something interesting with the data.</p>
+
+<p>They've done <a href="http://hubwaydatachallenge.org/">a similar challenge in Boston</a> where there were 67 submissions telling a variety of stories using the data. The predominant narrative was from the perspective of the users of the system those people riding the bikes. There is a vacuum in the space of telling stories from the perspectives of the bikes themselves.</p>
+
+<h1>
+<a name="whats-in-the-data" class="anchor" href="#whats-in-the-data"><span class="octicon octicon-link"></span></a>What's In The Data</h1>
+
+<p>There are 759788 trips rows in the data file provided by Divvy. Each trip includes the following fields:</p>
+
+<ol>
+<li>
+<strong>trip_id</strong> - Unique ID number per trip, ranging from 3940 to 1109397</li>
+<li>
+<strong>starttime</strong> - Date and time that the trip started, in the format mm/dd/yyyy hh:mm. For example, "6/27/2013 12:11".</li>
+<li>
+<strong>stoptime</strong> - Date and time that the trip ended, in the format mm/dd/yyyy hh:mm. For example, "6/27/2013 12:16".</li>
+<li>
+<strong>bikeid</strong> - Unique ID for each bike in the Divvy bike fleet. There are 2888 unique IDs, ranging from 1 to 3003. </li>
+<li>
+<strong>tripduration</strong> - How long the trip was, in seconds. This field is numeric, but <strong>NOTE</strong> that there is a comma as a thousands separator. For example, trip_id 27 has a tripduration of "10,105". </li>
+<li>
+<strong>from_station_id</strong> - Unique ID for each Divvy bike station, where the trip started. There are 300 total Divvy stations, and every one of these appears as a <strong>from_station_id</strong>. They range from 1 to 440. <strong>NOTE</strong>: the "Congress Pkwy &amp; Ogden Ave" station appears with the ID "#N/A".</li>
+<li>
+<strong>from_station_name</strong> - The unique name of the Divvy bike station where the trip started. There are 300 total Divvy station names and each one appears at least once in this field. Example: "Southport Ave &amp; Wrightwood Ave"</li>
+<li>
+<strong>to_station_id</strong> - Unique ID for each Divvy bike station, where the trip ended. There are 300 total Divvy stations, and every one of these appears as a <strong>to_station_id</strong>. They range from 1 to 440. <strong>NOTE</strong>: the "Congress Pkwy &amp; Ogden Ave" station appears with the ID "#N/A".</li>
+<li>
+<strong>to_station_name</strong> - The unique name of the Divvy bike station where the trip ended. There are 300 total Divvy station names and each one appears at least once in this field. Example: "Southport Ave &amp; Wrightwood Ave"</li>
+<li>
+<strong>usertype</strong> - This represents whether the trip was taken by a Divvy subscriber, someone who has paid for the <a href="http://divvybikes.com/pricing/Annual-Membership">yearly membership</a>, or by a one-time customer who bought <a href="http://divvybikes.com/pricing/24-Hour-Passes">a 24-hour pass</a>. Subscriber trips are represented as "Subscriber" and customer trips are represented as "Customer".</li>
+<li>
+<strong>gender</strong> - If the trip was taken by a Divvy Subscriber, and the subscriber chose to report their gender (it is optional), then this will report the gender of the rider as "Male" or "Female". Otherwise, this field is blank ("").</li>
+<li>
+<strong>birthyear</strong> - If the trip was taken by a Divvy Subscriber, and the subscriber chose to report their birth year (it is optional), then this will be filled in. If the Subscriber did not fill out their birth year, or if it is a Customer trip, then this will be blank (""). Values range from 1906 to 1997. </li>
+</ol><p>For each of the bike trip data points provided for the Chicago data set the unique bike ID is provided. Using this ID we can aggregate statistics by bike and showcase the notable bikes.</p>
+
+<h2>
+<a name="adding-station-to-station-estimated-distances" class="anchor" href="#adding-station-to-station-estimated-distances"><span class="octicon octicon-link"></span></a>Adding Station-to-Station Estimated Distances</h2>
+
+<p>Steve Vance munged the data, combining it with station-to-station distances to approximate (or put a lower bound on) the length of the trip, and <a href="https://github.com/stevevance/divvy-munging">provides it for download as CSV and SQL</a>. This is were I got <code>Divvy_Trips_And_Distances_2013.csv.zip</code> from. Thank you, Steve, for merging and providing this data!</p>
+
+<h2>
+<a name="derived-data" class="anchor" href="#derived-data"><span class="octicon octicon-link"></span></a>Derived Data</h2>
+
+<p><a href="https://github.com/tothebeat/divvy-bikes/blob/master/read_csv.py">read_csv.py</a> also creates a file <a href="https://github.com/tothebeat/divvy-bikes/blob/master/stats_by_bike.csv">stats_by_bike.csv</a> that has 2888 rows, one for each bike, and the following fields for each bike:</p>
+
+<ul>
+<li>
+<strong>trips</strong> - number of trips taken by the bike.</li>
+<li>
+<strong>distance</strong> - total distance travelled by the bike, a sum of the individual trip estimated distances. note that this is a lower bound.</li>
+<li>
+<strong>stations</strong> - number of unique stations the bike has been to.</li>
+<li>
+<strong>trips/station</strong> - basically the trips field divided by the stations field. this is useful when considering diversity of stations with respect to a bike's overall activity.</li>
+<li>
+<strong>duration</strong> - total time the bike has been used.</li>
+<li>
+<strong>avg_trip_distance</strong> - the total distance divided by the total number of trips.</li>
+<li>
+<strong>avg_trip_duration</strong> - the total duration divided by the total number of trips.</li>
+<li>
+<strong>avg_age</strong> - The average age of the rider, based on the trips taken by Divvy Subscribers for whom the age was recorded.</li>
+<li>
+<strong>age_range</strong> - The number of years between the age of the youngest rider and the oldest rider of the bike.</li>
+<li>
+<strong>revenue</strong> - The revenue generated by the bike based on <a href="http://divvybikes.com/pricing">overage charges</a>, taking into account whether a Subscriber or Daily Pass rider was using it. This is in US Dollars.</li>
+</ul><h2>
+<a name="data-files-by-bike-id" class="anchor" href="#data-files-by-bike-id"><span class="octicon octicon-link"></span></a>Data Files By Bike ID</h2>
+
+<p>I <a href="https://github.com/tothebeat/divvy-bikes/blob/master/split_trips_by_bike.py">created individual CSV files</a> per bikeid with all of the trips the bike took as rows. For instance, all trips taken by the bike with ID 383 are in <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/383.csv">https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/383.csv</a>.</p>
+
+<h1>
+<a name="questions" class="anchor" href="#questions"><span class="octicon octicon-link"></span></a>Questions</h1>
+
+<h2>
+<a name="what-bike-has-been-on-the-most-trips" class="anchor" href="#what-bike-has-been-on-the-most-trips"><span class="octicon octicon-link"></span></a>What bike has been on the most trips?</h2>
+
+<p>Bike <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/383.csv">383</a> has helped people make 568 trips.</p>
+
+<h2>
+<a name="what-bike-has-travelled-the-farthest" class="anchor" href="#what-bike-has-travelled-the-farthest"><span class="octicon octicon-link"></span></a>What bike has travelled the farthest?</h2>
+
+<p>Bike <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/321.csv">321</a> has travelled at least 1592238 meters or 1592 kilometers! That's some mileage for a city bike.</p>
+
+<h2>
+<a name="what-bike-has-been-to-the-largest-number-of-unique-stations" class="anchor" href="#what-bike-has-been-to-the-largest-number-of-unique-stations"><span class="octicon octicon-link"></span></a>What bike has been to the largest number of unique stations?</h2>
+
+<p>Bikes <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/187.csv">187</a> and <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/461.csv">461</a> tie with 193 different stations. Considering there are only 300 stations in Chicago this is 64.3% coverage.</p>
+
+<h2>
+<a name="what-bike-has-visited-the-largest-number-of-unique-stations-with-respect-to-how-many-trips-its-made" class="anchor" href="#what-bike-has-visited-the-largest-number-of-unique-stations-with-respect-to-how-many-trips-its-made"><span class="octicon octicon-link"></span></a>What bike has visited the largest number of unique stations with respect to how many trips it's made?</h2>
+
+<p>If a bike were to take 10 trips and if it were to be dropped off at a completely new location at the end of each trip then it could reach a maximum of 11 unique stations. In general if a bike takes N trips then the maximum number of unique stations it could reach is N+1. This is somewhat disrupted by the fact that Divvy will rebalance bike stations transporting bikes by van from a full station to one with vacancies.</p>
+
+<p>There are some very young bikes (<a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2768.csv">2768</a>, <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2898.csv">2898</a>, <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2918.csv">2918</a>, <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2921.csv">2921</a>, <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2936.csv">2936</a>) that have only made one trip each and since the end station was different from where they started they each have the unbeatable ratio of 2 unique stations per trip (on average).</p>
+
+<p>Let's exclude young bikes and only consider those that have been on 20 trips or more (this is totally arbitrary). Bike <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/1787.csv">1787</a> stands out with 51 trips and 65 unique stations. This is better than the theoretical maximum number of unique stations with rebalancing so this bike must have been rebalanced at least 13 times.</p>
+
+<p>If we exclude these cheating bikes and only consider those that haven't been rebalanced, then we find bike <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2592.csv">2592</a> has been on 45 trips and been to 46 unique stations in that time.</p>
+
+<h2>
+<a name="what-bike-has-the-longest-average-trip-distance" class="anchor" href="#what-bike-has-the-longest-average-trip-distance"><span class="octicon octicon-link"></span></a>What bike has the longest average trip distance?</h2>
+
+<p>Bike <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2918.csv">2918</a> is an unusual outlier; with only one trip to its name it traveled 6706 meters giving it the longest average trip distance.</p>
+
+<p>Excluding young bikes (less than 20 trips), bike <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/1089.csv">1089</a> has been on 215 trips with an average distance of 3424.2 meters per trip.</p>
+
+<h2>
+<a name="what-bike-has-the-shortest-average-trip-distance" class="anchor" href="#what-bike-has-the-shortest-average-trip-distance"><span class="octicon octicon-link"></span></a>What bike has the shortest average trip distance?</h2>
+
+<h2>
+<a name="what-bike-has-the-longest-average-trip-duration" class="anchor" href="#what-bike-has-the-longest-average-trip-duration"><span class="octicon octicon-link"></span></a>What bike has the longest average trip duration?</h2>
+
+<p>Bike <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2779.csv">2779</a> has only 4 trips in its pedigree but averages 7902.5 seconds per trip. This is because of one trip that lasted 30919 seconds; someone picked up this bike at 11:29pm on December 20, 2013 and returned it to a station 2 kilometers away at 8:04am the next day (December 21). My guess is that, instead of someone riding very very slowly, probably the rider went to sleep and bike <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2779.csv">2779</a> waited faithfully outside.</p>
+
+<p>Excluding young bikes (less than 20 trips), bike <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2452.csv">2452</a> has been on 55 trips with an average duration of 3134.7 seconds per trip.</p>
+
+<h2>
+<a name="what-bike-has-the-shortest-average-trip-duration" class="anchor" href="#what-bike-has-the-shortest-average-trip-duration"><span class="octicon octicon-link"></span></a>What bike has the shortest average trip duration?</h2>
+
+<h2>
+<a name="what-bike-has-the-oldest-average-user" class="anchor" href="#what-bike-has-the-oldest-average-user"><span class="octicon octicon-link"></span></a>What bike has the oldest average user?</h2>
+
+<h2>
+<a name="what-bike-has-the-youngest-average-user" class="anchor" href="#what-bike-has-the-youngest-average-user"><span class="octicon octicon-link"></span></a>What bike has the youngest average user?</h2>
+
+<h2>
+<a name="what-bike-has-had-the-greatest-age-diversity-of-users" class="anchor" href="#what-bike-has-had-the-greatest-age-diversity-of-users"><span class="octicon octicon-link"></span></a>What bike has had the greatest age diversity of users?</h2>
+
+<h2>
+<a name="what-bike-has-generated-the-most-revenue" class="anchor" href="#what-bike-has-generated-the-most-revenue"><span class="octicon octicon-link"></span></a>What bike has generated the most revenue?</h2>
+
+<p>Bike <a href="https://github.com/tothebeat/divvy-bikes/blob/master/trips_by_bike/2779.csv">520</a> has brought in $1438.00 in overage charges.</p>
+
+<h2>
+<a name="what-bike-has-the-longest-streak-of-days-in-use" class="anchor" href="#what-bike-has-the-longest-streak-of-days-in-use"><span class="octicon octicon-link"></span></a>What bike has the longest streak of days in use?</h2>
+
+<h2>
+<a name="what-bike-has-had-the-greatest-proportion-of-malefemale-riders" class="anchor" href="#what-bike-has-had-the-greatest-proportion-of-malefemale-riders"><span class="octicon octicon-link"></span></a>What bike has had the greatest proportion of male/female riders?</h2>
+
+<h2>
+<a name="what-bike-has-been-most-balanced-between-subscribers-and-customers" class="anchor" href="#what-bike-has-been-most-balanced-between-subscribers-and-customers"><span class="octicon octicon-link"></span></a>What bike has been most balanced between subscribers and customers?</h2>
+
+<h2>
+<a name="what-bike-has-been-most-balanced-in-male-to-female-riders" class="anchor" href="#what-bike-has-been-most-balanced-in-male-to-female-riders"><span class="octicon octicon-link"></span></a>What bike has been most balanced in male to female riders?</h2>
+
+<h2>
+<a name="what-bike-has-been-to-the-most-spatially-diverse-stations" class="anchor" href="#what-bike-has-been-to-the-most-spatially-diverse-stations"><span class="octicon octicon-link"></span></a>What bike has been to the most spatially diverse stations?</h2>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/tothebeat">tothebeat</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
